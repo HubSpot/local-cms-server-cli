@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const parseArgs = require('minimist');
+const shell = require('shelljs');
+
+const args = parseArgs(process.argv.slice(2), { boolean: true });
+if (args.tasks) {
+  tasks = args._.join(' ');
+  shell.exec('hubtasks ' + tasks);
+}
