@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
-const parseArgs = require('minimist');
-const shell = require('shelljs');
+const hubtasks = require('./hubtasks');
+const program = require('commander');
 
-const args = parseArgs(process.argv.slice(2), { boolean: true });
-if (args.tasks) {
-  tasks = args._.join(' ');
-  shell.exec('hubtasks ' + tasks);
-}
+program
+  .command('run-tasks [tasks...]')
+  .option('--tasks', 'List available tasks')
+  .action((tasks, cmd) => {
+    hubtasks.runTasks(tasks, cmd.tasks);
+  });
+
+program.parse(process.argv);

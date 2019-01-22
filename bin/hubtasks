@@ -1,7 +1,0 @@
-#!/usr/bin/env node
-
-const shell = require('shelljs');
-const tasks = process.argv.slice(2).join(' ');
-process.env.project_root = process.cwd();
-process.chdir(__dirname);
-shell.exec('gulp ' + tasks);
