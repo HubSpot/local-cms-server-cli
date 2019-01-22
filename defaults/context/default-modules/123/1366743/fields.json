@@ -1,0 +1,109 @@
+[
+  {
+    "default": null,
+    "help_text": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere.",
+    "hierarchical": false,
+    "id": "73cbe3fb-02bc-1abd-756e-66245839605e",
+    "label": "Select blog to display",
+    "locked": false,
+    "max_depth": 0,
+    "name": "select_blog",
+    "required": false,
+    "sortable": false,
+    "type": "blog"
+  },
+  {
+    "choices": [
+      [
+        "tag",
+        "Tags"
+      ],
+      [
+        "month",
+        "Months"
+      ],
+      [
+        "author",
+        "Authors"
+      ]
+    ],
+    "default": "tag",
+    "hierarchical": false,
+    "id": "c24e1e67-7c21-3043-9d88-c94de5d0271e",
+    "label": "List of values for filter links",
+    "locked": false,
+    "max_depth": 0,
+    "name": "filter_type",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      [
+        "post_count",
+        "Post Count"
+      ],
+      [
+        "name",
+        "Name"
+      ]
+    ],
+    "default": "post_count",
+    "hierarchical": false,
+    "id": "3e466128-e4a1-4941-78de-302e35e54da6",
+    "label": "Ordering of values for filter links",
+    "locked": false,
+    "max_depth": 0,
+    "name": "order_by",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "allow_new_line": false,
+    "default": "Posts by Tag",
+    "help_text": "",
+    "hierarchical": false,
+    "id": "b0535ebe-60a8-e80a-ce97-bd91a199dccd",
+    "label": "List title to display",
+    "locked": false,
+    "max_depth": 0,
+    "name": "list_title",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "default": 5,
+    "help_text": "",
+    "hierarchical": false,
+    "id": "b5382e40-8fd2-9e9e-8715-6353057bedf6",
+    "label": "Maximum number of filter values to display. Leave blank to show all",
+    "locked": false,
+    "max_depth": 0,
+    "min": 1,
+    "name": "max_links",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "allow_new_line": false,
+    "default": "See all",
+    "hierarchical": false,
+    "id": "5fec867a-b73f-b4c9-eb1f-cf8dd0ed6244",
+    "label": "Text to display if more than the maximum value to display are available. Leave blank to omit link",
+    "locked": false,
+    "max_depth": 0,
+    "name": "expand_link_text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  }
+]

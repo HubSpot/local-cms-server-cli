@@ -1,0 +1,14 @@
+[
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "21e82ff2-7430-a79d-d175-099b160679c8",
+    "label": "Value",
+    "locked": false,
+    "max_depth": 0,
+    "name": "value",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  }
+]

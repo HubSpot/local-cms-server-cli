@@ -1,0 +1,115 @@
+{
+  "id": 679623,
+  "name": "Partner Directory - Reviews [LIVE BACKUP]",
+  "portalId": 53,
+  "createdAt": 1522258295804,
+  "publishedAt": 1529679974000,
+  "updatedAt": 1527780770836,
+  "columns": [
+    {
+      "name": "user_id",
+      "label": "User ID",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "author",
+      "label": "Author",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "created_at",
+      "label": "Created At",
+      "id": 5,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "hub_id",
+      "label": "Hub ID",
+      "id": 6,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "Text",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "rating",
+      "label": "Rating",
+      "id": 8,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "review_id",
+      "label": "Review ID",
+      "id": 9,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "total_reviews_count",
+      "label": "TOTAL REVIEWS COUNT",
+      "id": 10,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "average_review",
+      "label": "AVERAGE REVIEW",
+      "id": 11,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Partner Directory - Reviews [LIVE BACKUP]",
+  "updated": 1527780770836,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 3109,
+  "updatedBy": {
+    "id": 4416175,
+    "email": "nlopchantamang@hubspot.com",
+    "firstName": "Nhori",
+    "lastName": "Lopchan Tamang"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 11
+}

@@ -1,0 +1,133 @@
+{
+  "id": 677239,
+  "name": "Partner Directory - Reviews",
+  "portalId": 53,
+  "createdAt": 1517341789773,
+  "publishedAt": 1544192502078,
+  "updatedAt": 1544192363169,
+  "columns": [
+    {
+      "name": "user_id",
+      "label": "User ID",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "id": 3,
+      "deleted": false,
+      "width": 561,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "author",
+      "label": "Author",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "created_at",
+      "label": "Created At",
+      "id": 6,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "hub_id",
+      "label": "Hub ID",
+      "id": 7,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "Text",
+      "id": 8,
+      "deleted": false,
+      "width": 753,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "rating",
+      "label": "Rating",
+      "id": 9,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "review_id",
+      "label": "Review ID",
+      "id": 10,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "total_reviews_count",
+      "label": "TOTAL REVIEWS COUNT",
+      "id": 13,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "average_review",
+      "label": "AVERAGE REVIEW",
+      "id": 14,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "company_name",
+      "label": "Company Name",
+      "id": 50,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "public_profile_url",
+      "label": "Public Profile URL",
+      "id": 51,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Partner Directory - Reviews",
+  "updated": 1544192363169,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 5346,
+  "createdBy": {
+    "id": 3671919,
+    "email": "sfarrell@hubspot.com",
+    "firstName": "Stephen",
+    "lastName": "Farrell"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 51
+}

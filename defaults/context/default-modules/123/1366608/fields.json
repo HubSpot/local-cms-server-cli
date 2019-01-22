@@ -1,0 +1,14 @@
+[
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "6b55f80a-5707-405e-38c5-51b553fdbf3f",
+    "label": "HTML",
+    "locked": false,
+    "max_depth": 0,
+    "name": "value",
+    "required": false,
+    "sortable": false,
+    "type": "html"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "allow_new_line": false,
+    "default": null,
+    "hierarchical": false,
+    "id": "e75bef76-6568-6550-8840-1d97bfc93c0b",
+    "label": "Field Placeholder",
+    "locked": false,
+    "max_depth": 0,
+    "name": "placeholder",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  }
+]

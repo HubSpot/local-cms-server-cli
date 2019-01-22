@@ -1,0 +1,81 @@
+{
+  "id": 315190,
+  "name": "SnapEngage Module — Localization",
+  "portalId": 53,
+  "createdAt": 1486757354380,
+  "publishedAt": 1529680009203,
+  "updatedAt": 1527780840418,
+  "columns": [
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "online",
+      "label": "online",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "greeting",
+      "label": "greeting",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "offline",
+      "label": "offline",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "avatars",
+      "label": "avatars",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "message",
+      "label": "Message",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "SnapEngage Module — Localization",
+  "updated": 1527780840418,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 6,
+  "createdBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "updatedBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 7
+}

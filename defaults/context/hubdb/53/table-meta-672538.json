@@ -1,0 +1,62 @@
+{
+  "id": 672538,
+  "name": "[GLOBAL] HubSpot for Startups (Programs)",
+  "portalId": 53,
+  "createdAt": 1502226907792,
+  "publishedAt": 1529679999306,
+  "updatedAt": 1527780821179,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "width": 534,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "program_type",
+      "label": "Type",
+      "id": 2,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "Seed-stage",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "Series A",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 2
+    }
+  ],
+  "label": "[GLOBAL] HubSpot for Startups (Programs)",
+  "updated": 1527780821179,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 1286,
+  "createdBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "updatedBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 2
+}

@@ -1,0 +1,46 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029278360,
+  "cdn_purge_embargo_time": 1535029578351,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029267567,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/high-email.svg",
+  "id": 6098902864,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "View As Web Page",
+  "marketplace_version": 19,
+  "module_id": 1366605,
+  "name": "View As Web Page",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029278360,
+  "widget_label": "",
+  "writeable": false
+}

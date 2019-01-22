@@ -1,0 +1,81 @@
+{
+  "id": 674861,
+  "name": "Messages Module — Localization",
+  "portalId": 53,
+  "createdAt": 1509470307999,
+  "publishedAt": 1529679944909,
+  "updatedAt": 1527780708677,
+  "columns": [
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "online",
+      "label": "online",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "greeting",
+      "label": "greeting",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "offline",
+      "label": "offline",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "avatars",
+      "label": "avatars",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "message",
+      "label": "message",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Messages Module — Localization",
+  "updated": 1527780708677,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 6,
+  "createdBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "updatedBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 7
+}

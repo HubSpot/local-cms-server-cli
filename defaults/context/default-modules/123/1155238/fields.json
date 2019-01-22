@@ -1,0 +1,127 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "",
+    "hierarchical": false,
+    "id": "e355a361-931b-ac2a-d06f-244ef8e3a1ca",
+    "label": "Form Title",
+    "locked": false,
+    "max_depth": 0,
+    "name": "title",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "default": {
+      "response_type": "inline",
+      "message": "Thanks for submitting the form."
+    },
+    "hierarchical": false,
+    "id": "e4adbe47-d462-2396-c7e7-62d52c812966",
+    "label": "Form",
+    "locked": false,
+    "max_depth": 0,
+    "name": "form",
+    "required": false,
+    "sortable": false,
+    "type": "form"
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "96a2942d-c746-0299-c0a9-6b16d7a20c1d",
+    "label": "Send form notifications to specified email addresses instead of the form defaults",
+    "locked": false,
+    "max_depth": 0,
+    "name": "notifications_are_overridden",
+    "required": true,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "e496f0fb-4c96-8a5f-5fa3-54a5838f02a2",
+    "label": "Email Addresses",
+    "locked": false,
+    "max_depth": 0,
+    "name": "notifications_override_email_addresses",
+    "required": false,
+    "sortable": false,
+    "type": "email",
+    "visibility": {
+      "controlling_field": "96a2942d-c746-0299-c0a9-6b16d7a20c1d",
+      "controlling_value_regex": "true"
+    }
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "fc055bb2-4052-dee0-a007-2dc5a6bfe906",
+    "label": "Add to workflow",
+    "locked": false,
+    "max_depth": 0,
+    "name": "follow_up_type_automation",
+    "required": true,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "1fbfa2b1-63d5-f8a8-098f-b4180617b9a8",
+    "label": "Workflow",
+    "locked": false,
+    "max_depth": 0,
+    "name": "form_follow_ups_workflow_id",
+    "required": false,
+    "sortable": false,
+    "type": "workflow",
+    "visibility": {
+      "controlling_field": "fc055bb2-4052-dee0-a007-2dc5a6bfe906",
+      "controlling_value_regex": "true"
+    }
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "072ce88d-62f2-604d-feab-f8199eeb40f7",
+    "label": "Send a follow-up email",
+    "locked": false,
+    "max_depth": 0,
+    "name": "follow_up_type_simple",
+    "required": true,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "fa108c7e-d78d-9edd-f015-f3d8e35fb790",
+    "label": "Email",
+    "locked": false,
+    "max_depth": 0,
+    "name": "simple_email_for_live_id",
+    "required": false,
+    "sortable": false,
+    "type": "followupemail",
+    "visibility": {
+      "controlling_field": "072ce88d-62f2-604d-feab-f8199eeb40f7",
+      "controlling_value_regex": "true"
+    }
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "82375ac5-e902-3628-b674-1eb8f5397c41",
+    "label": "Salesforce campaign",
+    "locked": false,
+    "max_depth": 0,
+    "name": "sfdc_campaign",
+    "required": false,
+    "sortable": false,
+    "type": "salesforcecampaign"
+  }
+]

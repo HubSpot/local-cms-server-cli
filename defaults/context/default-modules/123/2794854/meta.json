@@ -1,0 +1,53 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1539011507694,
+  "cdn_purge_embargo_time": 1539011807684,
+  "cloned_from_module_id": 976280,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "EMAIL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029272587,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-social_sharing",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Web%20version%20link/icons/Web%20version%20link_icon.svg",
+  "id": 6098194866,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Web version link",
+  "marketplace_version": 26,
+  "master_language": "en",
+  "module_id": 2794854,
+  "name": "Web version link",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1539011507694,
+  "updated_by_id": 1189077,
+  "widget_label": "",
+  "writeable": false
+}

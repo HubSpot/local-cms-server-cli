@@ -1,0 +1,80 @@
+{
+  "id": 365083,
+  "name": "Marketing Free Pricing - Price Section (ES)",
+  "portalId": 53,
+  "createdAt": 1484232434293,
+  "publishedAt": 1529679942910,
+  "updatedAt": 1527780708466,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "type",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "heading",
+      "label": "heading",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "price",
+      "label": "price",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "rate",
+      "label": "rate",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Marketing Free Pricing - Price Section (ES)",
+  "updated": 1527780708466,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 2,
+  "createdBy": {
+    "id": 3391772,
+    "email": "dmooney@hubspot.com",
+    "firstName": "David",
+    "lastName": "Mooney"
+  },
+  "updatedBy": {
+    "id": 3391772,
+    "email": "dmooney@hubspot.com",
+    "firstName": "David",
+    "lastName": "Mooney"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 6
+}

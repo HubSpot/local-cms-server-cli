@@ -1,0 +1,43 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "Search this site on Google",
+    "hierarchical": false,
+    "id": "e4d723ac-490b-95ba-88fb-2b0eb3da3b7a",
+    "label": "Search button label",
+    "locked": false,
+    "max_depth": 0,
+    "name": "search_field_label",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "allow_new_line": false,
+    "default": "Search Google",
+    "hierarchical": false,
+    "id": "b9f9e2e0-8428-e1ad-5779-9d6b6b6fa534",
+    "label": "Search Button Text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "search_button_text",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "default": false,
+    "help_text": "Use the end part of the URL to fill the search query field (common on error pages)",
+    "hierarchical": false,
+    "id": "2771aa71-b8ee-e409-a2cd-ffe5de428ce3",
+    "label": "Prefill input with pathname",
+    "locked": false,
+    "max_depth": 0,
+    "name": "prefill_input_with_pathname",
+    "required": true,
+    "sortable": false,
+    "type": "boolean"
+  }
+]

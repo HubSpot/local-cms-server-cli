@@ -1,0 +1,50 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "A clear and bold header",
+    "hierarchical": false,
+    "id": "c6be9c54-b3c7-c0ac-7989-8342e434eba5",
+    "label": "Header content",
+    "locked": false,
+    "max_depth": 0,
+    "name": "value",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "choices": [
+      [
+        "h1",
+        "H1"
+      ],
+      [
+        "h2",
+        "H2"
+      ],
+      [
+        "h3",
+        "H3"
+      ],
+      [
+        "h4",
+        "H4"
+      ]
+    ],
+    "default": "",
+    "display": "select",
+    "help_text": "H1 is the largest, followed by H2, and so on",
+    "hierarchical": false,
+    "id": "423adb89-a14b-a292-6c33-e3e2bc6d68d5",
+    "label": "Header type",
+    "locked": true,
+    "max_depth": 0,
+    "name": "header_tag",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice"
+  }
+]

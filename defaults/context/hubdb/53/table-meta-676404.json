@@ -1,0 +1,112 @@
+{
+  "id": 676404,
+  "name": "Academy Navigation Table",
+  "portalId": 53,
+  "createdAt": 1515010923101,
+  "publishedAt": 1529679954707,
+  "updatedAt": 1527780710182,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 11,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 12,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "url",
+      "label": "url",
+      "id": 13,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "has_dropdown",
+      "label": "has_dropdown",
+      "id": 14,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "order",
+      "label": "order",
+      "id": 15,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 16,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "parent_id",
+      "label": "parent_id",
+      "id": 17,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "child_id",
+      "label": "child_id",
+      "id": 18,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "gtm",
+      "label": "gtm",
+      "id": 19,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Academy Navigation Table",
+  "updated": 1527780710182,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 30,
+  "createdBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "updatedBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 19
+}

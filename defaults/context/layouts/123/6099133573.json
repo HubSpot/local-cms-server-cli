@@ -1,0 +1,261 @@
+{
+  "attached_amp_stylesheet": 0,
+  "attached_js": [],
+  "attached_stylesheets": [],
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1543337666096,
+  "body": {
+    "enable_domain_stylesheets": false,
+    "include_default_custom_css": false,
+    "folder": "Default_Search",
+    "attached_stylesheets": [],
+    "cdn_purge_embargo_time": 1543337966086,
+    "attached_js": [],
+    "custom_head": "",
+    "attached_amp_stylesheet": 0,
+    "body_css_id": null,
+    "custom_footer": "",
+    "body_class": "",
+    "body_css": "",
+    "builtin": false,
+    "purchased": false,
+    "generator": null,
+    "generated_template_id": 6099133575,
+    "marketplace_good_id": 263737,
+    "cloned_from": null,
+    "body_editable": false,
+    "content_tags": [
+      {
+        "name": "SINGLE_COLUMN",
+        "source": "MARKETPLACE"
+      },
+      {
+        "name": "DRAG_AND_DROP",
+        "source": "MARKETPLACE"
+      },
+      {
+        "name": "OTHER_INDUSTRY",
+        "source": "MARKETPLACE"
+      },
+      {
+        "name": "HIDDEN",
+        "source": "MARKETPLACE"
+      }
+    ],
+    "last_edit_session_id": null,
+    "last_edit_update_id": null,
+    "has_user_changes": true,
+    "marketplace_delivery_id": 20002236,
+    "is_read_only": true
+  },
+  "body_class": "",
+  "body_css": "",
+  "body_editable": false,
+  "builtin": false,
+  "category": 1,
+  "category_id": 1,
+  "cdn_purge_embargo_time": 1543337966086,
+  "content_tags": [
+    {
+      "name": "SINGLE_COLUMN",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "DRAG_AND_DROP",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "HIDDEN",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029284168,
+  "custom_footer": "",
+  "custom_head": "",
+  "deleted_at": 0,
+  "enable_domain_stylesheets": false,
+  "folder": "Default_Search",
+  "folder_id": 6098474962,
+  "generated_template_id": 6099133575,
+  "id": 6099133573,
+  "include_default_custom_css": false,
+  "is_available_for_new_content": true,
+  "is_read_only": true,
+  "label": "Site Search Results Page",
+  "languages": [],
+  "layout_data": {
+    "cell": false,
+    "cells": [],
+    "css_class": "",
+    "css_id": "",
+    "css_id_str": "",
+    "css_style": "",
+    "editable": false,
+    "id": "module_1520438257026139",
+    "is_container": false,
+    "is_content_overridden": false,
+    "is_in_container": false,
+    "language_overrides": {},
+    "order": 0,
+    "params": {},
+    "root": false,
+    "row": false,
+    "row_meta_data": [],
+    "rows": [
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1520438257026140",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "language_overrides": {},
+          "order": 0,
+          "params": {},
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "section_name": "header",
+          "type": "section_delimiter",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1520438259515148",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Site Search Input",
+          "language_overrides": {},
+          "name": "module_1520438259515148",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "custom_widget_id": 6098903269,
+            "module_id": 2712622,
+            "overrideable": true,
+            "per_widget_wrapper_html": "",
+            "schema_version": 2,
+            "widget_name": "Search Field",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "custom_widget",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1520438261786150",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Site Search Results",
+          "language_overrides": {},
+          "name": "module_1520438261786150",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "custom_widget_id": 6099133358,
+            "module_id": 2712624,
+            "overrideable": true,
+            "per_widget_wrapper_html": "",
+            "schema_version": 2,
+            "widget_name": "Search Results",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "custom_widget",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1520438257026141",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "language_overrides": {},
+          "order": 0,
+          "params": {},
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "section_name": "footer",
+          "type": "section_delimiter",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      }
+    ],
+    "type": "cell",
+    "w": 12,
+    "widgets": [],
+    "x": 0
+  },
+  "marketplace_delivery_id": 20002236,
+  "marketplace_good_id": 263737,
+  "meta": {
+    "hasBufferedChanges": false
+  },
+  "path": "generated_layouts/6099133573.html",
+  "portal_id": 123,
+  "purchased": false,
+  "template_type": 4,
+  "updated": 1543337666096,
+  "updated_by": "marketplaceteam@hubspot.com",
+  "updated_by_id": 2411823
+}

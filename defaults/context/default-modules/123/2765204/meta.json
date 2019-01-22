@@ -1,0 +1,40 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029282755,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [],
+  "created": 1535029282755,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "NONE"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-backgroundColor.svg",
+  "id": 6098903539,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Color",
+  "marketplace_version": 22,
+  "module_id": 2765204,
+  "name": "Color",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029282755,
+  "widget_label": "",
+  "writeable": false
+}

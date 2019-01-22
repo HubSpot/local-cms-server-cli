@@ -1,0 +1,39 @@
+{
+    "full_url": "http://my.company.com/",
+    "path": "/",
+    "cookies": {
+        "_ga": "GA1.2.1007096672.1413918972",
+        "__utma": "109362460.1007096672.1413918972.1418421070.1419264987.5",
+    },
+    "path_and_query": "/?foo=bar",
+    "query": "foo=bar",
+    "query_dict": {
+        "foo": "bar"
+    },
+    "domain": "my.company.com",
+    "scheme": "http",
+    "referrer": "",
+    "remote_ip": "1.2.3.4",
+    "geoip_info": {
+        "city": "Boston",
+        "organization": "áMA",
+        "region": "MA",
+        "country": "US",
+        "dma": 506
+    },
+    "search_engine": "",
+    "search_keyword": "",
+    "method": "GET",
+    "debug": false,
+    "public_content_web": true,
+    "bot": false,
+    "smart_content_enabled": true,
+    "post_dict": {
+        "foo": "bar"
+    },
+    "geoip_city": "Boston",
+    "geoip_organization": "áMA",
+    "geoip_region": "MA",
+    "geoip_country": "US",
+    "geoip_dma": 506
+}

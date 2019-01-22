@@ -1,0 +1,56 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1546619161721,
+  "cdn_purge_embargo_time": 1546619461709,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "NONPROFIT",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029262484,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Image%20(email)/icons/Image%20(email)_icon.svg",
+  "id": 6098194517,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Image (email)",
+  "marketplace_version": 201,
+  "master_language": "en",
+  "module_id": 1367093,
+  "name": "Image (email)",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1546619161721,
+  "updated_by_id": 1189077,
+  "widget_label": "Image",
+  "writeable": false
+}

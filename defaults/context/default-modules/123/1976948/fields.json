@@ -1,0 +1,358 @@
+[
+  {
+    "choices": [
+      [
+        "email_address",
+        "Email address"
+      ],
+      [
+        "subscription",
+        "Email subscription link"
+      ],
+      [
+        "file",
+        "File download"
+      ],
+      [
+        "page",
+        "One of your pages"
+      ],
+      [
+        "url",
+        "URL"
+      ],
+      [
+        "cta",
+        "CTA"
+      ]
+    ],
+    "default": "url",
+    "display": "select",
+    "hierarchical": false,
+    "id": "f705814c-d166-c242-938f-d10d68d0248f",
+    "label": "Link to",
+    "locked": false,
+    "max_depth": 0,
+    "name": "link_to",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "allow_new_line": false,
+    "default": "",
+    "hierarchical": false,
+    "id": "fc4dc40b-f615-27d4-3067-87a983a1bd22",
+    "label": "Link URL",
+    "locked": false,
+    "max_depth": 0,
+    "name": "destination",
+    "placeholder": "http://",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "url",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "allow_new_line": false,
+    "default": null,
+    "hierarchical": false,
+    "id": "3fc0135b-0e41-9409-b782-fd1b6f7395fa",
+    "label": "Email address",
+    "locked": false,
+    "max_depth": 0,
+    "name": "email_address",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "email_address",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "choices": [
+      [
+        "subscription_preferences",
+        "Subscription preferences"
+      ],
+      [
+        "subscription_confirmation",
+        "Subscription confirmation"
+      ],
+      [
+        "unsubscribe_all",
+        "Unsubscribe all"
+      ],
+      [
+        "view_webpage",
+        "View webpage"
+      ]
+    ],
+    "default": "subscription_preferences",
+    "display": "select",
+    "hierarchical": false,
+    "id": "28cdf738-92b4-c6c6-d458-0c211910c950",
+    "label": "Subscription type",
+    "locked": false,
+    "max_depth": 0,
+    "name": "subscription_type",
+    "required": true,
+    "sortable": false,
+    "type": "choice",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "subscription",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "picker": "file",
+    "default": null,
+    "hierarchical": false,
+    "id": "0e975f51-69bd-3c9f-554c-a9763f31eedd",
+    "label": "File",
+    "locked": false,
+    "max_depth": 0,
+    "name": "file",
+    "required": true,
+    "sortable": false,
+    "type": "file",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "file",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "8562d6f8-f5fc-4cd1-cbae-b1408de22968",
+    "label": "CTA field",
+    "locked": false,
+    "max_depth": 0,
+    "name": "cta_field",
+    "required": false,
+    "sortable": false,
+    "type": "cta",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "f652307e-d410-7d4d-9ec8-9fabbc6527c5",
+    "label": "Page",
+    "locked": false,
+    "max_depth": 0,
+    "name": "page_field",
+    "required": true,
+    "sortable": false,
+    "type": "page",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "page",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "allow_new_line": false,
+    "default": "Add a button link here",
+    "hierarchical": false,
+    "id": "5b995b8e-0b53-7f7c-deb6-1a08d1e28389",
+    "label": "Button text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "text",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    }
+  },
+  {
+    "default": {
+      "size": {
+        "value": 16,
+        "units": "px"
+      },
+      "color": "#ffffff",
+      "styles": {
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      "font": "arial, helvetica, sans-serif"
+    },
+    "hierarchical": false,
+    "id": "742f57c1-8693-ee51-410c-bcf933e74ae4",
+    "label": "Font",
+    "locked": false,
+    "max_depth": 0,
+    "name": "font_style",
+    "required": true,
+    "sortable": false,
+    "type": "font",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    }
+  },
+  {
+    "default": "#197FC4",
+    "hierarchical": false,
+    "id": "5b39c141-c344-3715-7eb3-2403f2d758b4",
+    "label": "Background color",
+    "locked": false,
+    "max_depth": 0,
+    "name": "background_color",
+    "required": false,
+    "sortable": false,
+    "type": "color",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    }
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "232075e9-fc0b-4e42-794d-7379e1f84fd4",
+    "label": "Border",
+    "locked": false,
+    "max_depth": 0,
+    "name": "border_enabled",
+    "required": false,
+    "sortable": false,
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    }
+  },
+  {
+    "default": 1,
+    "display": "text",
+    "hierarchical": false,
+    "id": "335ba5dd-3cd0-7eab-488a-39fd5fc227d0",
+    "label": "Border width",
+    "locked": false,
+    "max": 10,
+    "max_depth": 0,
+    "min": 1,
+    "name": "border_width",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number",
+    "visibility": {
+      "controlling_field": "232075e9-fc0b-4e42-794d-7379e1f84fd4",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "default": "#2d3e50",
+    "hierarchical": false,
+    "id": "9d2953dd-4d10-60a0-6c96-3e13e15fd9a5",
+    "label": "Border color",
+    "locked": false,
+    "max_depth": 0,
+    "name": "border_color",
+    "required": true,
+    "sortable": false,
+    "type": "color",
+    "visibility": {
+      "controlling_field": "232075e9-fc0b-4e42-794d-7379e1f84fd4",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "default": 8,
+    "display": "slider",
+    "help_text": "Add a rounded corner to your button (may not work in some email clients)",
+    "hierarchical": false,
+    "id": "6be8eac0-3f0c-8227-81b3-9bad82244347",
+    "label": "Corner Radius",
+    "locked": false,
+    "max": 25,
+    "max_depth": 0,
+    "min": 0,
+    "name": "corner_radius",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    }
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "3312fcb8-86cf-d214-fcde-0447471cf80c",
+    "label": "Full Width",
+    "locked": false,
+    "max_depth": 0,
+    "name": "make_full_width",
+    "required": false,
+    "sortable": false,
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "f705814c-d166-c242-938f-d10d68d0248f",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    }
+  },
+  {
+    "choices": [
+      [
+        "left",
+        "left"
+      ],
+      [
+        "center",
+        "center"
+      ],
+      [
+        "right",
+        "right"
+      ]
+    ],
+    "default": "center",
+    "display": "select",
+    "hierarchical": false,
+    "id": "43838ce0-c745-e6a0-1ee4-1d73fe0e4108",
+    "label": "Alignment",
+    "locked": false,
+    "max_depth": 0,
+    "name": "alignment",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  }
+]

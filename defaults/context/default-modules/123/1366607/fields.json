@@ -1,0 +1,30 @@
+[
+  {
+    "choices": [
+      [
+        "localized",
+        "Localized"
+      ],
+      [
+        "pagelang",
+        "PageLang"
+      ],
+      [
+        "hybrid",
+        "Hybrid"
+      ]
+    ],
+    "default": "localized",
+    "help_text": "The language of the text in the language switcher. PageLang means the names of languages will display in the language of the page the switcher is on. Localized means the name of each language will display in that language. Hybrid is a combination of the two.",
+    "hierarchical": false,
+    "id": "2e71f343-859b-8c20-1f17-587a747ebc21",
+    "label": "Display mode",
+    "locked": false,
+    "max_depth": 0,
+    "name": "display_mode",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  }
+]

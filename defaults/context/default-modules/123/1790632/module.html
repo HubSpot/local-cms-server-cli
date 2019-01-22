@@ -1,0 +1,26 @@
+{% if module.rss_feed_type == "external" %}
+    {% set feed_source = "{is_external=True, rss_url='"~module.rss_url~"', content_group_id=''}" %}
+    {% set is_external = true %}
+{% elif module.rss_feed_type == "blog" %}
+    {% set feed_source = "{is_external=False, content_group_id='" ~ module.content_group_id ~ "', rss_url=''}" %}
+    {% set is_external = false %}
+{% endif %}
+
+{% rss_listing
+    publish_date_text="{{ module.publish_date_text }}",
+    rss_url="{{ module.rss_url }}",
+    is_external="{{ is_external }}",
+    click_through_text="{{ module.click_through_text }}",
+    show_date="{{ module.show_date }}",
+    content_group_id="{{ module.content_group_id }}",
+    include_featured_image="{{ module.include_featured_image }}",
+    publish_date_format="{{ module.publish_date_format }}",
+    show_detail="{{ module.show_detail }}",
+    show_author="{{ module.show_author }}",
+    number_of_items="{{ module.number_of_items }}",
+    title="{{ module.title }}",
+    limit_to_chars="{{ module.limit_to_chars }}",
+    attribution_text="{{ module.attribution_text }}",
+    topic_id="{{ module.topic_id }}"
+    feed_source="{{ feed_source }}"
+%}

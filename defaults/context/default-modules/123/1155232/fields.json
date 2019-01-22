@@ -1,0 +1,49 @@
+[
+  {
+    "default": {
+      "override_inherited_src": false,
+      "src": null,
+      "alt": null
+    },
+    "hierarchical": false,
+    "id": "12216f57-c9d2-9c7d-f634-68b45c16c4cf",
+    "label": "",
+    "locked": false,
+    "max_depth": 0,
+    "name": "img",
+    "required": false,
+    "resizable": true,
+    "sortable": false,
+    "type": "logo"
+  },
+  {
+    "allow_new_line": false,
+    "default": null,
+    "help_text": "If no url is specified, your logo will link to your primary domain",
+    "hierarchical": false,
+    "id": "c9a2e678-7c48-f0c6-e65b-e885bd2c429b",
+    "label": "Link URL",
+    "locked": false,
+    "max_depth": 0,
+    "name": "link",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "0555927e-66cc-b51a-e43e-25e77ad6dd6d",
+    "label": "Open link in new tab when visitors click",
+    "locked": false,
+    "max_depth": 0,
+    "name": "open_in_new_tab",
+    "required": false,
+    "sortable": false,
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "c9a2e678-7c48-f0c6-e65b-e885bd2c429b"
+    }
+  }
+]

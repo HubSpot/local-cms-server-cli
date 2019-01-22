@@ -1,0 +1,53 @@
+{
+  "id": 669242,
+  "name": "Blog Pillar Pages [EN]",
+  "portalId": 53,
+  "createdAt": 1495477914020,
+  "publishedAt": 1541199038000,
+  "updatedAt": 1541199037994,
+  "columns": [
+    {
+      "name": "topic",
+      "label": "Topic",
+      "id": 6,
+      "deleted": false,
+      "width": 533,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "pillar_page_name",
+      "label": "Pillar Page Name",
+      "id": 3,
+      "deleted": false,
+      "width": 800,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "pillar_page_url",
+      "label": "Pillar Page URL",
+      "id": 2,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Blog Pillar Pages [EN]",
+  "updated": 1541199037994,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 511,
+  "createdBy": {
+    "id": 2611913,
+    "email": "eshaw@hubspot.com",
+    "firstName": "Liz",
+    "lastName": "Shaw"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 6
+}

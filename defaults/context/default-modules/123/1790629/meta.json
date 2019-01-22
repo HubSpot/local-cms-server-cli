@@ -1,0 +1,50 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029262462,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "AVIATION",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029262462,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-cta",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-ctas-2.svg",
+  "id": 6098194514,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Call-to-Action",
+  "marketplace_version": 72,
+  "master_language": "en",
+  "module_id": 1790629,
+  "name": "Call-to-Action",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029262462,
+  "widget_label": "CTA",
+  "writeable": false
+}

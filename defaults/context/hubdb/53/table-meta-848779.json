@@ -1,0 +1,74 @@
+{
+  "id": 848779,
+  "name": "Product Get Started Pricing Cards [BENEFITS] - 2018 [CONVERSATIONS LAUNCH]",
+  "portalId": 53,
+  "createdAt": 1532016141429,
+  "publishedAt": 1533605770808,
+  "updatedAt": 1533605766223,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "product",
+      "label": "product",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "product_name",
+      "label": "product_name",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Product Get Started Pricing Cards [BENEFITS] - 2018 [CONVERSATIONS LAUNCH]",
+  "updated": 1533605766223,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 258,
+  "updatedBy": {
+    "id": 4416175,
+    "email": "nlopchantamang@hubspot.com",
+    "firstName": "Nhori",
+    "lastName": "Lopchan Tamang"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 6
+}

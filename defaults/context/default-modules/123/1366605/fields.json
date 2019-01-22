@@ -1,0 +1,15 @@
+[
+  {
+    "default": "<div style=\"padding-top: 15px; font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: right; font-size: 9px; line-height: 1.34em; color: {{ secondary_font_color }};\">Not rendering correctly? View this email as a web page <a target=\"_blank\" href=\"{{ view_as_page_url }}\" style=\"color: {{ secondary_font_color }}; text-decoration: underline; white-space: nowrap\" data-viewaswebpage=\"true\">here</a>.</div>",
+    "hierarchical": false,
+    "id": "9f92fb47-e93a-5f78-1fa2-689eec102155",
+    "label": "View as web page text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "html",
+    "required": false,
+    "sortable": false,
+    "type": "richtext",
+    "validation_regex": ""
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029253497,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029253496,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-follow_me",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-social.svg",
+  "id": 6098194413,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Follow Me",
+  "marketplace_version": 77,
+  "master_language": "en",
+  "module_id": 1155827,
+  "name": "Follow Me",
+  "other_assets": [
+    {
+      "autoload": false,
+      "name": "youtube_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/youtube_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "twitter_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/twitter_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "instagram_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/instagram_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "linkedin_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/linkedin_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "googlepluspages_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/googlepluspages_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "default_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/default_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "xing_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/xing_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "rss_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/rss_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "facebook_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/facebook_legacy_color.png"
+    },
+    {
+      "autoload": false,
+      "name": "pinterest_legacy_color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Follow%20Me/77/pinterest_legacy_color.png"
+    }
+  ],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029253497,
+  "widget_label": "",
+  "writeable": false
+}

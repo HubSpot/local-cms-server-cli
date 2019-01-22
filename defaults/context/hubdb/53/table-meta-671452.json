@@ -1,0 +1,117 @@
+{
+  "id": 671452,
+  "name": "Summer Startup: Free Business Tools",
+  "portalId": 53,
+  "createdAt": 1497891110830,
+  "publishedAt": 1529679980014,
+  "updatedAt": 1527780771160,
+  "columns": [
+    {
+      "name": "name",
+      "label": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "topics",
+      "label": "Topics (topic1,topic2,topic3...)",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "logo",
+      "label": "Logo",
+      "id": 4,
+      "deleted": false,
+      "type": "IMAGE",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "url",
+      "label": "Tool URL",
+      "id": 5,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "rating",
+      "label": "Rating",
+      "id": 6,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "1",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 5
+    },
+    {
+      "name": "order",
+      "label": "Order",
+      "id": 7,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Summer Startup: Free Business Tools",
+  "updated": 1527780771160,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 33,
+  "createdBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "updatedBy": {
+    "id": 1024371,
+    "email": "hfranco@hubspot.com",
+    "firstName": "Henry",
+    "lastName": "Franco"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 7
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "default": "#ffffff",
+    "hierarchical": false,
+    "id": "62c88238-eb4a-b9c9-9ae5-90638ff27c05",
+    "label": "Color",
+    "locked": false,
+    "max_depth": 0,
+    "name": "color",
+    "required": false,
+    "sortable": false,
+    "type": "color"
+  }
+]

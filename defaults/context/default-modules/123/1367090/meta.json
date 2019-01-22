@@ -1,0 +1,51 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029257515,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029257514,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-email_subscriptions_confirmation",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/high-forms.svg",
+  "id": 6098902514,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Subscriptions Confirmation Message",
+  "marketplace_version": 72,
+  "master_language": "en",
+  "module_id": 1367090,
+  "name": "Subscriptions Confirmation Message",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029257515,
+  "updated_by_id": 969641,
+  "widget_label": "",
+  "writeable": false
+}

@@ -1,0 +1,74 @@
+{
+  "id": 1029037,
+  "name": "Local HubL Example",
+  "portalId": 4852223,
+  "createdAt": 1543523212829,
+  "publishedAt": 1543523356801,
+  "updatedAt": 1543523352856,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "TEXT"
+    },
+    {
+      "name": "multiselect_column",
+      "label": "Multiselect Column",
+      "id": 2,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "Option 1",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "Option 2",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "Option 3",
+          "type": "option"
+        }
+      ],
+      "foreignIdsByName": {},
+      "type": "MULTISELECT",
+      "optionCount": 3
+    },
+    {
+      "name": "number_column",
+      "label": "Number Column",
+      "id": 3,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "NUMBER"
+    }
+  ],
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "label": "Local HubL Example",
+  "updated": 1543523352856,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 3,
+  "createdBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "updatedBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columnCount": 3,
+  "allowPublicApiAccess": true
+}

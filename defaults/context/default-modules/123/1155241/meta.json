@@ -1,0 +1,90 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1541691424682,
+  "cdn_purge_embargo_time": 1541691724668,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029253045,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-social_sharing",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social%20Sharing/icons/Social%20Sharing_icon.svg",
+  "id": 6098194264,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Social Sharing",
+  "marketplace_delivery_id": 16727648,
+  "marketplace_version": 79,
+  "master_language": "en",
+  "module_id": 1155241,
+  "name": "Social Sharing",
+  "other_assets": [
+    {
+      "autoload": false,
+      "name": "facebook-color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Social%20Sharing/79/facebook-color.png"
+    },
+    {
+      "autoload": false,
+      "name": "twitter-color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Social%20Sharing/79/twitter-color.png"
+    },
+    {
+      "autoload": false,
+      "name": "email-color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Social%20Sharing/79/email-color.png"
+    },
+    {
+      "autoload": false,
+      "name": "google_plus-color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Social%20Sharing/79/google_plus-color.png"
+    },
+    {
+      "autoload": false,
+      "name": "pinterest-color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Social%20Sharing/79/pinterest-color.png"
+    },
+    {
+      "autoload": false,
+      "name": "linkedin-color.png",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/4852223/hs_marketplace_assets/modules/Social%20Sharing/79/linkedin-color.png"
+    }
+  ],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1541691424682,
+  "updated_by_id": 593522,
+  "widget_label": "",
+  "writeable": false
+}

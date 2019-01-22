@@ -1,0 +1,56 @@
+{
+  "id": 365093,
+  "name": "Homepage - Customers HubL (FR)",
+  "portalId": 53,
+  "createdAt": 1484246207832,
+  "publishedAt": 1529679942972,
+  "updatedAt": 1527780708548,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "statistic",
+      "label": "statistic",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Homepage - Customers HubL (FR)",
+  "updated": 1527780708548,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 1,
+  "createdBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "updatedBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 3
+}

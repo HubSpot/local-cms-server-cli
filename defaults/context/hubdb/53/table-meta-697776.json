@@ -1,0 +1,58 @@
+{
+  "id": 697776,
+  "name": "Pricing Card Benefits — Localization Tokens [CONVERSATIONS LAUNCH - DEV]",
+  "portalId": 53,
+  "createdAt": 1526914530844,
+  "publishedAt": 1533764168635,
+  "updatedAt": 1533764166553,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "product",
+      "label": "product",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Pricing Card Benefits — Localization Tokens [CONVERSATIONS LAUNCH - DEV]",
+  "updated": 1533764166553,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 186,
+  "updatedBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 4
+}

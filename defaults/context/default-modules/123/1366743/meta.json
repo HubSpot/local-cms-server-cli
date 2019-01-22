@@ -1,0 +1,54 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029267615,
+  "cdn_purge_embargo_time": 1535029567600,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029257849,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [
+    "TEMPLATE"
+  ],
+  "external_js": [],
+  "extra_classes": "widget-type-post_filter",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-blog.svg",
+  "id": 6098194336,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Post Filter",
+  "marketplace_version": 75,
+  "master_language": "en",
+  "module_id": 1366743,
+  "name": "Post Filter",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029267615,
+  "updated_by_id": 969641,
+  "widget_label": "",
+  "writeable": false
+}

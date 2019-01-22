@@ -1,0 +1,32 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "A clear and bold header",
+    "hierarchical": false,
+    "id": "4afa5075-25c8-95e7-8893-c08b7351063d",
+    "label": "Section header content",
+    "locked": false,
+    "max_depth": 0,
+    "name": "header",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "allow_new_line": false,
+    "default": "A more subdued subheader",
+    "hierarchical": false,
+    "id": "489067c3-ab1f-7b79-683c-a40b463469d9",
+    "label": "Section subheader",
+    "locked": false,
+    "max_depth": 0,
+    "name": "subheader",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  }
+]

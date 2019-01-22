@@ -1,0 +1,24 @@
+{% if module.target == true %}
+    {% set target = "_blank" %}
+{% else %}
+    {% set target = "_parent" %}
+{% endif %}
+
+{% if (module.link is string_startingwith "http") or (module.link is string_startingwith "/") %}
+    {% set link = module.link %}
+{% elif !module.link %}
+    {% set link = "" %}
+{% else %}
+    {% set link = "//" ~ module.link %}
+{% endif %}
+
+{% linked_image
+    label="Linked Image",
+    src='{{ module.img.src }}',
+    alt='{{ module.img.alt }}',
+    width='{{ module.img.width }}',
+    height='{{ module.img.height }}',
+    link='{{ link }}',
+    target='{{ target }}',
+    open_in_new_tab='{{ target }}'
+%}

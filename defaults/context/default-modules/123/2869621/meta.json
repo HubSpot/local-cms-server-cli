@@ -1,0 +1,51 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1546619161558,
+  "cdn_purge_embargo_time": 1546619461543,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029267594,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "id": 6098194729,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Footer",
+  "marketplace_version": 218,
+  "master_language": "en",
+  "module_id": 2869621,
+  "name": "Footer",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1546619161558,
+  "updated_by_id": 1303493,
+  "widget_label": "",
+  "writeable": false
+}

@@ -1,0 +1,47 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029277877,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029277877,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [
+    "TEMPLATE"
+  ],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "NONE"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-customHubl.svg",
+  "id": 6099133323,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Custom HubL",
+  "marketplace_version": 72,
+  "module_id": 1367094,
+  "name": "Custom HubL",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029277877,
+  "widget_label": "",
+  "writeable": false
+}

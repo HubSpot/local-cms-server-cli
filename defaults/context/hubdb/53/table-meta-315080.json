@@ -1,0 +1,129 @@
+{
+  "id": 315080,
+  "name": "[GLOBAL] Smart Sales Line Data",
+  "portalId": 53,
+  "createdAt": 1486485974728,
+  "publishedAt": 1539956990127,
+  "updatedAt": 1539956963546,
+  "columns": [
+    {
+      "name": "abbreviation",
+      "label": "abbreviation",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "market",
+      "label": "market",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "local_line_available",
+      "label": "local_line_available",
+      "id": 4,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "name",
+      "label": "name",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "en_line_country",
+      "label": "en_line_country",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "English",
+      "label": "English",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "Spanish",
+      "label": "Spanish",
+      "id": 15,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "French",
+      "label": "French",
+      "id": 16,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "German",
+      "label": "German",
+      "id": 17,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "Portuguese",
+      "label": "Portuguese",
+      "id": 18,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "Japanese",
+      "label": "Japanese",
+      "id": 19,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "main",
+      "label": "main",
+      "id": 20,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "[GLOBAL] Smart Sales Line Data",
+  "updated": 1539956963546,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 249,
+  "createdBy": {
+    "id": 864468,
+    "email": "dshamis@hubspot.com",
+    "firstName": "Dmitry",
+    "lastName": "Shamis"
+  },
+  "updatedBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 20
+}

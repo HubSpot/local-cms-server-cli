@@ -1,0 +1,56 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029252422,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029252421,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-google_search",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-search.svg",
+  "id": 6098194127,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Google Search",
+  "marketplace_version": 74,
+  "master_language": "en",
+  "module_id": 1155836,
+  "name": "Google Search",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029252422,
+  "widget_label": "",
+  "writeable": false
+}

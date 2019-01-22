@@ -1,0 +1,105 @@
+{
+  "id": 675158,
+  "name": "[GLOBAL] European Techscape Stats",
+  "portalId": 53,
+  "createdAt": 1510346808905,
+  "publishedAt": 1529680014678,
+  "updatedAt": 1527780851078,
+  "columns": [
+    {
+      "name": "language",
+      "label": "Language",
+      "id": 10,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "stat_text",
+      "label": "Stat Text",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "winner",
+      "label": "Winner (0=B; 1=D; 2=L; 3=P; 4=A)",
+      "id": 11,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "city0_value",
+      "label": "Berlin Value",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "city1_value",
+      "label": "Dublin Value",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "city2_value",
+      "label": "London Value",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "city3_value",
+      "label": "Paris Value",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "city4_value",
+      "label": "Amsterdam Value",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "share_text",
+      "label": "Share Text",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "[GLOBAL] European Techscape Stats",
+  "updated": 1527780851078,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 81,
+  "createdBy": {
+    "id": 2611913,
+    "email": "eshaw@hubspot.com",
+    "firstName": "Liz",
+    "lastName": "Shaw"
+  },
+  "updatedBy": {
+    "id": 2797502,
+    "email": "drunne@hubspot.com",
+    "firstName": "Dierk",
+    "lastName": "Runne"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 11
+}

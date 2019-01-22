@@ -1,0 +1,143 @@
+[
+  {
+    "default": null,
+    "help_text": "The menu tree is the page structure which generates the items in the menu. A single menu tree can be used with multiple menus. You can create multiple menus for complex website structures. Menus are created and managed in your Content Settings",
+    "hierarchical": false,
+    "id": "8c0b1b2a-8f26-52d5-637c-b7a8c7d1d98e",
+    "label": "Menu",
+    "locked": false,
+    "max_depth": 0,
+    "name": "id",
+    "required": false,
+    "sortable": false,
+    "type": "menu"
+  },
+  {
+    "choices": [
+      [
+        "site_root",
+        "Static - Always show top-level pages in menu"
+      ],
+      [
+        "top_parent",
+        "Dynamic by section - Show pages in menu that are related to section being viewed"
+      ],
+      [
+        "parent",
+        "Dynamic by page - Show pages in menu that are related to page being viewed"
+      ],
+      [
+        "breadcrumb",
+        "Breadcrumb style path menu (uses horizontal flow)"
+      ]
+    ],
+    "default": "site_root",
+    "display": "select",
+    "help_text": "Advanced menus show different portions of a menu tree based on which page is being viewed.",
+    "hierarchical": false,
+    "id": "064a134c-3c18-7732-5874-e8189897ebb9",
+    "label": "Advanced menu type",
+    "locked": false,
+    "max_depth": 0,
+    "name": "root_type",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "2",
+        "2"
+      ],
+      [
+        "3",
+        "3"
+      ],
+      [
+        "4",
+        "4"
+      ],
+      [
+        "5",
+        "5"
+      ],
+      [
+        "6",
+        "6"
+      ],
+      [
+        "7",
+        "7"
+      ],
+      [
+        "8",
+        "8"
+      ],
+      [
+        "9",
+        "9"
+      ],
+      [
+        "10",
+        "10"
+      ]
+    ],
+    "default": "2",
+    "display": "select",
+    "help_text": "Determines the number of menu tree children that can be expanded in the menu",
+    "hierarchical": false,
+    "id": "c43c0d8a-3070-5e36-13b8-ccacb9ff64bb",
+    "label": "Max levels",
+    "locked": false,
+    "max_depth": 0,
+    "name": "max_levels",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      [
+        "horizontal",
+        "Horizontal"
+      ],
+      [
+        "vertical",
+        "Vertical"
+      ]
+    ],
+    "default": "horizontal",
+    "display": "select",
+    "help_text": "Horizontal menus display items side-by-side, and vertical menus are top-to-bottom",
+    "hierarchical": false,
+    "id": "8ebcf59b-fcb7-f98d-5f21-9297646a955d",
+    "label": "Orientation",
+    "locked": false,
+    "max_depth": 0,
+    "name": "flow",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "default": true,
+    "help_text": "Child menu items will appear when you hover over the parent. If unchecked, child menu items will always appear",
+    "hierarchical": false,
+    "id": "54c83e9c-43d8-6066-f4ee-a0fbd34ded04",
+    "label": "Enable flyouts?",
+    "locked": false,
+    "max_depth": 0,
+    "name": "flyouts",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  }
+]

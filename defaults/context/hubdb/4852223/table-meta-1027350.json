@@ -1,0 +1,57 @@
+{
+  "id": 1027350,
+  "name": "sortingTable",
+  "portalId": 4852223,
+  "createdAt": 1541444082267,
+  "publishedAt": 1541445822191,
+  "updatedAt": 1541445815435,
+  "columns": [
+    {
+      "name": "num",
+      "label": "num",
+      "id": 2,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "NUMBER"
+    },
+    {
+      "name": "length",
+      "label": "length",
+      "id": 3,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "TEXT"
+    },
+    {
+      "name": "location",
+      "label": "location",
+      "id": 4,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "LOCATION"
+    }
+  ],
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "label": "sortingTable",
+  "updated": 1541445815435,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 5,
+  "createdBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "updatedBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columnCount": 4,
+  "allowPublicApiAccess": true
+}
