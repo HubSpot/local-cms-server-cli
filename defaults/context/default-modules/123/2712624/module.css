@@ -1,0 +1,18 @@
+.hs-search-results__listing {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hs-search-results__listing li {
+  margin: 0;
+  padding: 0;
+}
+.hs-search-highlight {
+  font-weight: bold; 
+}
+.hs-search-results__prev-page {
+  float: left; 
+}
+.hs-search-results__next-page {
+  float: right;
+}

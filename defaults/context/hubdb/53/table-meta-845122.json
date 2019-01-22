@@ -1,0 +1,74 @@
+{
+  "id": 845122,
+  "name": "Pricing Card Benefits —Detail Localization Tokens [MARKETING STARTER LIVE]",
+  "portalId": 53,
+  "createdAt": 1529680037241,
+  "publishedAt": 1532014648309,
+  "updatedAt": 1532014646471,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "product",
+      "label": "product",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "product_name",
+      "label": "product_name",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "feature",
+      "label": "feature",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Pricing Card Benefits —Detail Localization Tokens [MARKETING STARTER LIVE]",
+  "updated": 1532014646471,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 90,
+  "updatedBy": {
+    "id": 4416175,
+    "email": "nlopchantamang@hubspot.com",
+    "firstName": "Nhori",
+    "lastName": "Lopchan Tamang"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 6
+}

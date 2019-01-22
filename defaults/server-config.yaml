@@ -1,0 +1,30 @@
+# _    _       _     _         _____                          
+#| |  | |     | |   | |       / ____|                         
+#| |__| |_   _| |__ | |      | (___   ___ _ ____   _____ _ __ 
+#|  __  | | | | '_ \| |       \___ \ / _ \ '__\ \ / / _ \ '__|
+#| |  | | |_| | |_) | |____   ____) |  __/ |   \ V /  __/ |   
+#|_|  |_|\__,_|_.__/|______| |_____/ \___|_|    \_/ \___|_|   
+#
+
+# base directory to load context settings from, defaults to current dir
+contextBaseDir: context
+
+# base directory to load templates from, defaults to current working dir
+templateBaseDir: designs
+
+# advanced settings
+# (you shouldn't need to edit anything below here)
+#
+http:
+  port: 8080
+  adminPort: 8080
+  bindHost: 127.0.0.1
+  shutdownGracePeriod: 0s
+
+logging:
+  level: ERROR
+
+  loggers:
+    "com.yammer.dropwizard.cli": INFO
+    "com.hubspot.content": INFO
+    "com.hubspot.content.hubl.dev.config.LocalHubLDevModule": WARN

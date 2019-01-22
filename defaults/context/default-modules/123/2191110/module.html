@@ -1,0 +1,25 @@
+{####################################
+    HubSpot Divider Module 
+#####################################
+This module is provided as an easy
+to implement option for users.
+This module references HubL that is
+only compatible with the Drag & Drop
+Email editor and may not work across
+the HubSpot platform.
+#-----------------------------------#}
+
+<table width="100%" align="{{ module.alignment }}" border="0" style="position: relative; top: -1px; min-width: 160px; width: 100%; max-width: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; font-size: 1px">
+  <tr>
+    {# Add left <td> to align right #}
+    {% if (module.alignment != 'left') and (module.width != 100) %}
+    	<td width="auto" style="line-height: 0">&nbsp;</td>
+    {% endif %}
+    {# Main td with bottom border #}
+    <td width="{{ module.width }}%" valign="middle" style="line-height: 0; border: transparent; border-bottom:{{ module.height }}px {{ module.line_type }} {{ module.color.color }}; mso-border-bottom-alt:{{ module.height }}px {{ module.line_type }} {{ module.color.color }}; border-bottom-width: {{ module.height }}px;">&nbsp;</td>
+    {# Add right <td> to align left #}    
+    {% if (module.alignment != 'right') and (module.width != 100) %}
+    	<td width="auto" style="line-height: 0">&nbsp;</td>
+    {% endif %}
+  </tr>
+</table>

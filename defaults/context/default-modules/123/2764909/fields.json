@@ -1,0 +1,26 @@
+[
+  {
+    "choices": [
+      [
+        "value_1",
+        "Label 1"
+      ],
+      [
+        "value_2",
+        "Label 2"
+      ]
+    ],
+    "default": null,
+    "display": "select",
+    "hierarchical": false,
+    "id": "eadd88df-bde2-92ca-5906-07339e39f069",
+    "label": "",
+    "locked": false,
+    "max_depth": 0,
+    "name": "value",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice"
+  }
+]

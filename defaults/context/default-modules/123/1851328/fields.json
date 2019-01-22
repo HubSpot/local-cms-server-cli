@@ -1,0 +1,14 @@
+[
+  {
+    "default": "<p>Hi&nbsp;{{contact.firstname}},</p>\n<p>Describe what you have to offer the customer. Why should they read? What did you promise them in the subject line? Tell them something cool. Make them laugh. Make them cry. Well, maybe don't do that...</p>\n<p>Use a list to:</p>\n<ul>\n<li>Explain the value of your offer</li>\n<li>Remind the reader what they’ll get out of taking action</li>\n<li>Show off your skill with bullet points</li>\n<li>Make your content easy to scan</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINK TO A LANDING PAGE ON YOUR SITE</a> (This is the really important part.)</p>\n<p>Now wrap it all up with a pithy little reminder of how much you love them.</p>\n<p>Aw. You silver-tongued devil, you.</p>\n<p>Sincerely,</p>\n<p>Your name</p>",
+    "hierarchical": false,
+    "id": "7b1aa231-5d9d-866b-c94f-b26b6f041526",
+    "label": "Email body",
+    "locked": false,
+    "max_depth": 0,
+    "name": "html",
+    "required": false,
+    "sortable": false,
+    "type": "richtext"
+  }
+]

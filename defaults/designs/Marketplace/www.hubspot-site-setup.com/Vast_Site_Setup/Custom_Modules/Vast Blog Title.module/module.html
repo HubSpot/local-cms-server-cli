@@ -1,0 +1,5 @@
+{% if module.title is truthy %}
+<h1>{{ module.title }}<h1>
+{% else %}
+<h1>{{ group.public_title }}</h1>
+{% endif %}

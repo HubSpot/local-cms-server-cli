@@ -1,0 +1,15 @@
+[
+  {
+    "default": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{site_settings.company_name}} &nbsp;&nbsp;{{site_settings.company_street_address_1}} &nbsp;{{site_settings.company_street_address_2}} &nbsp;{{site_settings.company_city}} &nbsp;{{site_settings.company_state}} &nbsp;&nbsp;{{site_settings.company_zip}} &nbsp;&nbsp;{{site_settings.company_country}} <br><br> You received this email because you are subscribed to {{ subscription_name }} from {{site_settings.company_name}} . <br><br> Update your <a target=\"_blank\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">email preferences</a> to choose the types of emails you receive. <br><br> &nbsp;<a target=\"_blank\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">Unsubscribe from all future emails</a> &nbsp;</p>",
+    "hierarchical": false,
+    "id": "de146fec-e936-fa13-7b17-1ce114935605",
+    "label": "Location text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "html",
+    "required": false,
+    "sortable": false,
+    "type": "richtext",
+    "validation_regex": ""
+  }
+]

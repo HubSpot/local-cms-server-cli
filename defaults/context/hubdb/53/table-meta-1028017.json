@@ -1,0 +1,358 @@
+{
+  "id": 1028017,
+  "name": "Pricing - Marketing 2018 [12/1 Updates]",
+  "portalId": 53,
+  "createdAt": 1542730564108,
+  "publishedAt": 1544042440808,
+  "updatedAt": 1544042427755,
+  "columns": [
+    {
+      "name": "name",
+      "label": "name",
+      "id": 1,
+      "deleted": false,
+      "width": 336,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "id",
+      "label": "id",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "type",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "free",
+      "label": "free",
+      "id": 8,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "starter",
+      "label": "starter",
+      "id": 9,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "professional",
+      "label": "professional",
+      "id": 11,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "enterprise",
+      "label": "enterprise",
+      "id": 12,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "usd",
+      "label": "usd",
+      "id": 13,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "eur",
+      "label": "eur",
+      "id": 14,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "gbp",
+      "label": "gbp",
+      "id": 15,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "aud",
+      "label": "aud",
+      "id": 16,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "sgd",
+      "label": "sgd",
+      "id": 17,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "jpy",
+      "label": "jpy",
+      "id": 18,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "min",
+      "label": "min",
+      "id": 19,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "max",
+      "label": "max",
+      "id": 20,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "notification",
+      "label": "notification",
+      "id": 21,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "notification_title",
+      "label": "notification_title",
+      "id": 22,
+      "deleted": false,
+      "width": 200,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "notification_description",
+      "label": "notification_description",
+      "id": 23,
+      "deleted": false,
+      "width": 800,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_free",
+      "label": "tooltip_free",
+      "id": 24,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_starter",
+      "label": "tooltip_starter",
+      "id": 25,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_professional",
+      "label": "tooltip_professional",
+      "id": 27,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_enterprise",
+      "label": "tooltip_enterprise",
+      "id": 28,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "class",
+      "label": "class",
+      "id": 29,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "one_time_fee",
+      "label": "One Time Fee",
+      "id": 30,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "smart_name",
+      "label": "smart_name",
+      "id": 33,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "smart_cta_url",
+      "label": "smart_cta_url",
+      "id": 34,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "smart_cta_class",
+      "label": "smart_cta_class",
+      "id": 35,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "available_in_english",
+      "label": "available_in_english \t",
+      "id": 36,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "buy_now_cta_text",
+      "label": "buy_now_cta_text",
+      "id": 37,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "buy_now_cta_url",
+      "label": "buy_now_cta_url",
+      "id": 38,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "buy_now_cta_custom_classes",
+      "label": "buy_now_cta_custom_classes",
+      "id": 39,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "hide_onboarding",
+      "label": "Hide Onboarding",
+      "id": 40,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "has_discount",
+      "label": "has_discount",
+      "id": 41,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "discount_percentage",
+      "label": "discount_percentage",
+      "id": 42,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "banner_text",
+      "label": "banner_text",
+      "id": 43,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "is_coming_soon",
+      "label": "is_coming_soon",
+      "id": 44,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "package_name",
+      "label": "package_name",
+      "id": 45,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "package_id",
+      "label": "package_id",
+      "id": 46,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "cop",
+      "label": "cop",
+      "id": 47,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Pricing - Marketing 2018 [12/1 Updates]",
+  "updated": 1544042427755,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 982,
+  "updatedBy": {
+    "id": 2967287,
+    "email": "mokoli@hubspot.com",
+    "firstName": "Marissa",
+    "lastName": "Okoli"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 47
+}

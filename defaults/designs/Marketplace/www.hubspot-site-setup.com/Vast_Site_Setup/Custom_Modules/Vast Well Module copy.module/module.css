@@ -1,0 +1,43 @@
+/* Well Colors */
+
+#well{
+    min-height: 20px;
+    margin-bottom: 20px;       
+    border-radius: 4px;
+    color: #fff;
+}
+#well .default{
+    border-radius: 4px;        
+    border-style: solid;
+    border-width: 1px;
+}
+#well .primary{
+    border-radius: 4px;
+}    
+#well .success{
+    border-radius: 4px;
+}    
+#well .danger{
+    border-radius: 4px;
+}    
+#well .info{
+    border-radius: 4px;
+
+}   
+#well .plain{
+    border-radius: 4px;
+}
+#well .small{
+    padding: 20px;
+}
+#well .medium{
+    padding: 24px;
+}   
+#well .large{
+    padding: 28px;
+}
+#well .close{
+    float: right;
+    padding: 3px 10px 0px 0px;
+    cursor: pointer;
+}

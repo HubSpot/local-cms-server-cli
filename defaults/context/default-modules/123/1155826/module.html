@@ -1,0 +1,18 @@
+{#
+	Header type field used to be named header_type but it should be
+  header_tag. Any header modules added/configured before the name
+  change will have their types under header_type so we need to check
+  both values to determine the tag.
+#}
+{% set header_tag = module.header_tag || module.header_type  %}
+{#
+	We can't set the default to h1 on the field because it would 
+  override existing header_type values, so we need this check
+#}
+{% if !header_tag %}
+	{% set header_tag = 'h1' %}
+{% endif %}
+{% header 
+    header_tag="{{ header_tag }}"
+    value="{{ module.value }}"
+%}

@@ -1,0 +1,54 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1538667926565,
+  "cdn_purge_embargo_time": 1538668226539,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029277664,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-rss_listing",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_LISTING",
+    "BLOG_POST"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/RSS%20Listing/icons/RSS%20Listing_icon.svg",
+  "id": 6098903263,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "RSS Listing",
+  "marketplace_version": 73,
+  "master_language": "en",
+  "module_id": 1790632,
+  "name": "RSS Listing",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1538667926565,
+  "updated_by_id": 969641,
+  "widget_label": "",
+  "writeable": false
+}

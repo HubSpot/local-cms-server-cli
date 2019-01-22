@@ -1,0 +1,34 @@
+{% if module.link %}
+    {% if (module.link is string_startingwith "http") or (module.link is string_startingwith "/") %}
+        {% set link = module.link %}
+    {% else %}
+        {% set link = "//" ~ module.link %} 
+    {% endif %}
+{% else %}
+    {% set link = '' %}
+{% endif %}
+
+{% if module.img.override_inherited_src && module.img.src %}
+  {% logo "hs_logo_widget"
+    override_inherited_src='{{ module.img.override_inherited_src  }}',
+    alt='{{ module.img.alt }}',
+    src='{{ module.img.src }}',
+    link='{{ link }}',
+    width='{{ module.img.width }}',
+    height='{{ module.img.height }}',
+    open_in_new_tab='{{ module.open_in_new_tab }}'
+  %}
+{% elif module.img.override_inherited_src && !module.img.src %}
+  {% logo "hs_logo_widget"
+    override_inherited_src='{{ module.img.override_inherited_src }}',
+    src='',
+    link='{{ link }}',
+    suppress_company_name='{{ module.img.suppress_company_name }}',
+    open_in_new_tab='{{ module.open_in_new_tab }}'
+  %}
+{% else %}
+  {% logo "hs_logo_widget"
+    link='{{ link }}',
+    open_in_new_tab='{{ module.open_in_new_tab }}'
+  %}
+{% endif %}

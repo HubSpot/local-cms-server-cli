@@ -1,0 +1,34 @@
+{% set size = "24px" %}
+{% set borderRadius = "3px" %}
+{% set linkStyle = "width:"~size~";border-width:0px;border:0px;text-decoration:none;" %}
+{% set imgStyle = "height:"~size~";width:"~size~";border-radius:"~borderRadius~";border-width:0px;border:0px;" %}
+
+
+{% macro render_social_icon(networkName) %}
+	{% set network = module[networkName] %}
+  {% if (networkName == "pinterest" and network.pinterest_media and network.enabled) or (networkName != "pinterest" and network.enabled) %}
+    {% if networkName == "pinterest" %}
+      {% set pinterest_media = module.pinterest.pinterest_media.src %}
+    {% endif %}
+    {% set logo = networkName ~'-color.png' %}
+    {% set urlOperator = "&" if "?" in page_meta.canonical_url else "&" %}
+    {% if module.link %}
+			{% set social_link_url = module.link ~ urlOperator ~ "utm_medium=social&utm_source="|safe ~ networkName %}			
+		{% else %}
+			{% set social_link_url = page_meta.canonical_url ~ urlOperator ~ "utm_medium=social&utm_source="|safe ~ networkName %}
+		{% endif %}
+
+    <a href="{{ network.custom_link_format }}" target="_blank" style="{{ linkStyle }}" >
+      <img src="{{ module_asset_url(logo) }}" class="hs-image-widget hs-image-social-sharing-24" style="{{ imgStyle }}" width="{{ size }}" hspace="0" alt='{{ "Share on " ~ networkName }}' />
+    </a>
+	{% endif %}
+{% endmacro %}
+
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_social_sharing" data-hs-cos-general-type="widget" data-hs-cos-type="social_sharing">
+  {{ render_social_icon('facebook') }}
+  {{ render_social_icon('linkedin') }}
+  {{ render_social_icon('twitter') }}
+  {{ render_social_icon('google_plus') }}
+  {{ render_social_icon('pinterest') }}
+  {{ render_social_icon('email') }}
+</div>

@@ -1,0 +1,40 @@
+{% set wrapper_css = "margin-bottom:0; padding:10px 20px; line-height:1.35;" %}
+{% set table_css = "margin-bottom:0; padding:0;" %}
+
+{% if language == 'ja' %}
+	{% set parsed_can_spam_settings = site_settings.company_name + " " %}
+	{% if site_settings.company_country != "" or site_settings.company_zip != "" %}
+		{% set parsed_can_spam_settings = parsed_can_spam_settings + site_settings.company_country + site_settings.company_zip  + " " %}
+	{% endif %}
+  {% set parsed_can_spam_settings = parsed_can_spam_settings + site_settings.company_state + site_settings.company_city + site_settings.company_street_address_2 + site_settings.company_street_address_1 %}
+	{% if site_settings.company_phone != "" %}{% set parsed_can_spam_settings = parsed_can_spam_settings + " " + site_settings.company_phone %}{% endif %}
+ {% else %}
+  {% set parsed_can_spam_settings = site_settings.company_name + ", " + site_settings.company_street_address_1 %}
+  {% if site_settings.company_street_address_2 != "" %}{% set parsed_can_spam_settings = parsed_can_spam_settings + ", " + site_settings.company_street_address_2 %}{% endif %}
+  {% set parsed_can_spam_settings = parsed_can_spam_settings + ", " + site_settings.company_city + ", " + site_settings.company_state %}
+  {% if site_settings.company_zip != "" %}{% set parsed_can_spam_settings = parsed_can_spam_settings + ", " + site_settings.company_zip %}{% endif %}
+  {% if site_settings.company_country != "" %}{% set parsed_can_spam_settings = parsed_can_spam_settings + ", " + site_settings.company_country %}{% endif %}
+  {% if site_settings.company_phone != "" %}{% set parsed_can_spam_settings = parsed_can_spam_settings + ", " + site_settings.company_phone %}{% endif %}
+{% endif %}
+
+<table class="hse-footer hse-secondary" role="presentation" width="100%" cellpadding="0" cellspacing="0" style="{{ table_css }}">
+    <tbody>
+        <tr>
+            <td align="{{ module.align }}" valign="top" style="text-align:{{module.align}};font-family:{{ module.font.font }}; font-size: {{ module.font.size.value }}{{ module.font.size.units }}; color: {{ module.font.color }};font-weight: {{ module.font.styles.bold ? 'bold' : 'normal' }}; font-style: {{ module.font.styles.italic ? 'italic' : 'normal' }}; text-decoration: {{ module.font.styles.underline ? 'underline' : 'none' }};{{wrapper_css}}">
+                <p>
+                  {{ parsed_can_spam_settings }}
+                </p>
+                <p>
+              	{% if not module.unsubscribe_link_type or module.unsubscribe_link_type == 'unsubscribe' or module.unsubscribe_link_type == 'both' %}
+                  <a data-unsubscribe="true" 
+                     href="{{ unsubscribe_link_all }}" 
+                     style="font-family:{{ module.link_font.font }}; font-size: {{ module.link_font.size.value }}{{ module.link_font.size.units }}; color: {{ module.link_font.color }};font-weight: {{ module.link_font.styles.bold ? 'bold' : 'normal' }}; font-style: {{ module.link_font.styles.italic ? 'italic' : 'normal' }}; text-decoration: {{ module.link_font.styles.underline ? 'underline' : 'none' }};">{{ unsubscribe_text }}</a>{% endif %}
+                  {% if module.unsubscribe_link_type == 'preferences' or module.unsubscribe_link_type == 'both' %}<a data-unsubscribe="true" 
+                     href="{{ unsubscribe_link }}" 
+                     style="font-family:{{ module.link_font.font }}; font-size: {{ module.link_font.size.value }}{{ module.link_font.size.units }}; color: {{ module.link_font.color }};font-weight: {{ module.link_font.styles.bold ? 'bold' : 'normal' }}; font-style: {{ module.link_font.styles.italic ? 'italic' : 'normal' }}; text-decoration: {{ module.link_font.styles.underline ? 'underline' : 'none' }};">{{ manage_preferences_text }}</a>
+              		{% endif %}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

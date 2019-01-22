@@ -1,0 +1,28 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "Submit",
+    "hierarchical": false,
+    "id": "9f90a261-5989-43f9-d07d-2593b533ae18",
+    "label": "Submit button text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "submit_button_text",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "default": "<p>Sorry, please try again.</p>",
+    "hierarchical": false,
+    "id": "e06dc069-067a-6cde-7423-dc8db210ea8a",
+    "label": "Bad password message",
+    "locked": false,
+    "max_depth": 0,
+    "name": "bad_password_message",
+    "required": true,
+    "sortable": false,
+    "type": "richtext"
+  }
+]

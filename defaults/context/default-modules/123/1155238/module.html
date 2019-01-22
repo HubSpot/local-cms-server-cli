@@ -1,0 +1,31 @@
+{% if module.title is truthy %}
+	{% set no_title = False %}
+{% else %}
+	{% set no_title = True %}
+{% endif %}
+
+{% if module.form.form_id %}
+	{% form
+    form_key='{{ name }}',
+    form_to_use='{{ module.form.form_id }}',
+    title='{{ module.title }}',
+    no_title='{{ no_title }}',
+    follow_up_type_simple='{{ module.follow_up_type_simple }}',
+    simple_email_for_live_id='{{ module.simple_email_for_live_id }}',
+    follow_up_type_automation='{{ module.follow_up_type_automation }}',
+    form_follow_ups_workflow_id='{{ module.form_follow_ups_workflow_id }}',
+    response_response_type='{{ module.form.response_type }}',
+    response_redirect_id='{{ module.form.redirect_id }}',
+    response_redirect_url='{{ module.form.redirect_url }}',
+    response_message='{{ module.form.message }}',
+    notifications_are_overridden='{{ module.notifications_are_overridden }}',
+    notifications_override_email_addresses='{{ module.notifications_override_email_addresses }}'
+    gotowebinar_webinar_key='{{ module.form.gotowebinar_webinar_key }}'
+    sfdc_campaign='{{ module.sfdc_campaign }}'
+	%}
+{% else %}
+	{% form
+    title='{{ module.title }}',
+    no_title='{{ no_title }}',
+  %}
+{% endif %}

@@ -1,0 +1,112 @@
+{
+  "id": 410064,
+  "name": "Contact Us - Addresses",
+  "portalId": 53,
+  "createdAt": 1484176463880,
+  "publishedAt": 1530027448975,
+  "updatedAt": 1530027444781,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 10,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "type",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "location_name",
+      "label": "location_name",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "location_title",
+      "label": "location_title",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "address",
+      "label": "address",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "google_map_link",
+      "label": "google_map_link",
+      "id": 8,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "location_image",
+      "label": "location_image",
+      "id": 9,
+      "deleted": false,
+      "type": "IMAGE",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "phone_number",
+      "label": "phone_number",
+      "id": 11,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Contact Us - Addresses",
+  "updated": 1530027444781,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 126,
+  "createdBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "updatedBy": {
+    "id": 2611913,
+    "email": "eshaw@hubspot.com",
+    "firstName": "Liz",
+    "lastName": "Shaw"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 11
+}

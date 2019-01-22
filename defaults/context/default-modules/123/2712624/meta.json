@@ -1,0 +1,77 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1543337665785,
+  "cdn_purge_embargo_time": 1543337965778,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "SINGLE_COLUMN",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "DRAG_AND_DROP",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "HIDDEN",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029277864,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Site%20Search%20Results/icons/Site%20Search%20Results_icon.svg",
+  "id": 6099133358,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [
+    {
+      "autoload": true,
+      "name": "url-search-params.js",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Site%20Search%20Results/0/url-search-params.js"
+    },
+    {
+      "autoload": true,
+      "name": "template.js",
+      "resource_id": null,
+      "url": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Site%20Search%20Results/0/template.js"
+    }
+  ],
+  "label": "Site Search Results",
+  "marketplace_version": 11,
+  "module_id": 2712624,
+  "name": "Site Search Results",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "SEARCH_ASSET",
+    "HIDDEN",
+    "search",
+    "DEFAULT"
+  ],
+  "updated": 1543337665785,
+  "updated_by_id": 2411823,
+  "widget_label": "",
+  "writeable": false
+}

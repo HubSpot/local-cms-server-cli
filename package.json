@@ -10,6 +10,9 @@
   "bin": {
     "hs": "./bin/cli.js"
   },
+  "files": [
+    "bin"
+  ],
   "author": "",
   "license": "MIT",
   "repository": "https://github.com/HubSpot/local-cms-server-cli",

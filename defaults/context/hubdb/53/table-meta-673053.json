@@ -1,0 +1,97 @@
+{
+  "id": 673053,
+  "name": "CRM Integrations 2017",
+  "portalId": 53,
+  "createdAt": 1503947701444,
+  "publishedAt": 1529680003050,
+  "updatedAt": 1527780823987,
+  "columns": [
+    {
+      "name": "Name",
+      "label": "",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "id": 3,
+      "deleted": false,
+      "type": "IMAGE",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "filter1",
+      "label": "Filter1",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "filter2",
+      "label": "Filter2",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "url",
+      "label": "URL",
+      "id": 6,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "ribbon_text",
+      "label": "Ribbon Text",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "Language",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "CRM Integrations 2017",
+  "updated": 1527780823987,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 47,
+  "createdBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "updatedBy": {
+    "id": 268472,
+    "email": "abiedrzycki@hubspot.com",
+    "firstName": "Alec",
+    "lastName": "Biedrzycki"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 8
+}

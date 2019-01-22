@@ -1,0 +1,14 @@
+[
+  {
+    "default": "<p>Please <a class=\"hubspot-mergetag\" href=\"{{ subscription_confirmation_url }}\" data-emailoptin=\"true\" target=\"_blank\" style=\"text-decoration: underline; whitespace: nowrap; color: inherit;\">confirm your subscription</a></p>",
+    "hierarchical": false,
+    "id": "7ea625c5-2a67-2731-0220-1a4d62479799",
+    "label": "HTML",
+    "locked": false,
+    "max_depth": 0,
+    "name": "html",
+    "required": false,
+    "sortable": false,
+    "type": "richtext"
+  }
+]

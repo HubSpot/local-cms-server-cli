@@ -1,0 +1,608 @@
+{
+  "attached_amp_stylesheet": 0,
+  "attached_js": [
+    {
+      "id": 6099133405,
+      "type": "cos_extension_resource"
+    }
+  ],
+  "attached_stylesheets": [
+    {
+      "id": 6099133411,
+      "type": "cos_extension_resource"
+    }
+  ],
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029286321,
+  "body": {
+    "enable_domain_stylesheets": false,
+    "include_default_custom_css": false,
+    "folder": "Vast/Pages",
+    "custom_head": "",
+    "content_tags": [
+      {
+        "name": "OTHER_INDUSTRY",
+        "source": "MARKETPLACE"
+      },
+      {
+        "name": "HIDDEN",
+        "source": "MARKETPLACE"
+      }
+    ],
+    "purchased": false,
+    "body_css_id": "",
+    "custom_footer": "",
+    "attached_js": [
+      {
+        "id": 6099133405,
+        "type": "cos_extension_resource"
+      }
+    ],
+    "body_class": "landing-page three-column",
+    "body_css": "",
+    "builtin": false,
+    "generator": null,
+    "generated_template_id": 6098195264,
+    "marketplace_good_id": 260191,
+    "cloned_from": "4958678970",
+    "attached_stylesheets": [
+      {
+        "id": 6099133411,
+        "type": "cos_extension_resource"
+      }
+    ],
+    "last_edit_session_id": null,
+    "last_edit_update_id": null,
+    "has_user_changes": true,
+    "is_read_only": false
+  },
+  "body_class": "landing-page three-column",
+  "body_css": "",
+  "body_css_id": "",
+  "body_editable": false,
+  "builtin": false,
+  "category": 1,
+  "category_id": 1,
+  "cloned_from": "4958678970",
+  "cloned_from_id": 4958678970,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "HIDDEN",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029286336,
+  "custom_footer": "",
+  "custom_head": "",
+  "deleted_at": 0,
+  "enable_domain_stylesheets": false,
+  "folder": "Vast/Pages",
+  "folder_id": 6098475838,
+  "generated_template_id": 6098195264,
+  "id": 6098195260,
+  "include_default_custom_css": false,
+  "is_available_for_new_content": true,
+  "is_read_only": false,
+  "label": "Vast Two Column Equal Landing Page",
+  "languages": [],
+  "layout_data": {
+    "cell": false,
+    "cells": [],
+    "css_class": "",
+    "css_id": "",
+    "css_id_str": "",
+    "css_style": "",
+    "editable": false,
+    "id": "module_1487695027782810",
+    "is_container": false,
+    "is_content_overridden": false,
+    "is_in_container": false,
+    "language_overrides": {},
+    "order": 0,
+    "params": {},
+    "root": false,
+    "row": false,
+    "row_meta_data": [],
+    "rows": [
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1487695027782811",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Vast Theme/Vast Header - No Navigation copy",
+          "language_overrides": {},
+          "name": "module_151810285020023",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "overrideable": false,
+            "path": "generated_global_groups/6099133450.html",
+            "per_widget_wrapper_html": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "global_group",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1487695027782812",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "language_overrides": {},
+          "order": 0,
+          "params": {},
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "section_delimiter",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "title-background padding20tb",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_140605134944324095",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Title Background",
+          "language_overrides": {},
+          "name": "module_140605134944324095",
+          "order": 0,
+          "params": {
+            "css_class": "title-background padding20tb",
+            "css_id": "",
+            "css_style": "",
+            "overrideable": false,
+            "value": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [
+            {
+              "0": {
+                "cell": false,
+                "cells": [],
+                "css_class": "page-center",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_140605135237224308",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Page Center",
+                "language_overrides": {},
+                "name": "module_140605135237224308",
+                "order": 0,
+                "params": {
+                  "css_class": "page-center",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_140605135660724543",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Page Title",
+                      "language_overrides": {},
+                      "name": "module_140605135660724543",
+                      "order": 0,
+                      "params": {
+                        "header_tag": "h1",
+                        "overrideable": true,
+                        "value": "Vast Two Column Equal Landing Page"
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "header",
+                      "w": 12,
+                      "widgets": [],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 12,
+                "widgets": [],
+                "x": 0
+              }
+            }
+          ],
+          "type": "cell",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "page-center content-wrapper padding60tb",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_13885006495507970",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Page Center, Content Wrapper",
+          "language_overrides": {},
+          "name": "module_13885006495507970",
+          "order": 0,
+          "params": {
+            "css_class": "page-center content-wrapper padding60tb",
+            "css_id": "",
+            "css_style": "",
+            "overrideable": false,
+            "value": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [
+            {
+              "0": {
+                "cell": false,
+                "cells": [],
+                "css_class": "main-content",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_13885046520011784",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Main Content",
+                "language_overrides": {},
+                "name": "module_13885046520011784",
+                "order": 0,
+                "params": {
+                  "css_class": "main-content",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_1395325301989437",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Left Column",
+                      "language_overrides": {},
+                      "name": "module_1395325301989437",
+                      "order": 0,
+                      "params": {
+                        "overrideable": false
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "widget_container",
+                      "w": 12,
+                      "widgets": [
+                        {
+                          "cell": false,
+                          "cells": [],
+                          "css_class": "",
+                          "css_id": "",
+                          "css_id_str": "",
+                          "css_style": "",
+                          "editable": false,
+                          "id": "module_13885047978573602",
+                          "is_container": false,
+                          "is_content_overridden": false,
+                          "is_in_container": false,
+                          "label": "Rich Text",
+                          "language_overrides": {},
+                          "name": "module_15181165963901742",
+                          "order": 0,
+                          "params": {
+                            "css_class": "",
+                            "css_id": "",
+                            "css_id_str": "",
+                            "css_style": "",
+                            "custom_widget_id": 6098194111,
+                            "html": "<h2>Easy to build.&nbsp;</h2>\n<h3>Even easier to love.</h3>\n<p>Welcome to your shiny new landing page. Use this text to highlight the benefits of your most alluring offer. Customize the headline and image to your heart's content.&nbsp;</p>\n<p>And use a list to:</p>\n<ul>\n<li>Enliven your copy</li>\n<li>Expand on the details</li>\n<li>Encourage conversions</li>\n</ul>\n<p>It really is that easy.</p>",
+                            "module_id": 1155639,
+                            "overrideable": true,
+                            "per_widget_wrapper_html": "",
+                            "schema_version": 2,
+                            "widget_name": "Rich Text",
+                            "wrapping_html": ""
+                          },
+                          "root": false,
+                          "row": false,
+                          "row_meta_data": [],
+                          "rows": [],
+                          "type": "custom_widget",
+                          "w": 12,
+                          "widgets": [],
+                          "x": 0
+                        }
+                      ],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 6,
+                "widgets": [
+                  {
+                    "cell": false,
+                    "cells": [],
+                    "css_class": "",
+                    "css_id": "",
+                    "css_id_str": "",
+                    "css_style": "",
+                    "editable": false,
+                    "is_container": false,
+                    "is_content_overridden": false,
+                    "is_in_container": false,
+                    "label": "Rich Text",
+                    "language_overrides": {},
+                    "name": "module_13885047978573602",
+                    "order": 0,
+                    "params": {
+                      "html": "<h2>New Module</h2>\n<p>Add content here.</p>",
+                      "is_in_container": false,
+                      "overrideable": true
+                    },
+                    "root": false,
+                    "row": false,
+                    "row_meta_data": [],
+                    "rows": [],
+                    "type": "rich_text",
+                    "w": 12,
+                    "widgets": [],
+                    "x": 0
+                  }
+                ],
+                "x": 0
+              },
+              "6": {
+                "cell": false,
+                "cells": [],
+                "css_class": "main-content",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_14019005435527207",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Main Content",
+                "language_overrides": {},
+                "name": "module_14019005435527207",
+                "order": 0,
+                "params": {
+                  "css_class": "main-content",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "sidebar-form",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_13885066546126190",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Form",
+                      "language_overrides": {},
+                      "name": "module_15181166410861743",
+                      "order": 0,
+                      "params": {
+                        "css_class": "sidebar-form",
+                        "css_id": "",
+                        "css_id_str": "",
+                        "css_style": "",
+                        "custom_widget_id": 6098194128,
+                        "form": {
+                          "form_id": "",
+                          "message": "Thanks for submitting the form.",
+                          "response_type": "inline"
+                        },
+                        "module_id": 1155238,
+                        "overrideable": true,
+                        "per_widget_wrapper_html": "",
+                        "schema_version": 2,
+                        "widget_name": "Form",
+                        "wrapping_html": ""
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "custom_widget",
+                      "w": 12,
+                      "widgets": [],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 6,
+                "widgets": [],
+                "x": 6
+              }
+            }
+          ],
+          "type": "cell",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1487695027782813",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "language_overrides": {},
+          "order": 0,
+          "params": {},
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "section_delimiter",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1487695027782814",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Vast Theme/Vast Footer copy",
+          "language_overrides": {},
+          "name": "module_151810288525624",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "overrideable": false,
+            "path": "generated_global_groups/6099133437.html",
+            "per_widget_wrapper_html": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "global_group",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      }
+    ],
+    "type": "cell",
+    "w": 12,
+    "widgets": [],
+    "x": 0
+  },
+  "marketplace_good_id": 260191,
+  "meta": {
+    "hasBufferedChanges": false
+  },
+  "path": "generated_layouts/6098195260.html",
+  "portal_id": 123,
+  "purchased": false,
+  "template_type": 4,
+  "updated": 1535029286321,
+  "updated_by": "marketplaceteam@hubspot.com"
+}

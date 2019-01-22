@@ -1,0 +1,371 @@
+{
+  "id": 957915,
+  "name": "Pricing - Service Hub 2018 [LIVE]",
+  "portalId": 53,
+  "createdAt": 1538604132420,
+  "publishedAt": 1543515151227,
+  "updatedAt": 1543853038009,
+  "columns": [
+    {
+      "name": "name",
+      "label": "name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "id",
+      "label": "id",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "package_name",
+      "label": "package_name",
+      "id": 102,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "type",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "free",
+      "label": "free",
+      "id": 93,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "starter",
+      "label": "starter",
+      "id": 94,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "professional",
+      "label": "professional",
+      "id": 95,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "enterprise",
+      "label": "enterprise",
+      "id": 96,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "usd",
+      "label": "usd",
+      "id": 13,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "eur",
+      "label": "eur",
+      "id": 14,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "gbp",
+      "label": "gbp",
+      "id": 15,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "aud",
+      "label": "aud",
+      "id": 16,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "sgd",
+      "label": "sgd",
+      "id": 17,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "jpy",
+      "label": "jpy",
+      "id": 18,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "min",
+      "label": "min",
+      "id": 19,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "max",
+      "label": "max",
+      "id": 20,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "notification",
+      "label": "notification",
+      "id": 21,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "notification_title",
+      "label": "notification_title",
+      "id": 22,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "notification_description",
+      "label": "notification_description",
+      "id": 23,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "class",
+      "label": "class",
+      "id": 81,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "one_time_fee",
+      "label": "One Time Fee",
+      "id": 82,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "smart_name",
+      "label": "smart_name",
+      "id": 83,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "smart_cta_url",
+      "label": "smart_cta_url",
+      "id": 29,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "smart_cta_class",
+      "label": "smart_cta_class",
+      "id": 30,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "available_in_english",
+      "label": "available_in_english \t",
+      "id": 84,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "sub_description",
+      "label": "sub_description",
+      "id": 85,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "users_included",
+      "label": "Users Included",
+      "id": 86,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "buy_now_cta_text",
+      "label": "buy_now_cta_text",
+      "id": 87,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "buy_now_cta_url",
+      "label": "buy_now_cta_url",
+      "id": 88,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "buy_now_cta_custom_classes",
+      "label": "buy_now_cta_custom_classes",
+      "id": 89,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "has_discount",
+      "label": "has_discount",
+      "id": 90,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "discount_percentage",
+      "label": "discount_percentage",
+      "id": 91,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "banner_text",
+      "label": "banner_text",
+      "id": 92,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_free",
+      "label": "tooltip_free",
+      "id": 97,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_starter",
+      "label": "tooltip_starter",
+      "id": 98,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_professional",
+      "label": "tooltip_professional",
+      "id": 99,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_enterprise",
+      "label": "tooltip_enterprise",
+      "id": 100,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "is_coming_soon",
+      "label": "is_coming_soon",
+      "id": 101,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "package_id",
+      "label": "package_id",
+      "id": 103,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "cop",
+      "label": "cop",
+      "id": 104,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "hide_onboarding",
+      "label": "Hide Onboarding",
+      "id": 105,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Pricing - Service Hub 2018 [LIVE]",
+  "updated": 1543853038009,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 790,
+  "updatedBy": {
+    "id": 2797502,
+    "email": "drunne@hubspot.com",
+    "firstName": "Dierk",
+    "lastName": "Runne"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 105
+}

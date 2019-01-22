@@ -1,0 +1,24 @@
+{% if site_settings.company_phone is truthy %}
+<div class="icon phone-icon">    
+  	<i class="fa fa-phone"></i>
+    <div class="contact-info">
+    {{ site_settings.company_phone }}
+    </div>    
+</div>
+{% endif %}
+{% if module.company_email is truthy %}
+<tr>
+<div class="icon envelope-icon">
+    <i class="fa fa-envelope"></i>
+    <div class="contact-info">
+    <a href="mailto:{{ module.company_email }}">{{ module.company_email }}</a>
+    </div>
+</div>
+{% endif %}
+<div class="icon home-icon">
+    <i class="fa fa-home"></i>
+    <div class="contact-info">
+    {{site_settings.company_street_address_1}}{% unless site_settings.company_street_address_2 == "" %},<br />{{site_settings.company_street_address_2}} {% endunless %}<br />
+    {{site_settings.company_city}}, {{ site_settings.company_state}} {{site_settings.company_zip}}
+    </div>
+</div>

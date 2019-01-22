@@ -1,0 +1,17 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "Some additional information in one line",
+    "hierarchical": false,
+    "id": "08eaed43-5c2a-4d2e-1814-d370b0f2abab",
+    "label": "Text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "value",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  }
+]

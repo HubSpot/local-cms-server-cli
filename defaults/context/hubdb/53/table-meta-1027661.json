@@ -1,0 +1,66 @@
+{
+  "id": 1027661,
+  "name": "IR [Events Speakers - DEV]",
+  "portalId": 53,
+  "createdAt": 1541797686652,
+  "publishedAt": 1543953191261,
+  "updatedAt": 1543953191271,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "event_id",
+      "label": "Event ID",
+      "id": 2,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "event_speaker_id",
+      "label": "Event Speaker ID",
+      "id": 3,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "speaker_name",
+      "label": "Speaker Name",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "speaker_position",
+      "label": "Speaker Position",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "IR [Events Speakers - DEV]",
+  "updated": 1543953191271,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 280,
+  "createdBy": {
+    "id": 4416175,
+    "email": "nlopchantamang@hubspot.com",
+    "firstName": "Nhori",
+    "lastName": "Lopchan Tamang"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 5
+}

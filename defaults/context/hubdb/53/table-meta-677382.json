@@ -1,0 +1,2446 @@
+{
+  "id": 677382,
+  "name": "Partners Directory - Profiles [DEV]",
+  "portalId": 53,
+  "createdAt": 1517952791597,
+  "publishedAt": 1529679929010,
+  "updatedAt": 1528212545078,
+  "columns": [
+    {
+      "name": "company_name",
+      "label": "Company Name",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tier",
+      "label": "Tier",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "certifications",
+      "label": "Certifications",
+      "id": 4,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "INBOUND",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "HUBSPOT",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "HSDC",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "AGENCYPARTNER",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "COMC",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "SALES",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "GDDAGENCY",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "EMAIL",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "SALESSOFTWARE",
+          "type": "option"
+        },
+        {
+          "id": 10,
+          "name": "PARTNERDELIVERY",
+          "type": "option"
+        },
+        {
+          "id": 11,
+          "name": "PARTNERSALES",
+          "type": "option"
+        },
+        {
+          "id": 12,
+          "name": "CONTENTMARKETING",
+          "type": "option"
+        },
+        {
+          "id": 13,
+          "name": "PARTNERSALESSERVICES",
+          "type": "option"
+        },
+        {
+          "id": 14,
+          "name": "SELLINGSALESSERVICES",
+          "type": "option"
+        },
+        {
+          "id": 15,
+          "name": "CLIENTMANAGEMENT",
+          "type": "option"
+        },
+        {
+          "id": 16,
+          "name": "SALESENABLEMENT",
+          "type": "option"
+        },
+        {
+          "id": 17,
+          "name": "HUBSPOTTRAINER",
+          "type": "option"
+        },
+        {
+          "id": 18,
+          "name": "GDD",
+          "type": "option"
+        }
+      ],
+      "type": "MULTISELECT",
+      "foreignIdsByName": {},
+      "optionCount": 18
+    },
+    {
+      "name": "partner_impact_awards",
+      "label": "Partner Impact Awards",
+      "id": 5,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "SALES_ENABLEMENT",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "INTEGRATION_INNOVATION",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "GROWTH_DRIVEN_DESIGN",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "GRAPHIC_DESIGN",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "WEBSITE_DESIGN",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "INBOUND_GROWTH_STORY",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "PARTNER_OF_THE_YEAR",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "ROOKIE_OF_THE_YEAR",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "HAPPIEST_CLIENTS",
+          "type": "option"
+        }
+      ],
+      "type": "MULTISELECT",
+      "foreignIdsByName": {},
+      "optionCount": 9
+    },
+    {
+      "name": "website_url",
+      "label": "Website URL",
+      "id": 6,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "country",
+      "label": "Country",
+      "id": 8,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "UNDEFINED",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "AC",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "AD",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "AE",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "AF",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "AG",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "AI",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "AL",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "AM",
+          "type": "option"
+        },
+        {
+          "id": 10,
+          "name": "AN",
+          "type": "option"
+        },
+        {
+          "id": 11,
+          "name": "AO",
+          "type": "option"
+        },
+        {
+          "id": 12,
+          "name": "AQ",
+          "type": "option"
+        },
+        {
+          "id": 13,
+          "name": "AR",
+          "type": "option"
+        },
+        {
+          "id": 14,
+          "name": "AS",
+          "type": "option"
+        },
+        {
+          "id": 15,
+          "name": "AT",
+          "type": "option"
+        },
+        {
+          "id": 16,
+          "name": "AU",
+          "type": "option"
+        },
+        {
+          "id": 17,
+          "name": "AW",
+          "type": "option"
+        },
+        {
+          "id": 18,
+          "name": "AX",
+          "type": "option"
+        },
+        {
+          "id": 19,
+          "name": "AZ",
+          "type": "option"
+        },
+        {
+          "id": 20,
+          "name": "BA",
+          "type": "option"
+        },
+        {
+          "id": 21,
+          "name": "BB",
+          "type": "option"
+        },
+        {
+          "id": 22,
+          "name": "BD",
+          "type": "option"
+        },
+        {
+          "id": 23,
+          "name": "BE",
+          "type": "option"
+        },
+        {
+          "id": 24,
+          "name": "BF",
+          "type": "option"
+        },
+        {
+          "id": 25,
+          "name": "BG",
+          "type": "option"
+        },
+        {
+          "id": 26,
+          "name": "BH",
+          "type": "option"
+        },
+        {
+          "id": 27,
+          "name": "BI",
+          "type": "option"
+        },
+        {
+          "id": 28,
+          "name": "BJ",
+          "type": "option"
+        },
+        {
+          "id": 29,
+          "name": "BL",
+          "type": "option"
+        },
+        {
+          "id": 30,
+          "name": "BM",
+          "type": "option"
+        },
+        {
+          "id": 31,
+          "name": "BN",
+          "type": "option"
+        },
+        {
+          "id": 32,
+          "name": "BO",
+          "type": "option"
+        },
+        {
+          "id": 33,
+          "name": "BQ",
+          "type": "option"
+        },
+        {
+          "id": 34,
+          "name": "BR",
+          "type": "option"
+        },
+        {
+          "id": 35,
+          "name": "BS",
+          "type": "option"
+        },
+        {
+          "id": 36,
+          "name": "BT",
+          "type": "option"
+        },
+        {
+          "id": 37,
+          "name": "BU",
+          "type": "option"
+        },
+        {
+          "id": 38,
+          "name": "BV",
+          "type": "option"
+        },
+        {
+          "id": 39,
+          "name": "BW",
+          "type": "option"
+        },
+        {
+          "id": 40,
+          "name": "BY",
+          "type": "option"
+        },
+        {
+          "id": 41,
+          "name": "BZ",
+          "type": "option"
+        },
+        {
+          "id": 42,
+          "name": "CA",
+          "type": "option"
+        },
+        {
+          "id": 43,
+          "name": "CC",
+          "type": "option"
+        },
+        {
+          "id": 44,
+          "name": "CD",
+          "type": "option"
+        },
+        {
+          "id": 45,
+          "name": "CF",
+          "type": "option"
+        },
+        {
+          "id": 46,
+          "name": "CG",
+          "type": "option"
+        },
+        {
+          "id": 47,
+          "name": "CH",
+          "type": "option"
+        },
+        {
+          "id": 48,
+          "name": "CI",
+          "type": "option"
+        },
+        {
+          "id": 49,
+          "name": "CK",
+          "type": "option"
+        },
+        {
+          "id": 50,
+          "name": "CL",
+          "type": "option"
+        },
+        {
+          "id": 51,
+          "name": "CM",
+          "type": "option"
+        },
+        {
+          "id": 52,
+          "name": "CN",
+          "type": "option"
+        },
+        {
+          "id": 53,
+          "name": "CO",
+          "type": "option"
+        },
+        {
+          "id": 54,
+          "name": "CP",
+          "type": "option"
+        },
+        {
+          "id": 55,
+          "name": "CR",
+          "type": "option"
+        },
+        {
+          "id": 56,
+          "name": "CS",
+          "type": "option"
+        },
+        {
+          "id": 57,
+          "name": "CU",
+          "type": "option"
+        },
+        {
+          "id": 58,
+          "name": "CV",
+          "type": "option"
+        },
+        {
+          "id": 59,
+          "name": "CW",
+          "type": "option"
+        },
+        {
+          "id": 60,
+          "name": "CX",
+          "type": "option"
+        },
+        {
+          "id": 61,
+          "name": "CY",
+          "type": "option"
+        },
+        {
+          "id": 62,
+          "name": "CZ",
+          "type": "option"
+        },
+        {
+          "id": 63,
+          "name": "DE",
+          "type": "option"
+        },
+        {
+          "id": 64,
+          "name": "DG",
+          "type": "option"
+        },
+        {
+          "id": 65,
+          "name": "DJ",
+          "type": "option"
+        },
+        {
+          "id": 66,
+          "name": "DK",
+          "type": "option"
+        },
+        {
+          "id": 67,
+          "name": "DM",
+          "type": "option"
+        },
+        {
+          "id": 68,
+          "name": "DO",
+          "type": "option"
+        },
+        {
+          "id": 69,
+          "name": "DZ",
+          "type": "option"
+        },
+        {
+          "id": 70,
+          "name": "EA",
+          "type": "option"
+        },
+        {
+          "id": 71,
+          "name": "EC",
+          "type": "option"
+        },
+        {
+          "id": 72,
+          "name": "EE",
+          "type": "option"
+        },
+        {
+          "id": 73,
+          "name": "EG",
+          "type": "option"
+        },
+        {
+          "id": 74,
+          "name": "EH",
+          "type": "option"
+        },
+        {
+          "id": 75,
+          "name": "ER",
+          "type": "option"
+        },
+        {
+          "id": 76,
+          "name": "ES",
+          "type": "option"
+        },
+        {
+          "id": 77,
+          "name": "ET",
+          "type": "option"
+        },
+        {
+          "id": 78,
+          "name": "EU",
+          "type": "option"
+        },
+        {
+          "id": 79,
+          "name": "FI",
+          "type": "option"
+        },
+        {
+          "id": 80,
+          "name": "FJ",
+          "type": "option"
+        },
+        {
+          "id": 81,
+          "name": "FK",
+          "type": "option"
+        },
+        {
+          "id": 82,
+          "name": "FM",
+          "type": "option"
+        },
+        {
+          "id": 83,
+          "name": "FO",
+          "type": "option"
+        },
+        {
+          "id": 84,
+          "name": "FR",
+          "type": "option"
+        },
+        {
+          "id": 85,
+          "name": "FX",
+          "type": "option"
+        },
+        {
+          "id": 86,
+          "name": "GA",
+          "type": "option"
+        },
+        {
+          "id": 87,
+          "name": "GB",
+          "type": "option"
+        },
+        {
+          "id": 88,
+          "name": "GD",
+          "type": "option"
+        },
+        {
+          "id": 89,
+          "name": "GE",
+          "type": "option"
+        },
+        {
+          "id": 90,
+          "name": "GF",
+          "type": "option"
+        },
+        {
+          "id": 91,
+          "name": "GG",
+          "type": "option"
+        },
+        {
+          "id": 92,
+          "name": "GH",
+          "type": "option"
+        },
+        {
+          "id": 93,
+          "name": "GI",
+          "type": "option"
+        },
+        {
+          "id": 94,
+          "name": "GL",
+          "type": "option"
+        },
+        {
+          "id": 95,
+          "name": "GM",
+          "type": "option"
+        },
+        {
+          "id": 96,
+          "name": "GN",
+          "type": "option"
+        },
+        {
+          "id": 97,
+          "name": "GP",
+          "type": "option"
+        },
+        {
+          "id": 98,
+          "name": "GQ",
+          "type": "option"
+        },
+        {
+          "id": 99,
+          "name": "GR",
+          "type": "option"
+        },
+        {
+          "id": 100,
+          "name": "GS",
+          "type": "option"
+        },
+        {
+          "id": 101,
+          "name": "GT",
+          "type": "option"
+        },
+        {
+          "id": 102,
+          "name": "GU",
+          "type": "option"
+        },
+        {
+          "id": 103,
+          "name": "GW",
+          "type": "option"
+        },
+        {
+          "id": 104,
+          "name": "GY",
+          "type": "option"
+        },
+        {
+          "id": 105,
+          "name": "HK",
+          "type": "option"
+        },
+        {
+          "id": 106,
+          "name": "HM",
+          "type": "option"
+        },
+        {
+          "id": 107,
+          "name": "HN",
+          "type": "option"
+        },
+        {
+          "id": 108,
+          "name": "HR",
+          "type": "option"
+        },
+        {
+          "id": 109,
+          "name": "HT",
+          "type": "option"
+        },
+        {
+          "id": 110,
+          "name": "HU",
+          "type": "option"
+        },
+        {
+          "id": 111,
+          "name": "IC",
+          "type": "option"
+        },
+        {
+          "id": 112,
+          "name": "ID",
+          "type": "option"
+        },
+        {
+          "id": 113,
+          "name": "IE",
+          "type": "option"
+        },
+        {
+          "id": 114,
+          "name": "IL",
+          "type": "option"
+        },
+        {
+          "id": 115,
+          "name": "IM",
+          "type": "option"
+        },
+        {
+          "id": 116,
+          "name": "IN",
+          "type": "option"
+        },
+        {
+          "id": 117,
+          "name": "IO",
+          "type": "option"
+        },
+        {
+          "id": 118,
+          "name": "IQ",
+          "type": "option"
+        },
+        {
+          "id": 119,
+          "name": "IR",
+          "type": "option"
+        },
+        {
+          "id": 120,
+          "name": "IS",
+          "type": "option"
+        },
+        {
+          "id": 121,
+          "name": "IT",
+          "type": "option"
+        },
+        {
+          "id": 122,
+          "name": "JE",
+          "type": "option"
+        },
+        {
+          "id": 123,
+          "name": "JM",
+          "type": "option"
+        },
+        {
+          "id": 124,
+          "name": "JO",
+          "type": "option"
+        },
+        {
+          "id": 125,
+          "name": "JP",
+          "type": "option"
+        },
+        {
+          "id": 126,
+          "name": "KE",
+          "type": "option"
+        },
+        {
+          "id": 127,
+          "name": "KG",
+          "type": "option"
+        },
+        {
+          "id": 128,
+          "name": "KH",
+          "type": "option"
+        },
+        {
+          "id": 129,
+          "name": "KI",
+          "type": "option"
+        },
+        {
+          "id": 130,
+          "name": "KM",
+          "type": "option"
+        },
+        {
+          "id": 131,
+          "name": "KN",
+          "type": "option"
+        },
+        {
+          "id": 132,
+          "name": "KP",
+          "type": "option"
+        },
+        {
+          "id": 133,
+          "name": "KR",
+          "type": "option"
+        },
+        {
+          "id": 134,
+          "name": "KW",
+          "type": "option"
+        },
+        {
+          "id": 135,
+          "name": "KY",
+          "type": "option"
+        },
+        {
+          "id": 136,
+          "name": "KZ",
+          "type": "option"
+        },
+        {
+          "id": 137,
+          "name": "LA",
+          "type": "option"
+        },
+        {
+          "id": 138,
+          "name": "LB",
+          "type": "option"
+        },
+        {
+          "id": 139,
+          "name": "LC",
+          "type": "option"
+        },
+        {
+          "id": 140,
+          "name": "LI",
+          "type": "option"
+        },
+        {
+          "id": 141,
+          "name": "LK",
+          "type": "option"
+        },
+        {
+          "id": 142,
+          "name": "LR",
+          "type": "option"
+        },
+        {
+          "id": 143,
+          "name": "LS",
+          "type": "option"
+        },
+        {
+          "id": 144,
+          "name": "LT",
+          "type": "option"
+        },
+        {
+          "id": 145,
+          "name": "LU",
+          "type": "option"
+        },
+        {
+          "id": 146,
+          "name": "LV",
+          "type": "option"
+        },
+        {
+          "id": 147,
+          "name": "LY",
+          "type": "option"
+        },
+        {
+          "id": 148,
+          "name": "MA",
+          "type": "option"
+        },
+        {
+          "id": 149,
+          "name": "MC",
+          "type": "option"
+        },
+        {
+          "id": 150,
+          "name": "MD",
+          "type": "option"
+        },
+        {
+          "id": 151,
+          "name": "ME",
+          "type": "option"
+        },
+        {
+          "id": 152,
+          "name": "MF",
+          "type": "option"
+        },
+        {
+          "id": 153,
+          "name": "MG",
+          "type": "option"
+        },
+        {
+          "id": 154,
+          "name": "MH",
+          "type": "option"
+        },
+        {
+          "id": 155,
+          "name": "MK",
+          "type": "option"
+        },
+        {
+          "id": 156,
+          "name": "ML",
+          "type": "option"
+        },
+        {
+          "id": 157,
+          "name": "MM",
+          "type": "option"
+        },
+        {
+          "id": 158,
+          "name": "MN",
+          "type": "option"
+        },
+        {
+          "id": 159,
+          "name": "MO",
+          "type": "option"
+        },
+        {
+          "id": 160,
+          "name": "MP",
+          "type": "option"
+        },
+        {
+          "id": 161,
+          "name": "MQ",
+          "type": "option"
+        },
+        {
+          "id": 162,
+          "name": "MR",
+          "type": "option"
+        },
+        {
+          "id": 163,
+          "name": "MS",
+          "type": "option"
+        },
+        {
+          "id": 164,
+          "name": "MT",
+          "type": "option"
+        },
+        {
+          "id": 165,
+          "name": "MU",
+          "type": "option"
+        },
+        {
+          "id": 166,
+          "name": "MV",
+          "type": "option"
+        },
+        {
+          "id": 167,
+          "name": "MW",
+          "type": "option"
+        },
+        {
+          "id": 168,
+          "name": "MX",
+          "type": "option"
+        },
+        {
+          "id": 169,
+          "name": "MY",
+          "type": "option"
+        },
+        {
+          "id": 170,
+          "name": "MZ",
+          "type": "option"
+        },
+        {
+          "id": 171,
+          "name": "NA",
+          "type": "option"
+        },
+        {
+          "id": 172,
+          "name": "NC",
+          "type": "option"
+        },
+        {
+          "id": 173,
+          "name": "NE",
+          "type": "option"
+        },
+        {
+          "id": 174,
+          "name": "NF",
+          "type": "option"
+        },
+        {
+          "id": 175,
+          "name": "NG",
+          "type": "option"
+        },
+        {
+          "id": 176,
+          "name": "NI",
+          "type": "option"
+        },
+        {
+          "id": 177,
+          "name": "NL",
+          "type": "option"
+        },
+        {
+          "id": 178,
+          "name": "NO",
+          "type": "option"
+        },
+        {
+          "id": 179,
+          "name": "NP",
+          "type": "option"
+        },
+        {
+          "id": 180,
+          "name": "NR",
+          "type": "option"
+        },
+        {
+          "id": 181,
+          "name": "NT",
+          "type": "option"
+        },
+        {
+          "id": 182,
+          "name": "NU",
+          "type": "option"
+        },
+        {
+          "id": 183,
+          "name": "NZ",
+          "type": "option"
+        },
+        {
+          "id": 184,
+          "name": "OM",
+          "type": "option"
+        },
+        {
+          "id": 185,
+          "name": "PA",
+          "type": "option"
+        },
+        {
+          "id": 186,
+          "name": "PE",
+          "type": "option"
+        },
+        {
+          "id": 187,
+          "name": "PF",
+          "type": "option"
+        },
+        {
+          "id": 188,
+          "name": "PG",
+          "type": "option"
+        },
+        {
+          "id": 189,
+          "name": "PH",
+          "type": "option"
+        },
+        {
+          "id": 190,
+          "name": "PK",
+          "type": "option"
+        },
+        {
+          "id": 191,
+          "name": "PL",
+          "type": "option"
+        },
+        {
+          "id": 192,
+          "name": "PM",
+          "type": "option"
+        },
+        {
+          "id": 193,
+          "name": "PN",
+          "type": "option"
+        },
+        {
+          "id": 194,
+          "name": "PR",
+          "type": "option"
+        },
+        {
+          "id": 195,
+          "name": "PS",
+          "type": "option"
+        },
+        {
+          "id": 196,
+          "name": "PT",
+          "type": "option"
+        },
+        {
+          "id": 197,
+          "name": "PW",
+          "type": "option"
+        },
+        {
+          "id": 198,
+          "name": "PY",
+          "type": "option"
+        },
+        {
+          "id": 199,
+          "name": "QA",
+          "type": "option"
+        },
+        {
+          "id": 200,
+          "name": "RE",
+          "type": "option"
+        },
+        {
+          "id": 201,
+          "name": "RO",
+          "type": "option"
+        },
+        {
+          "id": 202,
+          "name": "RS",
+          "type": "option"
+        },
+        {
+          "id": 203,
+          "name": "RU",
+          "type": "option"
+        },
+        {
+          "id": 204,
+          "name": "RW",
+          "type": "option"
+        },
+        {
+          "id": 205,
+          "name": "SA",
+          "type": "option"
+        },
+        {
+          "id": 206,
+          "name": "SB",
+          "type": "option"
+        },
+        {
+          "id": 207,
+          "name": "SC",
+          "type": "option"
+        },
+        {
+          "id": 208,
+          "name": "SD",
+          "type": "option"
+        },
+        {
+          "id": 209,
+          "name": "SE",
+          "type": "option"
+        },
+        {
+          "id": 210,
+          "name": "SF",
+          "type": "option"
+        },
+        {
+          "id": 211,
+          "name": "SG",
+          "type": "option"
+        },
+        {
+          "id": 212,
+          "name": "SH",
+          "type": "option"
+        },
+        {
+          "id": 213,
+          "name": "SI",
+          "type": "option"
+        },
+        {
+          "id": 214,
+          "name": "SJ",
+          "type": "option"
+        },
+        {
+          "id": 215,
+          "name": "SK",
+          "type": "option"
+        },
+        {
+          "id": 216,
+          "name": "SL",
+          "type": "option"
+        },
+        {
+          "id": 217,
+          "name": "SM",
+          "type": "option"
+        },
+        {
+          "id": 218,
+          "name": "SN",
+          "type": "option"
+        },
+        {
+          "id": 219,
+          "name": "SO",
+          "type": "option"
+        },
+        {
+          "id": 220,
+          "name": "SR",
+          "type": "option"
+        },
+        {
+          "id": 221,
+          "name": "SS",
+          "type": "option"
+        },
+        {
+          "id": 222,
+          "name": "ST",
+          "type": "option"
+        },
+        {
+          "id": 223,
+          "name": "SU",
+          "type": "option"
+        },
+        {
+          "id": 224,
+          "name": "SV",
+          "type": "option"
+        },
+        {
+          "id": 225,
+          "name": "SX",
+          "type": "option"
+        },
+        {
+          "id": 226,
+          "name": "SY",
+          "type": "option"
+        },
+        {
+          "id": 227,
+          "name": "SZ",
+          "type": "option"
+        },
+        {
+          "id": 228,
+          "name": "TA",
+          "type": "option"
+        },
+        {
+          "id": 229,
+          "name": "TC",
+          "type": "option"
+        },
+        {
+          "id": 230,
+          "name": "TD",
+          "type": "option"
+        },
+        {
+          "id": 231,
+          "name": "TF",
+          "type": "option"
+        },
+        {
+          "id": 232,
+          "name": "TG",
+          "type": "option"
+        },
+        {
+          "id": 233,
+          "name": "TH",
+          "type": "option"
+        },
+        {
+          "id": 234,
+          "name": "TJ",
+          "type": "option"
+        },
+        {
+          "id": 235,
+          "name": "TK",
+          "type": "option"
+        },
+        {
+          "id": 236,
+          "name": "TL",
+          "type": "option"
+        },
+        {
+          "id": 237,
+          "name": "TM",
+          "type": "option"
+        },
+        {
+          "id": 238,
+          "name": "TN",
+          "type": "option"
+        },
+        {
+          "id": 239,
+          "name": "TO",
+          "type": "option"
+        },
+        {
+          "id": 240,
+          "name": "TP",
+          "type": "option"
+        },
+        {
+          "id": 241,
+          "name": "TR",
+          "type": "option"
+        },
+        {
+          "id": 242,
+          "name": "TT",
+          "type": "option"
+        },
+        {
+          "id": 243,
+          "name": "TV",
+          "type": "option"
+        },
+        {
+          "id": 244,
+          "name": "TW",
+          "type": "option"
+        },
+        {
+          "id": 245,
+          "name": "TZ",
+          "type": "option"
+        },
+        {
+          "id": 246,
+          "name": "UA",
+          "type": "option"
+        },
+        {
+          "id": 247,
+          "name": "UG",
+          "type": "option"
+        },
+        {
+          "id": 248,
+          "name": "UK",
+          "type": "option"
+        },
+        {
+          "id": 249,
+          "name": "UM",
+          "type": "option"
+        },
+        {
+          "id": 250,
+          "name": "US",
+          "type": "option"
+        },
+        {
+          "id": 251,
+          "name": "UY",
+          "type": "option"
+        },
+        {
+          "id": 252,
+          "name": "UZ",
+          "type": "option"
+        },
+        {
+          "id": 253,
+          "name": "VA",
+          "type": "option"
+        },
+        {
+          "id": 254,
+          "name": "VC",
+          "type": "option"
+        },
+        {
+          "id": 255,
+          "name": "VE",
+          "type": "option"
+        },
+        {
+          "id": 256,
+          "name": "VG",
+          "type": "option"
+        },
+        {
+          "id": 257,
+          "name": "VI",
+          "type": "option"
+        },
+        {
+          "id": 258,
+          "name": "VN",
+          "type": "option"
+        },
+        {
+          "id": 259,
+          "name": "VU",
+          "type": "option"
+        },
+        {
+          "id": 260,
+          "name": "WF",
+          "type": "option"
+        },
+        {
+          "id": 261,
+          "name": "WS",
+          "type": "option"
+        },
+        {
+          "id": 262,
+          "name": "XK",
+          "type": "option"
+        },
+        {
+          "id": 263,
+          "name": "YE",
+          "type": "option"
+        },
+        {
+          "id": 264,
+          "name": "YT",
+          "type": "option"
+        },
+        {
+          "id": 265,
+          "name": "YU",
+          "type": "option"
+        },
+        {
+          "id": 266,
+          "name": "ZA",
+          "type": "option"
+        },
+        {
+          "id": 267,
+          "name": "ZM",
+          "type": "option"
+        },
+        {
+          "id": 268,
+          "name": "ZR",
+          "type": "option"
+        },
+        {
+          "id": 269,
+          "name": "ZW",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 269
+    },
+    {
+      "name": "us_state",
+      "label": "US State",
+      "id": 9,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "Alabama",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "Alaska",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "American Samoa",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "Arizona",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "Arkansas",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "California",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "Colorado",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "Connecticut",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "Delaware",
+          "type": "option"
+        },
+        {
+          "id": 10,
+          "name": "District of Columbia",
+          "type": "option"
+        },
+        {
+          "id": 11,
+          "name": "Federated States of Micronesia",
+          "type": "option"
+        },
+        {
+          "id": 12,
+          "name": "Florida",
+          "type": "option"
+        },
+        {
+          "id": 13,
+          "name": "Georgia",
+          "type": "option"
+        },
+        {
+          "id": 14,
+          "name": "Guam",
+          "type": "option"
+        },
+        {
+          "id": 15,
+          "name": "Hawaii",
+          "type": "option"
+        },
+        {
+          "id": 16,
+          "name": "Idaho",
+          "type": "option"
+        },
+        {
+          "id": 17,
+          "name": "Illinois",
+          "type": "option"
+        },
+        {
+          "id": 18,
+          "name": "Indiana",
+          "type": "option"
+        },
+        {
+          "id": 19,
+          "name": "Iowa",
+          "type": "option"
+        },
+        {
+          "id": 20,
+          "name": "Kansas",
+          "type": "option"
+        },
+        {
+          "id": 21,
+          "name": "Kentucky",
+          "type": "option"
+        },
+        {
+          "id": 22,
+          "name": "Louisiana",
+          "type": "option"
+        },
+        {
+          "id": 23,
+          "name": "Maine",
+          "type": "option"
+        },
+        {
+          "id": 24,
+          "name": "Maryland",
+          "type": "option"
+        },
+        {
+          "id": 25,
+          "name": "Marshall Islands",
+          "type": "option"
+        },
+        {
+          "id": 26,
+          "name": "Massachusetts",
+          "type": "option"
+        },
+        {
+          "id": 27,
+          "name": "Michigan",
+          "type": "option"
+        },
+        {
+          "id": 28,
+          "name": "Minnesota",
+          "type": "option"
+        },
+        {
+          "id": 29,
+          "name": "Mississippi",
+          "type": "option"
+        },
+        {
+          "id": 30,
+          "name": "Missouri",
+          "type": "option"
+        },
+        {
+          "id": 31,
+          "name": "Montana",
+          "type": "option"
+        },
+        {
+          "id": 32,
+          "name": "Nebraska",
+          "type": "option"
+        },
+        {
+          "id": 33,
+          "name": "Nevada",
+          "type": "option"
+        },
+        {
+          "id": 34,
+          "name": "New Hampshire",
+          "type": "option"
+        },
+        {
+          "id": 35,
+          "name": "New Jersey",
+          "type": "option"
+        },
+        {
+          "id": 36,
+          "name": "New Mexico",
+          "type": "option"
+        },
+        {
+          "id": 37,
+          "name": "New York",
+          "type": "option"
+        },
+        {
+          "id": 38,
+          "name": "North Carolina",
+          "type": "option"
+        },
+        {
+          "id": 39,
+          "name": "North Dakota",
+          "type": "option"
+        },
+        {
+          "id": 40,
+          "name": "Northern Mariana Islands",
+          "type": "option"
+        },
+        {
+          "id": 41,
+          "name": "Ohio",
+          "type": "option"
+        },
+        {
+          "id": 42,
+          "name": "Oklahoma",
+          "type": "option"
+        },
+        {
+          "id": 43,
+          "name": "Oregon",
+          "type": "option"
+        },
+        {
+          "id": 44,
+          "name": "Palau",
+          "type": "option"
+        },
+        {
+          "id": 45,
+          "name": "Pennsylvania",
+          "type": "option"
+        },
+        {
+          "id": 46,
+          "name": "Puerto Rico",
+          "type": "option"
+        },
+        {
+          "id": 47,
+          "name": "Rhode Island",
+          "type": "option"
+        },
+        {
+          "id": 48,
+          "name": "South Carolina",
+          "type": "option"
+        },
+        {
+          "id": 49,
+          "name": "South Dakota",
+          "type": "option"
+        },
+        {
+          "id": 50,
+          "name": "Tennessee",
+          "type": "option"
+        },
+        {
+          "id": 51,
+          "name": "Texas",
+          "type": "option"
+        },
+        {
+          "id": 52,
+          "name": "Utah",
+          "type": "option"
+        },
+        {
+          "id": 53,
+          "name": "Vermont",
+          "type": "option"
+        },
+        {
+          "id": 54,
+          "name": "Virgin Islands",
+          "type": "option"
+        },
+        {
+          "id": 55,
+          "name": "Virginia",
+          "type": "option"
+        },
+        {
+          "id": 56,
+          "name": "Washington",
+          "type": "option"
+        },
+        {
+          "id": 57,
+          "name": "West Virginia",
+          "type": "option"
+        },
+        {
+          "id": 58,
+          "name": "Wisconsin",
+          "type": "option"
+        },
+        {
+          "id": 59,
+          "name": "Wyoming",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 59
+    },
+    {
+      "name": "company_description",
+      "label": "Company Description",
+      "id": 10,
+      "deleted": false,
+      "type": "RICHTEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "company_logo",
+      "label": "Company Logo",
+      "id": 11,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "industry_types",
+      "label": "Industry Types",
+      "id": 12,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "NONE",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "ARCHITECTURE",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "AUTOMOTIVE_TRANSPORT",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "BANKING_FINANCIAL_SERVICES",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "BUSINESS_SERVICES_GENERAL",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "CONSTRUCTION_RENOVATION",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "CONSULTING_ADVISORY",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "CONSUMER_PRODUCTS",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "CONSUMER_SERVICES",
+          "type": "option"
+        },
+        {
+          "id": 10,
+          "name": "DATA_PROCESSING_HOSTING",
+          "type": "option"
+        },
+        {
+          "id": 11,
+          "name": "ECOMMERCE",
+          "type": "option"
+        },
+        {
+          "id": 12,
+          "name": "EDUCATION",
+          "type": "option"
+        },
+        {
+          "id": 13,
+          "name": "ELECTRONICS",
+          "type": "option"
+        },
+        {
+          "id": 14,
+          "name": "ENERGY",
+          "type": "option"
+        },
+        {
+          "id": 15,
+          "name": "OIL_GAS",
+          "type": "option"
+        },
+        {
+          "id": 16,
+          "name": "ENTERTAINMENT",
+          "type": "option"
+        },
+        {
+          "id": 17,
+          "name": "FINANCE_INSURANCE",
+          "type": "option"
+        },
+        {
+          "id": 18,
+          "name": "GOVERNMENT",
+          "type": "option"
+        },
+        {
+          "id": 19,
+          "name": "HEALTH",
+          "type": "option"
+        },
+        {
+          "id": 20,
+          "name": "MEDICAL_WELLNESS",
+          "type": "option"
+        },
+        {
+          "id": 21,
+          "name": "HOSPITALITY",
+          "type": "option"
+        },
+        {
+          "id": 22,
+          "name": "LEGAL_SERVICES",
+          "type": "option"
+        },
+        {
+          "id": 23,
+          "name": "MANUFACTURING",
+          "type": "option"
+        },
+        {
+          "id": 24,
+          "name": "MARKETING_SERVICES",
+          "type": "option"
+        },
+        {
+          "id": 25,
+          "name": "MEDIA_PUBLISHING",
+          "type": "option"
+        },
+        {
+          "id": 26,
+          "name": "NON_PROFIT",
+          "type": "option"
+        },
+        {
+          "id": 27,
+          "name": "OTHER",
+          "type": "option"
+        },
+        {
+          "id": 28,
+          "name": "REAL_ESTATE",
+          "type": "option"
+        },
+        {
+          "id": 29,
+          "name": "RECRUITING_STAFFING",
+          "type": "option"
+        },
+        {
+          "id": 30,
+          "name": "RETAIL",
+          "type": "option"
+        },
+        {
+          "id": 31,
+          "name": "SHIPPING",
+          "type": "option"
+        },
+        {
+          "id": 32,
+          "name": "TRANSPORTATION_STORAGE",
+          "type": "option"
+        },
+        {
+          "id": 33,
+          "name": "TECHNOLOGY_HARDWARE_STORAGE",
+          "type": "option"
+        },
+        {
+          "id": 34,
+          "name": "TECHNOLOGY_SOFTWARE",
+          "type": "option"
+        },
+        {
+          "id": 35,
+          "name": "TELECOM_MOBILE_COMMUNICATIONS",
+          "type": "option"
+        },
+        {
+          "id": 36,
+          "name": "TOURISM_TRAVEL",
+          "type": "option"
+        },
+        {
+          "id": 37,
+          "name": "UTILITIES",
+          "type": "option"
+        },
+        {
+          "id": 38,
+          "name": "WASTE_MANAGEMENT",
+          "type": "option"
+        }
+      ],
+      "type": "MULTISELECT",
+      "foreignIdsByName": {},
+      "optionCount": 38
+    },
+    {
+      "name": "languages",
+      "label": "Languages",
+      "id": 13,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "AFRIKAANS",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "ARABIC",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "ARMENIAN",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "BULGARIAN",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "CANTONESE",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "CZECH",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "DANISH",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "DUTCH",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "ENGLISH",
+          "type": "option"
+        },
+        {
+          "id": 10,
+          "name": "FINNISH",
+          "type": "option"
+        },
+        {
+          "id": 11,
+          "name": "FRENCH",
+          "type": "option"
+        },
+        {
+          "id": 12,
+          "name": "GERMAN",
+          "type": "option"
+        },
+        {
+          "id": 13,
+          "name": "GREEK",
+          "type": "option"
+        },
+        {
+          "id": 14,
+          "name": "HEBREW",
+          "type": "option"
+        },
+        {
+          "id": 15,
+          "name": "HINDI",
+          "type": "option"
+        },
+        {
+          "id": 16,
+          "name": "HUNGARIAN",
+          "type": "option"
+        },
+        {
+          "id": 17,
+          "name": "INDONESIAN",
+          "type": "option"
+        },
+        {
+          "id": 18,
+          "name": "ITALIAN",
+          "type": "option"
+        },
+        {
+          "id": 19,
+          "name": "JAPANESE",
+          "type": "option"
+        },
+        {
+          "id": 20,
+          "name": "KISWAHILI",
+          "type": "option"
+        },
+        {
+          "id": 21,
+          "name": "KOREAN",
+          "type": "option"
+        },
+        {
+          "id": 22,
+          "name": "LATVIAN",
+          "type": "option"
+        },
+        {
+          "id": 23,
+          "name": "LUXEMBOURGISH",
+          "type": "option"
+        },
+        {
+          "id": 24,
+          "name": "MALAY",
+          "type": "option"
+        },
+        {
+          "id": 25,
+          "name": "MALTESE",
+          "type": "option"
+        },
+        {
+          "id": 26,
+          "name": "MANDARIN",
+          "type": "option"
+        },
+        {
+          "id": 27,
+          "name": "MONGOLIAN",
+          "type": "option"
+        },
+        {
+          "id": 28,
+          "name": "NORWEGIAN",
+          "type": "option"
+        },
+        {
+          "id": 29,
+          "name": "POLISH",
+          "type": "option"
+        },
+        {
+          "id": 30,
+          "name": "PORTUGUESE",
+          "type": "option"
+        },
+        {
+          "id": 31,
+          "name": "ROMANIAN",
+          "type": "option"
+        },
+        {
+          "id": 32,
+          "name": "RUSSIAN",
+          "type": "option"
+        },
+        {
+          "id": 33,
+          "name": "SLOVENIAN",
+          "type": "option"
+        },
+        {
+          "id": 34,
+          "name": "SPANISH",
+          "type": "option"
+        },
+        {
+          "id": 35,
+          "name": "SWEDISH",
+          "type": "option"
+        },
+        {
+          "id": 36,
+          "name": "THAI",
+          "type": "option"
+        },
+        {
+          "id": 37,
+          "name": "TURKISH",
+          "type": "option"
+        },
+        {
+          "id": 38,
+          "name": "VIETNAMESE",
+          "type": "option"
+        }
+      ],
+      "type": "MULTISELECT",
+      "foreignIdsByName": {},
+      "optionCount": 38
+    },
+    {
+      "name": "budget_type",
+      "label": "Budget Type",
+      "id": 14,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "NONE",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "LOWER",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "MIDDLE",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "UPPER",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 4
+    },
+    {
+      "name": "regions",
+      "label": "Regions",
+      "id": 15,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "NORTH_AMERICA",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "SOUTH_AMERICA",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "EMEA",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "APAC",
+          "type": "option"
+        }
+      ],
+      "type": "MULTISELECT",
+      "foreignIdsByName": {},
+      "optionCount": 4
+    },
+    {
+      "name": "hub_id",
+      "label": "Hub ID",
+      "id": 16,
+      "deleted": false,
+      "width": 200,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "partner_specialities",
+      "label": "Partner Specialities",
+      "id": 17,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "BRAND_SOCIAL_MANAGEMENT",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "CONTENT_CREATION",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "CUSTOMER_INTEGRATIONS",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "EMAIL_MARKETING",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "SALES_ENABLEMENT",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "WEBSITE_DESIGN",
+          "type": "option"
+        },
+        {
+          "id": 7,
+          "name": "WEBSITE_OPTIMIZATION",
+          "type": "option"
+        },
+        {
+          "id": 8,
+          "name": "CRM_IMPLEMENTATION",
+          "type": "option"
+        },
+        {
+          "id": 9,
+          "name": "SALES_AND_MARKETING_ALIGNMENT",
+          "type": "option"
+        },
+        {
+          "id": 10,
+          "name": "SALES_COACHING_AND_TRAINING",
+          "type": "option"
+        }
+      ],
+      "type": "MULTISELECT",
+      "foreignIdsByName": {},
+      "optionCount": 10
+    },
+    {
+      "name": "rating",
+      "label": "Rating",
+      "id": 20,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tier_value",
+      "label": "TIER VALUE",
+      "id": 21,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "average_review",
+      "label": "Average Review",
+      "id": 22,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Partners Directory - Profiles [DEV]",
+  "updated": 1528212545078,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 723,
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 22
+}

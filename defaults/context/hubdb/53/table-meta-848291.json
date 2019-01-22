@@ -1,0 +1,176 @@
+{
+  "id": 848291,
+  "name": "[GLOBAL] Marketing Starter Social Gallery (Live)",
+  "portalId": 53,
+  "createdAt": 1531708933282,
+  "publishedAt": 1533154802543,
+  "updatedAt": 1533154802532,
+  "columns": [
+    {
+      "name": "language",
+      "label": "Language",
+      "id": 2,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "en",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "es",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "pt",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 3
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "id": 3,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "text",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "image",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "video",
+          "type": "option"
+        },
+        {
+          "id": 4,
+          "name": "facebook",
+          "type": "option"
+        },
+        {
+          "id": 5,
+          "name": "twitter",
+          "type": "option"
+        },
+        {
+          "id": 6,
+          "name": "blog",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 6
+    },
+    {
+      "name": "firstname",
+      "label": "Submitter First Name",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "lastname",
+      "label": "Submitter Last Name",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "company",
+      "label": "Submitter Company",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "location",
+      "label": "Submitter Location (e.g. \"Boston MA\")",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text_content",
+      "label": "Content (Text, Blog)",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "video_url",
+      "label": "Video URL (Video)",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "image",
+      "label": "Image (Image, Video, Blog)",
+      "id": 11,
+      "deleted": false,
+      "type": "IMAGE",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "facebook_url",
+      "label": "Facebook Post URL (Facebook)",
+      "id": 12,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "twitter_id",
+      "label": "Twitter Tweet ID (Twitter)",
+      "id": 13,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "post_cta_url",
+      "label": "View Post CTA URL (Blog)",
+      "id": 14,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "post_cta_text",
+      "label": "View Post CTA Text (Blog)",
+      "id": 15,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "[GLOBAL] Marketing Starter Social Gallery (Live)",
+  "updated": 1533154802532,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 65,
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 15
+}

@@ -1,0 +1,19 @@
+{# Need help setting up site search?
+   Start here: https://knowledge.hubspot.com/articles/kcs_article/cos-general/how-do-i-set-up-a-results-page-for-my-search-field-in-hubspot #}
+
+<div class="hs-search-field"> 
+    <div class="hs-search-field__bar"> 
+      <form action="/{{ site_settings.content_search_results_page_path }}">
+        <input type="text" class="hs-search-field__input" name="term" autocomplete="off" placeholder="{{ module.placeholder }}">
+
+        {# 
+        DEVELOPERS: You can set additional search parameters by adding hidden
+        inputs like the example below. Both the typeahead and search results 
+        modules will accept these, except 'limit' which only works for results.
+        
+       	<input type="hidden" name="limit" value="5">
+        #}
+      </form>
+    </div>
+    <ul class="hs-search-field__suggestions"></ul>
+</div>

@@ -1,0 +1,14 @@
+[
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "3c02c6b2-ab7e-3782-df14-06e81519fe4f",
+    "label": "CTA",
+    "locked": false,
+    "max_depth": 0,
+    "name": "guid",
+    "required": false,
+    "sortable": false,
+    "type": "cta"
+  }
+]
