@@ -1,0 +1,282 @@
+[
+  {
+    "children": [
+      {
+        "default": {
+          "src": "",
+          "alt": null
+        },
+        "hierarchical": false,
+        "id": "f465d30d-b17e-97d9-ea3b-52d9d49066b3",
+        "label": "Image",
+        "locked": false,
+        "max_depth": 0,
+        "name": "img",
+        "required": false,
+        "resizable": false,
+        "sortable": false,
+        "type": "image"
+      },
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "2b832807-6edd-aaec-7cd3-2406f056f450",
+        "label": "Show caption",
+        "locked": false,
+        "max_depth": 0,
+        "name": "show_caption",
+        "required": false,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "default": null,
+        "hierarchical": false,
+        "id": "6e264517-abc9-e33b-85df-1946421c8fd1",
+        "label": "Caption",
+        "locked": false,
+        "max_depth": 0,
+        "name": "caption",
+        "required": false,
+        "sortable": false,
+        "type": "richtext",
+        "visibility": {
+          "controlling_field": "2b832807-6edd-aaec-7cd3-2406f056f450",
+          "controlling_value_regex": "true"
+        }
+      },
+      {
+        "allow_new_line": false,
+        "default": null,
+        "hierarchical": false,
+        "id": "5a5e448a-9d66-4d47-1432-4a73a55d4cdc",
+        "label": "Link URL",
+        "locked": false,
+        "max_depth": 0,
+        "name": "link_url",
+        "required": false,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "validation_regex": ""
+      },
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "1a5f0856-a12f-a16a-c47f-33951bb1cf53",
+        "label": "Open link in new tab",
+        "locked": false,
+        "max_depth": 0,
+        "name": "open_in_new_tab",
+        "required": false,
+        "sortable": false,
+        "type": "boolean",
+        "visibility": {
+          "controlling_field": "5a5e448a-9d66-4d47-1432-4a73a55d4cdc"
+        }
+      }
+    ],
+    "default": [
+      {
+        "img": {
+          "src": "",
+          "alt": null
+        },
+        "show_caption": false,
+        "open_in_new_tab": false
+      }
+    ],
+    "hierarchical": false,
+    "id": "746381bc-4479-4f20-9478-40feebcf74e2",
+    "label": "Slide",
+    "locked": false,
+    "max_depth": 0,
+    "name": "slides",
+    "occurrence": {
+      "max": 500,
+      "min": 1,
+      "sorting_label_field": "f465d30d-b17e-97d9-ea3b-52d9d49066b3"
+    },
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  },
+  {
+    "choices": [
+      [
+        "standard",
+        "Standard slider"
+      ],
+      [
+        "thumbnail",
+        "Thumbnail Navigation"
+      ],
+      [
+        "lightbox",
+        "Lightbox gallery"
+      ]
+    ],
+    "default": "standard",
+    "display": "select",
+    "hierarchical": false,
+    "id": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+    "label": "Display mode",
+    "locked": false,
+    "max_depth": 0,
+    "name": "display_mode",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "e9ab8514-d4f0-ca9d-5ade-9855629319aa",
+    "label": "Loop slides",
+    "locked": false,
+    "max_depth": 0,
+    "name": "loop_slides",
+    "required": false,
+    "sortable": false,
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "bddb74c6-9bf7-1694-ad32-247ece4d5756",
+    "label": "Auto advance",
+    "locked": false,
+    "max_depth": 0,
+    "name": "auto_advance",
+    "required": false,
+    "sortable": false,
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  },
+  {
+    "default": 5,
+    "display": "text",
+    "hierarchical": false,
+    "id": "e247e593-1065-6124-8b27-d593a9ec65be",
+    "label": "Time in seconds between auto scrolling",
+    "locked": false,
+    "max_depth": 0,
+    "name": "num_seconds",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "a28f6dc8-c7a1-b0c7-3821-79f3baa68693",
+    "label": "Show pagination",
+    "locked": false,
+    "max_depth": 0,
+    "name": "show_pagination",
+    "required": false,
+    "sortable": false,
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  },
+  {
+    "choices": [
+      [
+        "static",
+        "Always keep slider as tall as the tallest slide"
+      ],
+      [
+        "resize",
+        "Resize slider whenever the slide changes"
+      ]
+    ],
+    "default": "static",
+    "display": "select",
+    "hierarchical": false,
+    "id": "919f4829-d7b3-9074-e49e-2068976492cc",
+    "label": "Variable height",
+    "locked": false,
+    "max_depth": 0,
+    "name": "sizing",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  },
+  {
+    "choices": [
+      [
+        "slide",
+        "Slide"
+      ],
+      [
+        "fade",
+        "Fade"
+      ]
+    ],
+    "default": "slide",
+    "display": "select",
+    "hierarchical": false,
+    "id": "afb824f1-03c6-f485-42da-d2a3c2bdd264",
+    "label": "Slide transitions",
+    "locked": false,
+    "max_depth": 0,
+    "name": "transition",
+    "placeholder": "Select ",
+    "required": false,
+    "sortable": false,
+    "type": "choice",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  },
+  {
+    "choices": [
+      [
+        "below",
+        "Always keep captions below the image"
+      ],
+      [
+        "superimpose",
+        "Superimpose captions on top of images"
+      ]
+    ],
+    "default": "below",
+    "display": "select",
+    "hierarchical": false,
+    "id": "3a33aaa0-bae8-a50a-c512-bc5b3b3b7d2c",
+    "label": "Caption position",
+    "locked": false,
+    "max_depth": 0,
+    "name": "caption_position",
+    "placeholder": "Search",
+    "required": false,
+    "sortable": false,
+    "type": "choice",
+    "visibility": {
+      "controlling_field": "ee4e6eb7-e98d-6fc7-5f79-e05442c12a9c",
+      "controlling_value_regex": "standard|thumbnail"
+    }
+  }
+]

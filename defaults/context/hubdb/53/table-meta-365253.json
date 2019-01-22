@@ -1,0 +1,73 @@
+{
+  "id": 365253,
+  "name": "Homepage - Growth Stack — Localization Tokens",
+  "portalId": 53,
+  "createdAt": 1484935204356,
+  "publishedAt": 1529679972960,
+  "updatedAt": 1527780756228,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "type",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "header",
+      "label": "header",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 5,
+      "deleted": false,
+      "width": 1116,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Homepage - Growth Stack — Localization Tokens",
+  "updated": 1527780756228,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 24,
+  "createdBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "updatedBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 5
+}

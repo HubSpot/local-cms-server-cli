@@ -1,0 +1,8 @@
+{% set menu_id = module.id || module.menu %}
+{% menu 
+	id="{{ menu_id }}", 
+  root_type="{{ module.root_type }}", 
+  flyouts="{{ module.flyouts }}", 
+  max_levels="{{ module.max_levels }}", 
+  flow="{{ module.flow }}"
+%}

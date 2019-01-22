@@ -1,0 +1,58 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029252486,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "NONPROFIT",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029252486,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [
+    "TEMPLATE"
+  ],
+  "external_js": [],
+  "extra_classes": "widget-type-menu",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-menu.svg",
+  "id": 6098194144,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Menu",
+  "marketplace_version": 72,
+  "master_language": "en",
+  "module_id": 1346990,
+  "name": "Menu",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029252486,
+  "widget_label": "",
+  "writeable": false
+}

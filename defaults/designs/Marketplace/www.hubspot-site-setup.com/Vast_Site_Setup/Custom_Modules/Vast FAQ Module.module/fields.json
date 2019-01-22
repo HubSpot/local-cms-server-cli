@@ -1,0 +1,35 @@
+[ {
+  "id" : "df5f0f70-c6a5-7d3d-218b-e4b43d24f4b6",
+  "name" : "faq_question",
+  "label" : "FAQ Question",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "Can I ask you a question?"
+}, {
+  "id" : "775e756a-23e8-9fba-035b-1068fc5a7e3e",
+  "name" : "faq_answer",
+  "label" : "FAQ Answer",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "type" : "richtext",
+  "default" : "Use the FAQ section of your site to answer those routine questions that always come up and need to be answered. This is a great way to tell us more about what you can offer, fill in some details that might intrigue us, and show us how knowledgeable and helpful you can be."
+}, {
+  "id" : "929200be-8297-2ecc-9ec2-2b7945774eb8",
+  "name" : "expanded",
+  "label" : "Expanded?",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "type" : "boolean",
+  "default" : null
+} ]

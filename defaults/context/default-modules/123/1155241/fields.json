@@ -1,0 +1,329 @@
+[
+  {
+    "allow_new_line": false,
+    "default": null,
+    "help_text": "This is the destination link that will be shortened for easier sharing on social networks.",
+    "hierarchical": false,
+    "id": "9a398615-5e5e-5824-85f9-f020e3bec27e",
+    "label": "Link URL",
+    "locked": false,
+    "max_depth": 0,
+    "name": "link",
+    "placeholder": "Optional Custom Page URL",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "children": [
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "a6a59b62-7d01-3d33-5c9e-4de364fc8703",
+        "label": "Enabled?",
+        "locked": false,
+        "max_depth": 0,
+        "name": "enabled",
+        "required": true,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "allow_new_line": false,
+        "default": "http://www.facebook.com/share.php?u={{ social_link_url }}",
+        "hierarchical": false,
+        "id": "65b48e58-e2e2-a61e-6042-f3da01b5806c",
+        "label": "Link",
+        "locked": false,
+        "max_depth": 0,
+        "name": "custom_link_format",
+        "required": true,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "visibility": {
+          "controlling_field": "a6a59b62-7d01-3d33-5c9e-4de364fc8703",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX"
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "http://www.facebook.com/share.php?u={{ social_link_url }}"
+    },
+    "hierarchical": false,
+    "id": "bbdaf5b8-be6c-3bda-3769-6c70d7fdad08",
+    "label": "Facebook",
+    "locked": false,
+    "max_depth": 0,
+    "name": "facebook",
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  },
+  {
+    "children": [
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "8dfe9c1f-078c-8ada-2417-ae17fe470673",
+        "label": "Enabled?",
+        "locked": false,
+        "max_depth": 0,
+        "name": "enabled",
+        "required": true,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "allow_new_line": false,
+        "default": "https://twitter.com/intent/tweet?original_referer={{ social_link_url }}&url={{ social_link_url }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+        "hierarchical": false,
+        "id": "afdf7387-4274-d706-886d-e306f8f7e1b9",
+        "label": "Link",
+        "locked": false,
+        "max_depth": 0,
+        "name": "custom_link_format",
+        "required": true,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "visibility": {
+          "controlling_field": "8dfe9c1f-078c-8ada-2417-ae17fe470673",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX"
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "https://twitter.com/intent/tweet?original_referer={{ social_link_url }}&url={{ social_link_url }}&source=tweetbutton&text={{ social_page_title|urlencode }}"
+    },
+    "hierarchical": false,
+    "id": "08a32e3c-ec26-48bc-7586-caf20f046c8f",
+    "label": "Twitter",
+    "locked": false,
+    "max_depth": 0,
+    "name": "twitter",
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  },
+  {
+    "children": [
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "d8ce09cb-86bf-67a6-8ee7-ca299e342de1",
+        "label": "Enabled?",
+        "locked": false,
+        "max_depth": 0,
+        "name": "enabled",
+        "required": true,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "allow_new_line": false,
+        "default": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url }}",
+        "hierarchical": false,
+        "id": "5c32728c-533a-6df7-c9c8-42cf3c570766",
+        "label": "Link",
+        "locked": false,
+        "max_depth": 0,
+        "name": "custom_link_format",
+        "required": true,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "visibility": {
+          "controlling_field": "d8ce09cb-86bf-67a6-8ee7-ca299e342de1",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX"
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url }}"
+    },
+    "hierarchical": false,
+    "id": "7ef8e3a8-e9b8-0a08-8a45-12430b26b68d",
+    "label": "LinkedIn",
+    "locked": false,
+    "max_depth": 0,
+    "name": "linkedin",
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  },
+  {
+    "children": [
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "31d65f01-c437-9f9f-0748-18f05ca858b3",
+        "label": "Enabled?",
+        "locked": false,
+        "max_depth": 0,
+        "name": "enabled",
+        "required": true,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "allow_new_line": false,
+        "default": "https://plus.google.com/share?url={{ social_link_url }}",
+        "hierarchical": false,
+        "id": "cf5d4c2a-ad7f-fa02-3a69-8cd68211588e",
+        "label": "Link",
+        "locked": false,
+        "max_depth": 0,
+        "name": "custom_link_format",
+        "required": true,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "visibility": {
+          "controlling_field": "31d65f01-c437-9f9f-0748-18f05ca858b3",
+          "controlling_value_regex": "true"
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "https://plus.google.com/share?url={{ social_link_url }}"
+    },
+    "hierarchical": false,
+    "id": "dd90f839-fc13-244a-6932-583183f84c96",
+    "label": "Google+",
+    "locked": false,
+    "max_depth": 0,
+    "name": "google_plus",
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  },
+  {
+    "children": [
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "68a63444-eef7-c3c0-e668-8a57a3bb12c9",
+        "label": "Enabled?",
+        "locked": false,
+        "max_depth": 0,
+        "name": "enabled",
+        "required": true,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "allow_new_line": false,
+        "default": "http://pinterest.com/pin/create/button/?url={{ social_link_url }}&media={{ pinterest_media }}",
+        "hierarchical": false,
+        "id": "e917e6d1-b8a2-3410-fba8-2c2543aa9716",
+        "label": "Link",
+        "locked": false,
+        "max_depth": 0,
+        "name": "custom_link_format",
+        "required": true,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "visibility": {
+          "controlling_field": "68a63444-eef7-c3c0-e668-8a57a3bb12c9",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX"
+        }
+      },
+      {
+        "default": {
+          "src": "",
+          "alt": null
+        },
+        "hierarchical": false,
+        "id": "a28d7333-37c4-1f39-56b8-871b682f3756",
+        "label": "Pin image",
+        "locked": false,
+        "max_depth": 0,
+        "name": "pinterest_media",
+        "required": false,
+        "resizable": true,
+        "sortable": false,
+        "type": "image",
+        "visibility": {
+          "controlling_field": "68a63444-eef7-c3c0-e668-8a57a3bb12c9",
+          "controlling_value_regex": "true"
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "http://pinterest.com/pin/create/button/?url={{ social_link_url }}&media={{ pinterest_media }}",
+      "pinterest_media": {
+        "src": "",
+        "alt": null
+      }
+    },
+    "hierarchical": false,
+    "id": "5d776950-53b5-47d6-5e2e-ae29efe83023",
+    "label": "Pinterest",
+    "locked": false,
+    "max_depth": 0,
+    "name": "pinterest",
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  },
+  {
+    "children": [
+      {
+        "default": false,
+        "hierarchical": false,
+        "id": "4747966f-3fd4-bcff-a15d-c7927b1db80d",
+        "label": "Enabled?",
+        "locked": false,
+        "max_depth": 0,
+        "name": "enabled",
+        "required": true,
+        "sortable": false,
+        "type": "boolean"
+      },
+      {
+        "allow_new_line": false,
+        "default": "mailto:?subject=Check out {{ social_link_url }} &body=Check out {{ social_link_url }}",
+        "hierarchical": false,
+        "id": "17f7621a-e3d4-1302-742a-f3c7ec93d2c3",
+        "label": "Link",
+        "locked": false,
+        "max_depth": 0,
+        "name": "custom_link_format",
+        "required": true,
+        "show_emoji_picker": false,
+        "sortable": false,
+        "type": "text",
+        "visibility": {
+          "controlling_field": "4747966f-3fd4-bcff-a15d-c7927b1db80d",
+          "controlling_value_regex": "true"
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "mailto:?subject=Check out {{ social_link_url }} &body=Check out {{ social_link_url }}"
+    },
+    "hierarchical": false,
+    "id": "e2987376-4d37-7818-654c-2cfba7fc51fc",
+    "label": "Email",
+    "locked": false,
+    "max_depth": 0,
+    "name": "email",
+    "required": false,
+    "sortable": false,
+    "type": "group"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1543337156735,
+  "cdn_purge_embargo_time": 1543337456727,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029277663,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Site%20Search%20Input/icons/Site%20Search%20Input_icon.svg",
+  "id": 6098903269,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Site Search Input",
+  "marketplace_delivery_id": 19993005,
+  "marketplace_version": 11,
+  "module_id": 2712622,
+  "name": "Site Search Input",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "SEARCH_ASSET",
+    "HIDDEN",
+    "search",
+    "DEFAULT"
+  ],
+  "updated": 1543337156735,
+  "updated_by_id": 2411823,
+  "widget_label": "",
+  "writeable": false
+}

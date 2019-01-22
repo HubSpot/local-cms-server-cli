@@ -1,0 +1,280 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "Test",
+    "hierarchical": false,
+    "id": "cf7209cd-a9e2-36d8-fe38-5990ac8eb89a",
+    "label": "RSS module header",
+    "locked": false,
+    "max_depth": 0,
+    "name": "title",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "choices": [
+      [
+        "external",
+        "Use an external RSS feed"
+      ],
+      [
+        "blog",
+        "Use a HubSpot-hosted blog"
+      ]
+    ],
+    "default": "blog",
+    "display": "radio",
+    "hierarchical": false,
+    "id": "44de159c-198b-105b-356f-1df0d343dc44",
+    "label": "Add an RSS feed",
+    "locked": false,
+    "max_depth": 0,
+    "name": "rss_feed_type",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "allow_new_line": false,
+    "default": null,
+    "hierarchical": false,
+    "id": "0cbeb648-1de9-ba95-0503-fb5f450bc505",
+    "label": "RSS URL",
+    "locked": false,
+    "max_depth": 0,
+    "name": "rss_url",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "",
+    "visibility": {
+      "controlling_field": "44de159c-198b-105b-356f-1df0d343dc44",
+      "controlling_value_regex": "external",
+      "operator": "MATCHES_REGEX"
+    }
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "55d29dd1-133f-a7df-6bd8-5327f5168c8a",
+    "label": "Blog",
+    "locked": false,
+    "max_depth": 0,
+    "name": "content_group_id",
+    "required": true,
+    "sortable": false,
+    "type": "blog",
+    "visibility": {
+      "controlling_field": "44de159c-198b-105b-356f-1df0d343dc44",
+      "controlling_value_regex": "blog",
+      "operator": "MATCHES_REGEX"
+    }
+  },
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "23b8825d-1d5b-608c-e851-5e6c5f17cf0b",
+    "label": "Filter by tag",
+    "locked": false,
+    "max_depth": 0,
+    "name": "topic_id",
+    "required": false,
+    "sortable": false,
+    "tag_value": "ID",
+    "type": "tag",
+    "visibility": {
+      "controlling_field": "44de159c-198b-105b-356f-1df0d343dc44",
+      "controlling_value_regex": "blog",
+      "operator": "MATCHES_REGEX"
+    }
+  },
+  {
+    "default": 5,
+    "display": "text",
+    "hierarchical": false,
+    "id": "c138a117-787c-2e35-0939-4c24ca8c0249",
+    "label": "Maximum number of posts to display",
+    "locked": false,
+    "max_depth": 0,
+    "min": 0,
+    "name": "number_of_items",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "829209cf-1ad9-f40c-4c9a-c6a4dc10659a",
+    "label": "Include featured image",
+    "locked": false,
+    "max_depth": 0,
+    "name": "include_featured_image",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "cfc27cc0-1369-4d48-a381-65a02d4e2362",
+    "label": "Show author name",
+    "locked": false,
+    "max_depth": 0,
+    "name": "show_author",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "allow_new_line": false,
+    "default": "by",
+    "help_text": "The text that attributes an author to a post",
+    "hierarchical": false,
+    "id": "d3f0797e-8daf-11ee-c090-e044f8f65768",
+    "label": "Author attribution text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "attribution_text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "",
+    "visibility": {
+      "controlling_field": "cfc27cc0-1369-4d48-a381-65a02d4e2362",
+      "controlling_value_regex": "true"
+    }
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "1fb24926-f77b-fde8-99b1-cf2e8711cd31",
+    "label": "Show summary",
+    "locked": false,
+    "max_depth": 0,
+    "name": "show_detail",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": 200,
+    "display": "text",
+    "hierarchical": false,
+    "id": "d1469c6f-3b00-e813-5e55-fe24e3767b3d",
+    "label": "Limit summary length (number of characters)",
+    "locked": false,
+    "max_depth": 0,
+    "min": 0,
+    "name": "limit_to_chars",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number",
+    "visibility": {
+      "controlling_field": "1fb24926-f77b-fde8-99b1-cf2e8711cd31",
+      "controlling_value_regex": "true"
+    }
+  },
+  {
+    "allow_new_line": false,
+    "default": "Read more",
+    "help_text": "The text which will be displayed for the clickthrough link at the end of a post summary",
+    "hierarchical": false,
+    "id": "02d7cfeb-8597-0eb9-80eb-d77b039e80ef",
+    "label": "Summary clickthrough text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "click_through_text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "",
+    "visibility": {
+      "controlling_field": "1fb24926-f77b-fde8-99b1-cf2e8711cd31",
+      "controlling_value_regex": "true"
+    }
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "c38045a3-6253-4a5b-29cf-4ef9440eefa4",
+    "label": "Show publish date",
+    "locked": false,
+    "max_depth": 0,
+    "name": "show_date",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "choices": [
+      [
+        "short",
+        "06/11/06 12:00PM"
+      ],
+      [
+        "medium",
+        "Jun 6, 2006 12:00:00 pm"
+      ],
+      [
+        "long",
+        "June 6, 2017 12:00:00 pm EDT"
+      ],
+      [
+        "MMMM d, yyyy 'at' h:mm a",
+        "June 6, 2006 at 12:00 pm"
+      ],
+      [
+        "h:mm a 'on' MMMM d, yyyy",
+        "12:00 pm on June 6, 2006"
+      ]
+    ],
+    "default": "short",
+    "display": "select",
+    "help_text": "Format for the publish date",
+    "hierarchical": false,
+    "id": "b2bac1dc-536a-32f1-6630-396d0ac60288",
+    "label": "Publish date format",
+    "locked": false,
+    "max_depth": 0,
+    "name": "publish_date_format",
+    "placeholder": "Select date format",
+    "required": false,
+    "sortable": false,
+    "type": "choice",
+    "visibility": {
+      "controlling_field": "c38045a3-6253-4a5b-29cf-4ef9440eefa4",
+      "controlling_value_regex": "true",
+      "operator": "MATCHES_REGEX"
+    }
+  },
+  {
+    "allow_new_line": false,
+    "default": "posted at",
+    "help_text": "The text that indicates when a post was published",
+    "hierarchical": false,
+    "id": "1472a8cc-6dc3-cd7d-bbbc-228b17d304e7",
+    "label": "Publish date indicator text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "publish_date_text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": "",
+    "visibility": {
+      "controlling_field": "c38045a3-6253-4a5b-29cf-4ef9440eefa4",
+      "controlling_value_regex": "true"
+    }
+  }
+]

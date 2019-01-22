@@ -1,0 +1,14 @@
+[ {
+  "id" : "ff756479-8c12-d2af-db3d-0b5767b686d1",
+  "name" : "title",
+  "label" : "Blog Title",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : null
+} ]

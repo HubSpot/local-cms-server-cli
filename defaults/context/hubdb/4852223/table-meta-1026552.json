@@ -1,0 +1,74 @@
+{
+  "id": 1026552,
+  "name": "Another Table",
+  "portalId": 4852223,
+  "createdAt": 1539714246127,
+  "publishedAt": 1541078050871,
+  "updatedAt": 1541078046637,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "TEXT"
+    },
+    {
+      "name": "abcdefg",
+      "label": "ABCDEFG",
+      "id": 2,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "NUMBER"
+    },
+    {
+      "name": "check",
+      "label": "checkbox",
+      "id": 3,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "pix",
+      "label": "pix",
+      "id": 4,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "IMAGE"
+    },
+    {
+      "name": "foreign",
+      "label": "foreign",
+      "id": 5,
+      "deleted": false,
+      "foreignTableId": 1027075,
+      "foreignColumnId": 5,
+      "foreignIdsByName": {},
+      "type": "FOREIGN_ID"
+    }
+  ],
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "label": "Another Table",
+  "updated": 1541078046637,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 2,
+  "createdBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "updatedBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columnCount": 5,
+  "allowPublicApiAccess": true
+}

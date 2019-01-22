@@ -1,0 +1,117 @@
+[
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "9c0872f6-d4ab-3652-591a-19ac04b049b7",
+    "label": "Boolean field",
+    "locked": true,
+    "max_depth": 0,
+    "name": "hs_enable_module_padding",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": {
+      "size": {
+        "value": 12,
+        "units": "px"
+      },
+      "color": "#23496d",
+      "styles": {
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      "font": "arial, helvetica, sans-serif"
+    },
+    "hierarchical": false,
+    "id": "04852222-1c5e-6aba-f33d-695dc490378e",
+    "label": "Font",
+    "locked": false,
+    "max_depth": 0,
+    "name": "font",
+    "required": true,
+    "sortable": false,
+    "type": "font"
+  },
+  {
+    "default": {
+      "size": {
+        "value": 12,
+        "units": "px"
+      },
+      "color": "#00a4bd",
+      "styles": {
+        "bold": false,
+        "italic": false,
+        "underline": true
+      },
+      "font": "helvetica"
+    },
+    "hierarchical": false,
+    "id": "99bc78ce-c9f1-db25-4959-6ddc8304ec22",
+    "label": "Link font",
+    "locked": false,
+    "max_depth": 0,
+    "name": "link_font",
+    "required": true,
+    "sortable": false,
+    "type": "font"
+  },
+  {
+    "choices": [
+      [
+        "left",
+        "Left"
+      ],
+      [
+        "center",
+        "Center"
+      ],
+      [
+        "right",
+        "Right"
+      ]
+    ],
+    "default": "center",
+    "display": "select",
+    "hierarchical": false,
+    "id": "55e9c1ae-9f9d-103d-6cef-5ea4f1d9bb64",
+    "label": "Align",
+    "locked": false,
+    "max_depth": 0,
+    "name": "align",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      [
+        "unsubscribe",
+        "Unsubscribe"
+      ],
+      [
+        "preferences",
+        "Manage preferences"
+      ],
+      [
+        "both",
+        "Both"
+      ]
+    ],
+    "default": "unsubscribe",
+    "display": "select",
+    "hierarchical": false,
+    "id": "eadd257f-48d0-24cb-c6aa-09fd60b6a860",
+    "label": "Unsubscribe link type",
+    "locked": false,
+    "max_depth": 0,
+    "name": "unsubscribe_link_type",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  }
+]

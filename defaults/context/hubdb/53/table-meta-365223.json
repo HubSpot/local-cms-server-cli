@@ -1,0 +1,105 @@
+{
+  "id": 365223,
+  "name": "Agency Partner Resource Center - Events Calendar",
+  "portalId": 53,
+  "createdAt": 1484854452732,
+  "publishedAt": 1529679970410,
+  "updatedAt": 1527780753695,
+  "columns": [
+    {
+      "name": "event_title",
+      "label": "",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "event_description_old",
+      "label": "Event Description - old",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "event_description",
+      "label": "Event Description",
+      "id": 8,
+      "deleted": false,
+      "type": "RICHTEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "start_datetime",
+      "label": "Start Date/Time",
+      "id": 3,
+      "deleted": false,
+      "type": "DATETIME",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "end_datetime",
+      "label": "End Date/Time",
+      "id": 4,
+      "deleted": false,
+      "type": "DATETIME",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "all_day",
+      "label": "All Day?",
+      "id": 5,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "even_address",
+      "label": "Event Address",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "event_url",
+      "label": "Event URL",
+      "id": 7,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "desc_button_text",
+      "label": "Desc Button Text",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Agency Partner Resource Center - Events Calendar",
+  "updated": 1527780753695,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 63,
+  "createdBy": {
+    "id": 2612243,
+    "email": "tstelmach@hubspot.com",
+    "firstName": "Tyler",
+    "lastName": "Stelmach"
+  },
+  "updatedBy": {
+    "id": 4659946,
+    "email": "bhernandezllado@hubspot.com",
+    "firstName": "Berta",
+    "lastName": "Hernandez Llado"
+  },
+  "useForPages": true,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 9
+}

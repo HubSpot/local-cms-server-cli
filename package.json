@@ -1,0 +1,37 @@
+{
+  "name": "@hubspot/local-cms-server-cli",
+  "version": "0.0.1",
+  "description": "CLI tools to be paired with @hubspot/local-cms-server",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ."
+  },
+  "bin": {
+    "hs": "./bin/cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/HubSpot/local-cms-server-cli",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "easy-ftp": "^0.3.44",
+    "eslint": "^5.9.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-plugin-node": "^8.0.0",
+    "gulp": "^4.0.0",
+    "gulplog": "^1.0.0",
+    "js-yaml": "^3.12.1",
+    "knex": "^0.16.3",
+    "minimist": "^1.2.0",
+    "promise": "^8.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "shelljs": "^0.8.3",
+    "sqlite3": "^4.0.6",
+    "underscore": "^1.9.1"
+  }
+}

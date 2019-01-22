@@ -1,0 +1,57 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1543429593395,
+  "cdn_purge_embargo_time": 1543429893377,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "SOCIAL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "EMAIL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029283012,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Follow%20Me%20-%20Email/icons/Follow%20Me%20-%20Email_icon.svg",
+  "id": 6098195129,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Follow Me - Email",
+  "marketplace_delivery_id": 20399412,
+  "marketplace_version": 49,
+  "master_language": "en",
+  "module_id": 2763545,
+  "name": "Follow Me - Email",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1543429593395,
+  "updated_by_id": 1303493,
+  "widget_label": "",
+  "writeable": false
+}

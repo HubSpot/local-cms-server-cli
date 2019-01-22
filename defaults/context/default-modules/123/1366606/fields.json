@@ -1,0 +1,62 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "Email Unsubscribe",
+    "hierarchical": false,
+    "id": "55f058f2-ee78-2624-cd8b-562e2aa392ba",
+    "label": "Header",
+    "locked": false,
+    "max_depth": 0,
+    "name": "header",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "allow_new_line": false,
+    "default": "Your email address:",
+    "hierarchical": false,
+    "id": "33717e20-8dfa-1c1b-3a99-b97cc6490237",
+    "label": "Email input help text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "input_help_text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "allow_new_line": false,
+    "default": "email@example.com",
+    "hierarchical": false,
+    "id": "b0b9fefc-8a0f-5bfb-b39c-355b31e0d99f",
+    "label": "Email input placeholder text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "input_placeholder",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "allow_new_line": false,
+    "default": "Unsubscribe",
+    "hierarchical": false,
+    "id": "000eda6e-1e7f-c072-e329-8028e4c9c23a",
+    "label": "Button text",
+    "locked": false,
+    "max_depth": 0,
+    "name": "button_text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  }
+]

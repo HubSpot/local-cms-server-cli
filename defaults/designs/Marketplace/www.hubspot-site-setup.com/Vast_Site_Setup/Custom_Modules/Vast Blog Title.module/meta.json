@@ -1,0 +1,28 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ {
+    "name" : "OTHER_INDUSTRY",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "HIDDEN",
+    "source" : "MARKETPLACE"
+  } ],
+  "css_assets" : [ ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "BLOG_POST", "BLOG_LISTING" ],
+  "js_assets" : [ ],
+  "label" : null,
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "smart_type" : "NOT_SMART",
+  "tags" : [ ],
+  "portal_id" : 123,
+  "id" : 6099133579,
+  "module_id" : 3563467,
+  "is_available_for_new_content" : true
+}

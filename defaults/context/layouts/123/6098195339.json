@@ -1,0 +1,872 @@
+{
+  "attached_amp_stylesheet": 0,
+  "attached_js": [
+    {
+      "id": 6099133405,
+      "type": "cos_extension_resource"
+    }
+  ],
+  "attached_stylesheets": [
+    {
+      "id": 6099133411,
+      "type": "cos_extension_resource"
+    }
+  ],
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029287788,
+  "body": {
+    "enable_domain_stylesheets": false,
+    "include_default_custom_css": false,
+    "folder": "Vast/Pages",
+    "body_css_id": "",
+    "custom_head": "",
+    "custom_footer": "",
+    "content_tags": [
+      {
+        "name": "OTHER_INDUSTRY",
+        "source": "MARKETPLACE"
+      },
+      {
+        "name": "HIDDEN",
+        "source": "MARKETPLACE"
+      }
+    ],
+    "attached_js": [
+      {
+        "id": 6099133405,
+        "type": "cos_extension_resource"
+      }
+    ],
+    "body_class": "site-page three-column",
+    "body_css": "",
+    "builtin": false,
+    "purchased": false,
+    "generator": null,
+    "generated_template_id": 6098195347,
+    "marketplace_good_id": 260101,
+    "cloned_from": "4958678315",
+    "attached_stylesheets": [
+      {
+        "id": 6099133411,
+        "type": "cos_extension_resource"
+      }
+    ],
+    "last_edit_session_id": null,
+    "last_edit_update_id": null,
+    "has_user_changes": true,
+    "is_read_only": false
+  },
+  "body_class": "site-page three-column",
+  "body_css": "",
+  "body_css_id": "",
+  "body_editable": false,
+  "builtin": false,
+  "category": 1,
+  "category_id": 1,
+  "cloned_from": "4958678315",
+  "cloned_from_id": 4958678315,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "HIDDEN",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029287801,
+  "custom_footer": "",
+  "custom_head": "",
+  "deleted_at": 0,
+  "enable_domain_stylesheets": false,
+  "folder": "Vast/Pages",
+  "folder_id": 6098475838,
+  "generated_template_id": 6098195347,
+  "id": 6098195339,
+  "include_default_custom_css": false,
+  "is_available_for_new_content": true,
+  "is_read_only": false,
+  "label": "Vast Three Column Website Page",
+  "languages": [],
+  "layout_data": {
+    "cell": false,
+    "cells": [],
+    "css_class": "",
+    "css_id": "",
+    "css_id_str": "",
+    "css_style": "",
+    "editable": false,
+    "id": "module_1486583447709851",
+    "is_container": false,
+    "is_content_overridden": false,
+    "is_in_container": false,
+    "language_overrides": {},
+    "order": 0,
+    "params": {},
+    "root": false,
+    "row": false,
+    "row_meta_data": [],
+    "rows": [
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1486583447709852",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Vast Theme/Vast Header copy",
+          "language_overrides": {},
+          "name": "module_1518102682877166",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "overrideable": false,
+            "path": "generated_global_groups/6099133423.html",
+            "per_widget_wrapper_html": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "global_group",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1486583447709853",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "language_overrides": {},
+          "order": 0,
+          "params": {},
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "section_delimiter",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "title-background padding20tb",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_14060509102596068",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Title Background",
+          "language_overrides": {},
+          "name": "module_14060509102596068",
+          "order": 0,
+          "params": {
+            "css_class": "title-background padding20tb",
+            "css_id": "",
+            "css_style": "",
+            "overrideable": false,
+            "value": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [
+            {
+              "0": {
+                "cell": false,
+                "cells": [],
+                "css_class": "page-center",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_14060509122576316",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Page Center",
+                "language_overrides": {},
+                "name": "module_14060509122576316",
+                "order": 0,
+                "params": {
+                  "css_class": "page-center",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_14060509664117879",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Header",
+                      "language_overrides": {},
+                      "name": "module_15181164972531722",
+                      "order": 0,
+                      "params": {
+                        "css_class": "",
+                        "css_id": "",
+                        "css_id_str": "",
+                        "css_style": "",
+                        "custom_widget_id": 6098194288,
+                        "header_type": "h1",
+                        "module_id": 1155826,
+                        "overrideable": true,
+                        "per_widget_wrapper_html": "",
+                        "schema_version": 2,
+                        "value": "Vast Three Column Website Page",
+                        "widget_name": "Header",
+                        "wrapping_html": ""
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "custom_widget",
+                      "w": 12,
+                      "widgets": [],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 12,
+                "widgets": [],
+                "x": 0
+              }
+            }
+          ],
+          "type": "cell",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "page-center content-wrapper padding60tb",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_13885006495507970",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Page Center, Content Wrapper",
+          "language_overrides": {},
+          "name": "module_13885006495507970",
+          "order": 0,
+          "params": {
+            "css_class": "page-center content-wrapper padding60tb",
+            "css_id": "",
+            "css_style": "",
+            "overrideable": false,
+            "value": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [
+            {
+              "0": {
+                "cell": false,
+                "cells": [],
+                "css_class": "main-content",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_13885046520011784",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Main Content",
+                "language_overrides": {},
+                "name": "module_13885046520011784",
+                "order": 0,
+                "params": {
+                  "css_class": "main-content",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_139532470882380",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Left Column",
+                      "language_overrides": {},
+                      "name": "module_139532470882380",
+                      "order": 0,
+                      "params": {
+                        "overrideable": false,
+                        "value": ""
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "widget_container",
+                      "w": 12,
+                      "widgets": [
+                        {
+                          "cell": false,
+                          "cells": [],
+                          "css_class": "",
+                          "css_id": "",
+                          "css_id_str": "",
+                          "css_style": "",
+                          "editable": false,
+                          "id": "module_13885056419142322",
+                          "is_container": false,
+                          "is_content_overridden": false,
+                          "is_in_container": false,
+                          "label": "Rich Text",
+                          "language_overrides": {},
+                          "name": "module_15181165099541724",
+                          "order": 0,
+                          "params": {
+                            "css_class": "",
+                            "css_id": "",
+                            "css_id_str": "",
+                            "css_style": "",
+                            "custom_widget_id": 6098194111,
+                            "html": "<h2>Meet our team</h2>\n<p><span>Use your About page to help your visitors learn more about you. We all know that people do business with people, not companies. So tell them a little bit more about yourself as a person. Include profiles of your management team. Upload images so that folks will recognize you at conferences and events. Hey. It's not exactly rocket science. But it works.</span></p>\n<p><span>Use your About page to help your visitors learn more about you. We all know that people do business with people, not companies. So tell them a little bit more about yourself as a person. Include profiles of your management team. Upload images so that folks will recognize you at conferences and events. Hey. It's not exactly rocket science. But it works.</span></p>",
+                            "module_id": 1155639,
+                            "overrideable": true,
+                            "per_widget_wrapper_html": "",
+                            "schema_version": 2,
+                            "widget_name": "Rich Text",
+                            "wrapping_html": ""
+                          },
+                          "root": false,
+                          "row": false,
+                          "row_meta_data": [],
+                          "rows": [],
+                          "type": "custom_widget",
+                          "w": 12,
+                          "widgets": [],
+                          "x": 0
+                        }
+                      ],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 4,
+                "widgets": [
+                  {
+                    "cell": false,
+                    "cells": [],
+                    "css_class": "",
+                    "css_id": "",
+                    "css_id_str": "",
+                    "css_style": "",
+                    "editable": false,
+                    "is_container": false,
+                    "is_content_overridden": false,
+                    "is_in_container": false,
+                    "label": "Rich Text",
+                    "language_overrides": {},
+                    "name": "module_13885047978573602",
+                    "order": 0,
+                    "params": {
+                      "html": "<h2>New Module</h2>\n<p>Add content here.</p>",
+                      "is_in_container": false,
+                      "overrideable": true
+                    },
+                    "root": false,
+                    "row": false,
+                    "row_meta_data": [],
+                    "rows": [],
+                    "type": "rich_text",
+                    "w": 12,
+                    "widgets": [],
+                    "x": 0
+                  }
+                ],
+                "x": 0
+              },
+              "4": {
+                "cell": false,
+                "cells": [],
+                "css_class": "main-content",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_13885056585042823",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Main Content",
+                "language_overrides": {},
+                "name": "module_13885056585042823",
+                "order": 0,
+                "params": {
+                  "css_class": "main-content",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_139532471567283",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Center Column",
+                      "language_overrides": {},
+                      "name": "module_139532471567283",
+                      "order": 0,
+                      "params": {
+                        "overrideable": false,
+                        "value": ""
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "widget_container",
+                      "w": 12,
+                      "widgets": [
+                        {
+                          "cell": false,
+                          "cells": [],
+                          "css_class": "",
+                          "css_id": "",
+                          "css_id_str": "",
+                          "css_style": "",
+                          "editable": false,
+                          "id": "module_13885047978573602",
+                          "is_container": false,
+                          "is_content_overridden": false,
+                          "is_in_container": false,
+                          "label": "Vast Team Member Module copy",
+                          "language_overrides": {},
+                          "name": "module_1518102700292167",
+                          "order": 0,
+                          "params": {
+                            "css_class": "",
+                            "css_id": "",
+                            "css_id_str": "",
+                            "css_style": "",
+                            "custom_widget_id": 6099133516,
+                            "module_id": 3563463,
+                            "overrideable": true,
+                            "per_widget_wrapper_html": "",
+                            "schema_version": 2,
+                            "widget_name": "Vast Team Member Module copy",
+                            "wrapping_html": ""
+                          },
+                          "root": false,
+                          "row": false,
+                          "row_meta_data": [],
+                          "rows": [],
+                          "type": "custom_widget",
+                          "w": 12,
+                          "widgets": [],
+                          "x": 0
+                        }
+                      ],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 4,
+                "widgets": [
+                  {
+                    "cell": false,
+                    "cells": [],
+                    "css_class": "",
+                    "css_id": "",
+                    "css_id_str": "",
+                    "css_style": "",
+                    "editable": false,
+                    "is_container": false,
+                    "is_content_overridden": false,
+                    "is_in_container": false,
+                    "label": "Rich Text",
+                    "language_overrides": {},
+                    "name": "module_13885056419142322",
+                    "order": 0,
+                    "params": {
+                      "html": "<h2>New Module</h2>\n<p>Add content here.</p>",
+                      "is_in_container": false,
+                      "overrideable": true
+                    },
+                    "root": false,
+                    "row": false,
+                    "row_meta_data": [],
+                    "rows": [],
+                    "type": "rich_text",
+                    "w": 12,
+                    "widgets": [],
+                    "x": 0
+                  }
+                ],
+                "x": 4
+              },
+              "8": {
+                "cell": false,
+                "cells": [],
+                "css_class": "main-content",
+                "css_id": "",
+                "css_id_str": "",
+                "css_style": "",
+                "editable": false,
+                "id": "module_138850872247720191",
+                "is_container": false,
+                "is_content_overridden": false,
+                "is_in_container": false,
+                "label": "Main Content",
+                "language_overrides": {},
+                "name": "module_138850872247720191",
+                "order": 0,
+                "params": {
+                  "css_class": "main-content",
+                  "css_id": "",
+                  "css_style": "",
+                  "overrideable": false,
+                  "value": "",
+                  "wrapping_html": ""
+                },
+                "root": false,
+                "row": false,
+                "row_meta_data": [],
+                "rows": [
+                  {
+                    "0": {
+                      "cell": false,
+                      "cells": [],
+                      "css_class": "",
+                      "css_id": "",
+                      "css_id_str": "",
+                      "css_style": "",
+                      "editable": false,
+                      "id": "module_139532476173484",
+                      "is_container": false,
+                      "is_content_overridden": false,
+                      "is_in_container": false,
+                      "label": "Right Column",
+                      "language_overrides": {},
+                      "name": "module_139532476173484",
+                      "order": 0,
+                      "params": {
+                        "overrideable": false
+                      },
+                      "root": false,
+                      "row": false,
+                      "row_meta_data": [],
+                      "rows": [],
+                      "type": "widget_container",
+                      "w": 12,
+                      "widgets": [
+                        {
+                          "cell": false,
+                          "cells": [],
+                          "css_class": "",
+                          "css_id": "",
+                          "css_id_str": "",
+                          "css_style": "",
+                          "editable": false,
+                          "id": "module_138850887477321655",
+                          "is_container": false,
+                          "is_content_overridden": false,
+                          "is_in_container": false,
+                          "label": "Vast Testimonial copy",
+                          "language_overrides": {},
+                          "name": "module_1518102706762168",
+                          "order": 0,
+                          "params": {
+                            "css_class": "",
+                            "css_id": "",
+                            "css_id_str": "",
+                            "css_style": "",
+                            "custom_widget_id": 6099133504,
+                            "module_id": 3563461,
+                            "overrideable": true,
+                            "per_widget_wrapper_html": "",
+                            "schema_version": 2,
+                            "widget_name": "Vast Testimonial copy",
+                            "wrapping_html": ""
+                          },
+                          "root": false,
+                          "row": false,
+                          "row_meta_data": [],
+                          "rows": [],
+                          "type": "custom_widget",
+                          "w": 12,
+                          "widgets": [],
+                          "x": 0
+                        }
+                      ],
+                      "x": 0
+                    }
+                  }
+                ],
+                "type": "cell",
+                "w": 4,
+                "widgets": [
+                  {
+                    "cell": false,
+                    "cells": [],
+                    "css_class": "",
+                    "css_id": "",
+                    "css_id_str": "",
+                    "css_style": "",
+                    "editable": false,
+                    "is_container": false,
+                    "is_content_overridden": false,
+                    "is_in_container": false,
+                    "label": "Sidebar Rich Text",
+                    "language_overrides": {},
+                    "name": "module_138850887477321655",
+                    "order": 0,
+                    "params": {
+                      "html": "<h2>New Module</h2>\n<p>Add content here.</p>",
+                      "is_in_container": false,
+                      "overrideable": true
+                    },
+                    "root": false,
+                    "row": false,
+                    "row_meta_data": [],
+                    "rows": [],
+                    "type": "rich_text",
+                    "w": 12,
+                    "widgets": [],
+                    "x": 0
+                  },
+                  {
+                    "cell": false,
+                    "cells": [],
+                    "css_class": "",
+                    "css_id": "",
+                    "css_id_str": "",
+                    "css_style": "",
+                    "editable": false,
+                    "is_container": false,
+                    "is_content_overridden": false,
+                    "is_in_container": false,
+                    "label": "Call-to-Action",
+                    "language_overrides": {},
+                    "name": "module_138850871564619980",
+                    "order": 0,
+                    "params": {
+                      "is_in_container": false,
+                      "overrideable": false
+                    },
+                    "root": false,
+                    "row": false,
+                    "row_meta_data": [],
+                    "rows": [],
+                    "type": "cta",
+                    "w": 12,
+                    "widgets": [],
+                    "x": 0
+                  }
+                ],
+                "x": 8
+              }
+            }
+          ],
+          "type": "cell",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1486583447710855",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "language_overrides": {},
+          "order": 0,
+          "params": {},
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "section_delimiter",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1486583447710854",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Vast Theme/Vast Full Width Blog Subscription Module copy",
+          "language_overrides": {},
+          "name": "module_1518102669782164",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "overrideable": false,
+            "path": "generated_global_groups/6099133462.html",
+            "per_widget_wrapper_html": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "global_group",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      },
+      {
+        "0": {
+          "cell": false,
+          "cells": [],
+          "css_class": "",
+          "css_id": "",
+          "css_id_str": "",
+          "css_style": "",
+          "editable": false,
+          "id": "module_1486583447710856",
+          "is_container": false,
+          "is_content_overridden": false,
+          "is_in_container": false,
+          "label": "Vast Theme/Vast Footer copy",
+          "language_overrides": {},
+          "name": "module_1518102677060165",
+          "order": 0,
+          "params": {
+            "css_class": "",
+            "css_id": "",
+            "css_id_str": "",
+            "css_style": "",
+            "overrideable": false,
+            "path": "generated_global_groups/6099133437.html",
+            "per_widget_wrapper_html": "",
+            "wrapping_html": ""
+          },
+          "root": false,
+          "row": false,
+          "row_meta_data": [],
+          "rows": [],
+          "type": "global_group",
+          "w": 12,
+          "widgets": [],
+          "x": 0
+        }
+      }
+    ],
+    "type": "cell",
+    "w": 12,
+    "widgets": [],
+    "x": 0
+  },
+  "marketplace_good_id": 260101,
+  "meta": {
+    "hasBufferedChanges": false
+  },
+  "path": "generated_layouts/6098195339.html",
+  "portal_id": 123,
+  "purchased": false,
+  "template_type": 4,
+  "updated": 1535029287788,
+  "updated_by": "marketplaceteam@hubspot.com"
+}

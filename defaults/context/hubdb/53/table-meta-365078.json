@@ -1,0 +1,104 @@
+{
+  "id": 365078,
+  "name": "Marketing Free Pricing - Table Section (FR)",
+  "portalId": 53,
+  "createdAt": 1484229489555,
+  "publishedAt": 1529679937857,
+  "updatedAt": 1527780704379,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "type",
+      "label": "type",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "label",
+      "label": "label",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_title",
+      "label": "tooltip title",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "tooltip_content",
+      "label": "tooltip content",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "marketing_free",
+      "label": "marketing free",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "marketing_starter",
+      "label": "marketing starter",
+      "id": 10,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Marketing Free Pricing - Table Section (FR)",
+  "updated": 1527780704379,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 11,
+  "createdBy": {
+    "id": 3391772,
+    "email": "dmooney@hubspot.com",
+    "firstName": "David",
+    "lastName": "Mooney"
+  },
+  "updatedBy": {
+    "id": 3391772,
+    "email": "dmooney@hubspot.com",
+    "firstName": "David",
+    "lastName": "Mooney"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 10
+}

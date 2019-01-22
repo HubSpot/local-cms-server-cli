@@ -1,0 +1,5 @@
+{% if is_listing_view %}
+   {{ module.blog_listing_source }}
+{% else %}
+    {{ module.blog_post_source }}
+{% endif %}

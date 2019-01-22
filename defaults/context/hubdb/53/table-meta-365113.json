@@ -1,0 +1,80 @@
+{
+  "id": 365113,
+  "name": "Homepage - Hero Banner (FR)",
+  "portalId": 53,
+  "createdAt": 1484246970677,
+  "publishedAt": 1529679954653,
+  "updatedAt": 1527780710046,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "desktop_header",
+      "label": "desktop_header",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "desktop_subheader",
+      "label": "desktop_subheader",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "cta_description",
+      "label": "cta_description",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "cta_arrow_text",
+      "label": "cta_arrow_text",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "mobile_header",
+      "label": "mobile_header",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Homepage - Hero Banner (FR)",
+  "updated": 1527780710046,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 1,
+  "createdBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "updatedBy": {
+    "id": 3303803,
+    "email": "tswyter@hubspot.com",
+    "firstName": "Taylor",
+    "lastName": "Swyter"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 6
+}

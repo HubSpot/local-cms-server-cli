@@ -1,0 +1,45 @@
+{% set slides = [] %}
+
+{% for slide in module.slides %}
+
+{% if (slide.link_url is string_startingwith "http") or (slide.link_url is string_startingwith "/") %}
+    {% set link = slide.link_url %}
+{% elif !slide.link_url %}
+    {% set link = none %}
+{% else %}
+    {% set link = "//" ~ slide.link_url %}
+{% endif %}
+
+    {{ slides.append({ "caption":  slide.caption,
+        "show_caption": slide.show_caption,
+        "link_url": link,
+        "alt_text": slide.img.alt,
+        "img_src": slide.img.src,
+        "open_in_new_tab": slide.open_in_new_tab
+        }) | string | replace('true', '')
+    }}
+{% endfor %}
+
+{% if module.display_mode == 'thumbnail' %}
+    {% set withThumbnail = true %}
+    {% set lightbox = false %}
+{% elif module.display_mode == 'lightbox' %}
+    {% set lightbox = true %}
+    {% set withThumbnail = true %}
+{% endif %}
+
+{% image_slider 
+    with_thumbnail_nav = '{{ withThumbnail }}',
+    lightbox = '{{ lightbox }}',
+    sizing='{{ module.sizing }}',
+    transition='{{ module.transition }}', 
+    caption_position='{{ module.caption_position }}', 
+    auto_advance='{{ module.auto_advance }}', 
+    overrideable=True, 
+    description_text='', 
+    show_pagination='{{ module.show_pagination }}', 
+    label='{{title}}', 
+    slides='{{ slides }}',
+    loop_slides='{{ module.loop_slides }}', 
+    num_seconds='{{ module.num_seconds }}',
+%}

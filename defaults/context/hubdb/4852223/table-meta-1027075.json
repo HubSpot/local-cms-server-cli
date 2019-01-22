@@ -1,0 +1,65 @@
+{
+  "id": 1027075,
+  "name": "nums",
+  "portalId": 4852223,
+  "createdAt": 1540844239334,
+  "publishedAt": 1544195999546,
+  "updatedAt": 1544195962716,
+  "columns": [
+    {
+      "name": "date",
+      "label": "date",
+      "id": 2,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "DATE"
+    },
+    {
+      "name": "datetime",
+      "label": "datetime",
+      "id": 3,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "DATETIME"
+    },
+    {
+      "name": "number",
+      "label": "number",
+      "id": 4,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "NUMBER"
+    },
+    {
+      "name": "float",
+      "label": "float",
+      "id": 5,
+      "deleted": false,
+      "foreignIdsByName": {},
+      "type": "NUMBER"
+    }
+  ],
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "label": "nums",
+  "updated": 1544195962716,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 4,
+  "createdBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "updatedBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columnCount": 5,
+  "allowPublicApiAccess": true
+}

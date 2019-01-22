@@ -1,0 +1,78 @@
+[
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "8420dbbd-9d64-7877-8de3-3328aa76c635",
+    "label": "Padding",
+    "locked": true,
+    "max_depth": 0,
+    "name": "hs_enable_module_padding",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  },
+  {
+    "default": {
+      "size": {
+        "value": 12,
+        "units": "px"
+      },
+      "color": "#00a4bd",
+      "styles": {
+        "bold": false,
+        "italic": false,
+        "underline": true
+      },
+      "font": "arial, helvetica, sans-serif"
+    },
+    "hierarchical": false,
+    "id": "52418c67-9802-01a8-7a7f-6f9d9f2f448c",
+    "label": "Font",
+    "locked": false,
+    "max_depth": 0,
+    "name": "font",
+    "required": true,
+    "sortable": false,
+    "type": "font"
+  },
+  {
+    "choices": [
+      [
+        "left",
+        "Left"
+      ],
+      [
+        "center",
+        "Center"
+      ],
+      [
+        "right",
+        "Right"
+      ]
+    ],
+    "default": "right",
+    "display": "select",
+    "hierarchical": false,
+    "id": "74b1532f-7c7e-9aa8-381a-0a36a72dba79",
+    "label": "Align",
+    "locked": false,
+    "max_depth": 0,
+    "name": "align",
+    "placeholder": "Search",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "default": false,
+    "hierarchical": false,
+    "id": "ef8ecea2-7c2f-d69e-a09d-192402506281",
+    "label": "Padding",
+    "locked": false,
+    "max_depth": 0,
+    "name": "side_padding",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  }
+]

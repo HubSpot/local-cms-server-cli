@@ -1,0 +1,120 @@
+{
+  "id": 684293,
+  "name": "knowledge-academy-header-2018",
+  "portalId": 53,
+  "createdAt": 1524849873164,
+  "publishedAt": 1529679998921,
+  "updatedAt": 1527780788447,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "text",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "url",
+      "label": "url",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "order",
+      "label": "order",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "description",
+      "label": "description",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "parent_id",
+      "label": "parent_id",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "child_id",
+      "label": "child_id",
+      "id": 10,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "gtm",
+      "label": "gtm",
+      "id": 11,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "is_english",
+      "label": "is_english",
+      "id": 12,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "has_dropdown",
+      "label": "has_dropdown",
+      "id": 13,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "knowledge-academy-header-2018",
+  "updated": 1527780788447,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 192,
+  "createdBy": {
+    "id": 497311,
+    "email": "cstone@hubspot.com",
+    "firstName": "Christopher",
+    "lastName": "Stone"
+  },
+  "updatedBy": {
+    "id": 497311,
+    "email": "cstone@hubspot.com",
+    "firstName": "Christopher",
+    "lastName": "Stone"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 13
+}

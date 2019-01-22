@@ -1,0 +1,52 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029257436,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029257436,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [
+    "TEMPLATE"
+  ],
+  "external_js": [],
+  "extra_classes": "widget-type-language_switcher",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE"
+  ],
+  "icon": "https://cdn2.hubspotqa.com/hubfs/99263981/edited-language.svg",
+  "id": 6098194292,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Language Switcher",
+  "marketplace_version": 72,
+  "master_language": "en",
+  "module_id": 1366607,
+  "name": "Language Switcher",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029257436,
+  "widget_label": "",
+  "writeable": false
+}

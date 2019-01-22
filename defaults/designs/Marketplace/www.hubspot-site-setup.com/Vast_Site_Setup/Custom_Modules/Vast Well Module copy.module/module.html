@@ -1,0 +1,9 @@
+<div id="well">
+    {% if module.ability_to_close %}
+        <span class="close"><i class="fa fa-times"></i></span>
+    {% endif %}
+    <div class="{{ module.type_of_well }} {{ module.well_size }}">
+        <span style="text-align: center; display: block"><i class="fa {{ module.fa_icon }}" style="font-size:{{ module.icon_size }}"></i></span>
+        {{ module.well_text_editor }}
+    </div>
+</div>

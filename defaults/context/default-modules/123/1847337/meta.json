@@ -1,0 +1,54 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1537559182692,
+  "cdn_purge_embargo_time": 1537559482685,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029262481,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [
+    "TEMPLATE"
+  ],
+  "external_js": [],
+  "extra_classes": "widget-type-space",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Horizontal%20Spacer/icons/Horizontal%20Spacer_icon.svg",
+  "id": 6098475320,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Horizontal Spacer",
+  "marketplace_version": 78,
+  "master_language": "en",
+  "module_id": 1847337,
+  "name": "Horizontal Spacer",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1537559182692,
+  "updated_by_id": 590478,
+  "widget_label": "Spacer",
+  "writeable": false
+}

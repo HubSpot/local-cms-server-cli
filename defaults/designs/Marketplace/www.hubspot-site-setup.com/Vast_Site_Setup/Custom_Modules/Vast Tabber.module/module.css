@@ -1,0 +1,48 @@
+.body-container .custom-tabber-wrap .tabber-tabs {
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 -2px;
+}
+.custom-tabber-wrap .tabber-tabs > li {
+    float: left;
+}
+.custom-tabber-wrap .tabber-tabs > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    line-height: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: block;
+}
+.custom-tabber-wrap .tabber-tabs > .active > a, 
+.custom-tabber-wrap .tabber-tabs > .active > a:hover, 
+.custom-tabber-wrap .tabber-tabs > .active > a:focus {
+    color: #555555;
+    cursor: default;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.custom-tabber-wrap .tabber-content .tab-pane {
+    background: #fff;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+.custom-tabber-wrap .tabber-content .tab-pane.active:nth-child(1) {
+    border-top-left-radius: 0;
+}
+.body-container .custom-tabber-wrap .tabber-content ul {
+    padding: 0;
+    margin: 0;
+}
+.custom-tabber-wrap .tabber-content .block h3 {
+    display: none;
+}

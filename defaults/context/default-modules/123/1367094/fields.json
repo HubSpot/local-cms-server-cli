@@ -1,0 +1,14 @@
+[
+  {
+    "default": null,
+    "hierarchical": false,
+    "id": "b8371019-a89d-fa70-a5da-ca58367dd61b",
+    "label": "HubL",
+    "locked": false,
+    "max_depth": 0,
+    "name": "value",
+    "required": false,
+    "sortable": false,
+    "type": "hubl"
+  }
+]

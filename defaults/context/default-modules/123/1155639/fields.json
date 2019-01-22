@@ -1,0 +1,15 @@
+[
+  {
+    "default": "<h2>Something Powerful</h2>\n<h3>Tell The Reader More</h3>\n<p>The headline and subheader tells us what you're <a href=\"#\">offering</a>, and the form header closes the deal. Over here you can explain why your offer is so great it's worth filling out a form for.</p>\n<p>Remember:</p>\n<ul>\n<li>Bullets are great</li>\n<li>For spelling out <a href=\"#\">benefits</a> and</li>\n<li>Turning visitors into leads.</li>\n</ul>",
+    "hierarchical": false,
+    "id": "f93ddec6-90fe-ffc5-238f-655e63b67d95",
+    "label": "Rich text content",
+    "locked": false,
+    "max_depth": 0,
+    "name": "html",
+    "required": false,
+    "sortable": false,
+    "type": "richtext",
+    "validation_regex": ""
+  }
+]

@@ -1,0 +1,30 @@
+{% set title = module.title || '' %}
+{% set fm = follow_me_links() %}
+
+{# Reorder networks to change order of icons #}
+{%- set networks = [
+  'youtube',
+  'pinterest',
+  'rss',
+  'default',
+  'linkedin',
+  'twitter',
+  'facebook',
+  'googlepluspages',
+  'instagram',
+  'xing'
+] -%}
+
+{% if title is truthy %}
+	<h3>{{ title }}</h3>
+{% endif %}
+
+<div>
+  {% for networkName in networks %}
+    {%- set network = fm|selectattr('iconName','equalto',networkName)|last -%}
+  	{%- set imgURL = network.iconName ~'_legacy_color.png' -%}  
+  	{%- if network -%}
+    	<a href="{{ network.followMeUrl }}" {% if module.links %}target="_blank"{% endif %} class="fm_button fm_{{network.iconName}}" style="text-decoration: none"><span style="background-image:url('{{ module_asset_url(imgURL) }}'); background-size: 100%; width: 32px; height: 32px; display: inline-block; cursor: pointer;"></span></a>
+    {%- endif -%}
+  {% endfor %}
+</div>

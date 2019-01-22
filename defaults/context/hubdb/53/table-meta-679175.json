@@ -1,0 +1,64 @@
+{
+  "id": 679175,
+  "name": "Partner Countries",
+  "portalId": 53,
+  "createdAt": 1521838156573,
+  "publishedAt": 1531866558541,
+  "updatedAt": 1531866532307,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "country_code",
+      "label": "Country Code",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "country",
+      "label": "Country",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "sales_partner_supported",
+      "label": "sales partner supported",
+      "id": 4,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Partner Countries",
+  "updated": 1531866532307,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 252,
+  "createdBy": {
+    "id": 5386576,
+    "email": "tcollins@hubspot.com",
+    "firstName": "Thomas",
+    "lastName": "Collins"
+  },
+  "updatedBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 4
+}

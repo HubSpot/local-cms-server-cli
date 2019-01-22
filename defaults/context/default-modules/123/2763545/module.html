@@ -1,0 +1,37 @@
+{# This module is using a custom edit form in EmailDragDropEditorUI, please ping the marketing-publishing team before make any change #}
+{% set default_images_path = 'https://static.hsstatic.net/TemplateAssets/static-1.17/img/hs_default_template_images/modules/Follow+Me+-+Email' %}
+<table align="{{ module.alignment }}" style="width: auto; text-align: {{ module.alignment }};" class="hs_cos_wrapper_type_social_module">
+  <tbody>
+    <tr align="{{ module.alignment }}">
+      {% for networks in module.social %}
+      <td>
+        <table align="{{ module.alignment }}" style="width: auto; text-align: {{ module.alignment }};" class="hs_cos_wrapper_type_social_module_single">
+          <tbody>
+            <tr align="{{ module.alignment }}">
+              <td class="display_block_on_small_screens" style="padding: 8px {{module.spacing}}px; line-height: 1; vertical-align:middle;" valign="middle">
+                <a href="{{ networks.url }}" style="text-decoration: none !important;">
+                  {% if networks.network == 'icon' %}
+                  {% if !networks.network_image.src %}
+                  {% set imgURL = default_images_path ~'/icon_circle_color-1.png' %}
+                  <img src="{{ imgURL }}" alt="{{ networks.supporting_text || i18n_getmessage('social.network.choices.' + networks.network) }}" height="{{module.scale}}" style="width:auto!important;height:{{module.scale}}px!important;vertical-align:middle;" valign="middle">{% else %}<img src="{{ networks.network_image.src }}" height="{{module.scale}}" style="width:auto!important;height:{{module.scale}}px!important;vertical-align:middle;" valign="middle">{% endif %}
+                  {% else %}
+                  {% set imgURL = default_images_path ~'/'~ networks.network ~'_'~ module.icon_shape ~'_'~ module.color_scheme ~'.png' %}
+                  <img src="{{ imgURL }}" alt="{{ networks.supporting_text || i18n_getmessage('social.network.choices.' + networks.network) }}" height="{{module.scale}}" style="width:auto!important;height:{{module.scale}}px!important;vertical-align:middle;" valign="middle">
+                  {% endif %}
+                </a>
+              </td>
+              {% if module.display == 'icon_text' %}
+              <td class="display_block_on_small_screens" style="padding: {{module.spacing}}px 5px {{module.spacing}}px 0; line-height: 1; vertical-align:middle;" valign="middle">
+                <a href="{{ networks.url }}" style="font-family:{{ module.font_style.font }}; font-size: {{ module.font_style.size.value }}{{ module.font_style.size.units }}; color: {{ module.font_style.color }};font-weight: {{ module.font_style.styles.bold ? 'bold' : 'normal' }}; font-style: {{ module.font_style.styles.italic ? 'italic' : 'normal' }}; text-decoration: {{ module.font_style.styles.underline ? 'underline' : 'none' }};">
+                  <span>{{ networks.supporting_text || i18n_getmessage('social.network.choices.' + networks.network) }}</span>
+                </a>
+              </td>
+              {% endif %}
+          </tr>
+        </tbody>
+      </table>
+  		</td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>

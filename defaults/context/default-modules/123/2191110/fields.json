@@ -1,0 +1,117 @@
+[
+  {
+    "default": 1,
+    "display": "text",
+    "hierarchical": false,
+    "id": "638f5dfa-f092-745e-c9a1-46d303ef9eee",
+    "label": "Height (px)",
+    "locked": false,
+    "max": 8,
+    "max_depth": 0,
+    "min": 1,
+    "name": "height",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "default": 50,
+    "display": "text",
+    "hierarchical": false,
+    "id": "9826a43d-2437-1487-d700-7c3493e7f9a4",
+    "label": "Width (%)",
+    "locked": false,
+    "max": 100,
+    "max_depth": 0,
+    "min": 1,
+    "name": "width",
+    "required": false,
+    "sortable": false,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "default": {
+      "color": "#000000",
+      "opacity": 100
+    },
+    "hierarchical": false,
+    "id": "df5f05df-3650-9855-6804-a1453b05fc74",
+    "label": "Color",
+    "locked": false,
+    "max_depth": 0,
+    "name": "color",
+    "required": false,
+    "sortable": false,
+    "type": "color"
+  },
+  {
+    "choices": [
+      [
+        "solid",
+        "Solid"
+      ],
+      [
+        "dotted",
+        "Dotted"
+      ],
+      [
+        "dashed",
+        "Dashed"
+      ]
+    ],
+    "default": "solid",
+    "display": "select",
+    "hierarchical": false,
+    "id": "f67995af-fab1-3b24-d040-3d434884605a",
+    "label": "Line type",
+    "locked": false,
+    "max_depth": 0,
+    "name": "line_type",
+    "placeholder": "Select Line Type",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      [
+        "left",
+        "Left"
+      ],
+      [
+        "center",
+        "Center"
+      ],
+      [
+        "right",
+        "Right"
+      ]
+    ],
+    "default": "center",
+    "display": "select",
+    "hierarchical": false,
+    "id": "9074845b-e2b9-2078-fbae-aa7fdfd32426",
+    "label": "Alignment",
+    "locked": false,
+    "max_depth": 0,
+    "name": "alignment",
+    "placeholder": "Select Alignment",
+    "required": true,
+    "sortable": false,
+    "type": "choice"
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "8bae7d2f-95d8-22a0-b195-c13d5e25a714",
+    "label": "Padding",
+    "locked": false,
+    "max_depth": 0,
+    "name": "hs_enable_module_padding",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  }
+]

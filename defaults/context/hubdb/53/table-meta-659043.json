@@ -1,0 +1,91 @@
+{
+  "id": 659043,
+  "name": "[GLOBAL] Exit Intent Modal Survey Submissions",
+  "portalId": 53,
+  "createdAt": 1492720408083,
+  "publishedAt": 1544192565337,
+  "updatedAt": 1544192565329,
+  "columns": [
+    {
+      "name": "answer_1",
+      "label": "Answer 1",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "answer_2",
+      "label": "Answer 2",
+      "id": 3,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "answer_3",
+      "label": "Answer 3",
+      "id": 4,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "answer_4",
+      "label": "Answer 4",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "answer_5",
+      "label": "Answer 5",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "page_name",
+      "label": "Page Name",
+      "id": 7,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "page_id",
+      "label": "Page ID",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "submission_tag",
+      "label": "Submission Tag",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "[GLOBAL] Exit Intent Modal Survey Submissions",
+  "updated": 1544192565329,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 650,
+  "createdBy": {
+    "id": 2611913,
+    "email": "eshaw@hubspot.com",
+    "firstName": "Liz",
+    "lastName": "Shaw"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 9
+}

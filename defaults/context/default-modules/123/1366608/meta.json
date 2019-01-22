@@ -1,0 +1,47 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1535029277660,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029277660,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "NONE"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Custom%20HTML/icons/Custom%20HTML_icon.svg",
+  "id": 6099133310,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Custom HTML",
+  "marketplace_version": 75,
+  "master_language": "en",
+  "module_id": 1366608,
+  "name": "Custom HTML",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1535029277660,
+  "updated_by_id": 590478,
+  "widget_label": "",
+  "writeable": false
+}

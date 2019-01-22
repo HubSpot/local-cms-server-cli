@@ -1,0 +1,12 @@
+{% if module.select_blog is number %}
+  {% set select_blog = module.select_blog %}
+{% else %}
+  {% set select_blog = 'default' %}
+{% endif %}
+
+{% post_listing
+  select_blog='{{ select_blog }}',
+  listing_type='{{module.listing_type}}',
+  list_title='{{ module.list_title }}',
+  max_links={{ module.max_links }}
+%}

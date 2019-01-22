@@ -1,0 +1,14 @@
+{% set wrapper_css = "margin-bottom:0;line-height:1.35;" %}
+{% set table_css = "margin-bottom:0;padding:0;" %}
+<div style="overflow:hidden">
+<table class="hse-pre-header hse-secondary" role="presentation" width="100%" cellpadding="0" cellspacing="0" style="{{ table_css }}">
+    <tbody>
+        <tr>
+            <td align="{{ module.align }}" valign="top" 
+                style="text-align:{{module.align}}; font-family:{{ module.font.font }}; font-size: {{ module.font.size.value }}{{ module.font.size.units }}; padding: 10px {{ module.side_padding ? '20px' : '0'}};{{wrapper_css}}">
+                <a href="{{ view_as_page_url }}" style="color:{{ module.font.color }}; font-weight: {{ module.font.styles.bold ? 'bold' : 'normal' }}; font-style: {{ module.font.styles.italic ? 'italic' : 'normal' }}; text-decoration: {{ module.font.styles.underline ? 'underline' : 'none' }};">{{ webversion_header_html }}</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>

@@ -1,0 +1,80 @@
+{
+  "id": 672404,
+  "name": "[GLOBAL] HubSpot for Startups (Content)",
+  "portalId": 53,
+  "createdAt": 1501793135923,
+  "publishedAt": 1529679969518,
+  "updatedAt": 1527780752868,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "Language",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "text",
+      "label": "Text",
+      "id": 5,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "value",
+      "label": "Value",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "link_url",
+      "label": "Link URL",
+      "id": 6,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "dropdown_default",
+      "label": "Dropdown Default ?",
+      "id": 7,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "[GLOBAL] HubSpot for Startups (Content)",
+  "updated": 1527780752868,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 22,
+  "createdBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "updatedBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 10
+}

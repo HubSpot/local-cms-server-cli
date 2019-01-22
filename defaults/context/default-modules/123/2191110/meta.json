@@ -1,0 +1,56 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1546619161382,
+  "cdn_purge_embargo_time": 1546619461365,
+  "contains_overridable_hubl_tags": false,
+  "content_tags": [
+    {
+      "name": "EMAIL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029267575,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Email%20Divider/icons/Email%20Divider_icon.svg",
+  "id": 6098475458,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Email Divider",
+  "marketplace_version": 31,
+  "master_language": "en",
+  "module_id": 2191110,
+  "name": "Email Divider",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1546619161382,
+  "updated_by_id": 1303493,
+  "widget_label": "",
+  "writeable": false
+}

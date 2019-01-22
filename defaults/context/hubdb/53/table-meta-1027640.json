@@ -1,0 +1,133 @@
+{
+  "id": 1027640,
+  "name": "Investor Relations -- Leadership 2018",
+  "portalId": 53,
+  "createdAt": 1541782463228,
+  "publishedAt": 1543948943068,
+  "updatedAt": 1543948941251,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "checkmark",
+      "label": "Checkmark",
+      "id": 3,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "orange",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "green",
+          "type": "option"
+        }
+      ],
+      "type": "SELECT",
+      "foreignIdsByName": {},
+      "optionCount": 2
+    },
+    {
+      "name": "col1",
+      "label": "Audit Committee",
+      "id": 4,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "col2",
+      "label": "Compensation Committee",
+      "id": 5,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "col3",
+      "label": "Nominating & Corporate Governance Committee",
+      "id": 6,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "bio",
+      "label": "Bio",
+      "id": 7,
+      "deleted": false,
+      "type": "RICHTEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "id": 8,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "photo",
+      "label": "Photo",
+      "id": 9,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "in_table",
+      "label": "In Table",
+      "id": 10,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "in_leadership",
+      "label": "In Leadership",
+      "id": 11,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "in_directors",
+      "label": "In Directors",
+      "id": 12,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Investor Relations -- Leadership 2018",
+  "updated": 1543948941251,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 31,
+  "createdBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "updatedBy": {
+    "id": 2214099,
+    "email": "kebrahim@hubspot.com",
+    "firstName": "Kara",
+    "lastName": "Ebrahim"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 12
+}

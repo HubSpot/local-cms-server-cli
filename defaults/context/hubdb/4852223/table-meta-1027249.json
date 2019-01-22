@@ -1,0 +1,90 @@
+{
+  "id": 1027249,
+  "name": "weirdTypes",
+  "portalId": 4852223,
+  "createdAt": 1541095779600,
+  "publishedAt": 1541095904969,
+  "updatedAt": 1541449755796,
+  "columns": [
+    {
+      "name": "ms",
+      "label": "ms",
+      "id": 2,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "a",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "b",
+          "type": "option"
+        }
+      ],
+      "foreignIdsByName": {},
+      "type": "MULTISELECT",
+      "optionCount": 2
+    },
+    {
+      "name": "s",
+      "label": "s",
+      "id": 3,
+      "deleted": false,
+      "options": [
+        {
+          "id": 1,
+          "name": "1",
+          "type": "option"
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "type": "option"
+        },
+        {
+          "id": 3,
+          "name": "hi",
+          "type": "option"
+        }
+      ],
+      "foreignIdsByName": {},
+      "type": "SELECT",
+      "optionCount": 3
+    },
+    {
+      "name": "foreign",
+      "label": "foreign",
+      "id": 5,
+      "deleted": false,
+      "foreignTableId": 1027075,
+      "foreignColumnId": 5,
+      "foreignIdsByName": {},
+      "type": "FOREIGN_ID"
+    }
+  ],
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "label": "weirdTypes",
+  "updated": 1541449755796,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 3,
+  "createdBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "updatedBy": {
+    "id": 6440056,
+    "email": "bkrainer@hubspot.com",
+    "firstName": "Brian",
+    "lastName": "Krainer"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columnCount": 6,
+  "allowPublicApiAccess": true
+}

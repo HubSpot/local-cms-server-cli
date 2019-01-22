@@ -1,0 +1,28 @@
+[
+  {
+    "allow_new_line": false,
+    "default": null,
+    "hierarchical": false,
+    "id": "98a15dc8-63cd-8460-825b-8042cac61ec7",
+    "label": "Module header",
+    "locked": false,
+    "max_depth": 0,
+    "name": "title",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text"
+  },
+  {
+    "default": true,
+    "hierarchical": false,
+    "id": "62e6386f-dd2d-929c-b1d1-04ab9f8c18ae",
+    "label": "Open links in new window",
+    "locked": false,
+    "max_depth": 0,
+    "name": "links",
+    "required": false,
+    "sortable": false,
+    "type": "boolean"
+  }
+]

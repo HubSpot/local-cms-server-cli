@@ -1,0 +1,54 @@
+{
+  "author": "marketplaceteam@hubspot.com",
+  "author_at": 1538589897818,
+  "cdn_purge_embargo_time": 1538590197807,
+  "contains_overridable_hubl_tags": true,
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "created": 1535029277661,
+  "css_assets": [],
+  "default": true,
+  "deleted_at": 0,
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-simple_menu",
+  "folder_id": 6098902230,
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_LISTING",
+    "BLOG_POST"
+  ],
+  "icon": "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Simple%20Menu/icons/Simple%20Menu_icon.svg",
+  "id": 6098475803,
+  "is_available_for_new_content": true,
+  "is_buffered": false,
+  "js_assets": [],
+  "label": "Simple Menu",
+  "marketplace_version": 66,
+  "master_language": "en",
+  "module_id": 1790630,
+  "name": "Simple Menu",
+  "other_assets": [],
+  "placement_rules": [],
+  "portal_id": 123,
+  "purchased": false,
+  "schema_version": 2,
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "DEFAULT"
+  ],
+  "updated": 1538589897818,
+  "updated_by_id": 846186,
+  "widget_label": "",
+  "writeable": false
+}

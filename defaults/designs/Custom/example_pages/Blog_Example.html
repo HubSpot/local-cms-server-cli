@@ -1,0 +1,167 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ html_lang }}" {{ html_lang_dir }}> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ html_lang }}" {{ html_lang_dir }}>        <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ html_lang }}" {{ html_lang_dir }}>               <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ html_lang }}" {{ html_lang_dir }}> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="{{ meta_author }}">
+    <meta name="description" content="{{ page_meta.meta_description }}">
+    <meta name="generator" content="HubSpot">
+    <title>{{ page_meta.html_title }}</title>
+    {% if site_settings.favicon_src %}<link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />{% endif %}
+    
+{{ required_head_tags }}
+    
+    {{ include_css("hubspot_default/shared/responsive/layout.css") }}
+    {{ include_attached_css( [{"id":6099133411,"type":"cos_extension_resource"}]) }}
+    {{ require_attached_js( [{"id":6099133405,"type":"cos_extension_resource"}]) }}
+    {{ user_head_overrides }}
+
+</head>
+<body class="blog {{ builtin_body_classes }}" style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include 'generated_global_groups/6099133423.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell title-background padding20tb" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell page-center" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_151809955213359" module_id=3563467, overrideable=True, per_widget_wrapper_html='', title='', widget_name='Vast Blog Title', wrapping_html='', label='Vast Blog Title' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell page-center content-wrapper padding40tb" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 ">
+<div class="row-fluid ">
+<div class="span8 widget-span widget-type-cell blog-content" style="" data-widget-type="cell" data-x="0" data-w="8">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_151811850626664" blog_listing_source='<div class="blog-section">\n    <div class="blog-listing-wrapper cell-wrapper">\n        {# simple_list_page indicates the "blog/all" page, which is a list of links to every blog post #}\n        <div class="post-listing{% if simple_list_page %}-simple{% endif %}">\n            {% if blog_author %}\n                <div class="hs-author-profile">\n                    <h2 class="hs-author-name">{{ blog_author.display_name }}</h2>\n                    {# {% if blog_author.avatar %} <div class="hs-author-avatar"> <img width="35 px" src="{{ blog_author.avatar }}"> </div> {% endif %} #}\n                    <div class="hs-author-bio">{{ blog_author.bio }}</div>\n                    {% if blog_author.has_social_profiles %}\n                        <div class="hs-author-social-section">\n                            <span class="hs-author-social-label">Find me on:</span>\n                            <div class="hs-author-social-links">\n                                {% if blog_author.facebook %}\n                                    <a href="{{ blog_author.facebook }}" target="_blank" class="hs-author-social-link hs-social-facebook"><i class="fa fa-facebook-square"></i></a>\n                                {% endif %}\n                                {% if blog_author.linkedin %}\n                                    <a href="{{ blog_author.linkedin }}" target="_blank" class="hs-author-social-link hs-social-linkedin"><i class="fa fa-linkedin-square"></i></a>\n                                {% endif %}\n                                {% if blog_author.twitter %}\n                                    <a href="{{ blog_author.twitter }}" target="_blank" class="hs-author-social-link hs-social-twitter"><i class="fa fa-twitter-square"></i></a>\n                                {% endif %}\n                                {% if blog_author.google_plus %}\n                                    <a href="{{ blog_author.google_plus }}?rel=author" target="_blank" class="hs-author-social-link hs-social-google-plus"><i class="fa fa-google-plus-square"></i></a>\n                                {% endif %}\n                            </div>\n                        </div>\n                    {% endif %}\n                </div>\n                <br />\n                <h2 class="hs-author-listing-header">Recent Posts</h2>\n            {% endif %}\n            {% for content in contents %}\n                <div class="post-item">\n                    {% if not simple_list_page %}\n                                                {% if content.post_list_summary_featured_image %}\n                                <div class="hs-featured-image-wrapper">\n                                    <a href="{{content.absolute_url}}" title="" class="hs-featured-image-link">\n                                        <img src="{{ content.post_list_summary_featured_image }}" class="hs-featured-image">\n                                    </a>\n                                </div>\n                            {% endif %}\n                        <div class="post-header clearfix">\n                            <h2><a href="{{content.absolute_url}}">{{ content.name }}</a></h2>\n                            <p id="hubspot-author_data" class="hubspot-editable" data-hubspot-form-id="author_data" data-hubspot-name="Blog Author">\n                               <i class="fa fa-calendar"></i> {{ content.publish_date_localized }} / by \n                                {%if content.blog_post_author %}\n                                    <a class="author-link" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a>\n                                {% endif %}\n                                 {% if content.topic_list %}\n                             posted in\n                                {% for topic in content.topic_list %}\n                                    <a class="topic-link" href="{{ group.absolute_url }}/topic/{{ topic.slug }}">{{ topic.name }}</a>{% if not loop.last %},{% endif %}\n                                {% endfor %}\n                             \n                        {% endif %}\n                            </p>\n                    <p class="custom_listing_comments">\n                        <a href="{{content.absolute_url}}#comments-listing"><i class="fa fa-comment"></i>\n                        {% set comments_number =  content.comment_list|length %}\n                        {% if comments_number == 1 %}\n                            {% set comments_lable = "Comment" %}\n                        {% else %}\n                                {% set comments_lable = "Comments" %}\n                        {% endif %}\n                        {{ comments_number }} {{ comments_lable }}</a>\n                    \n                    </p>\n                        </div>\n                        <div class="post-body clearfix">\n                            <!--post summary-->\n\n                            {{ content.post_list_content|safe }}\n                        </div>\n                        <a class="more-link" href="{{ content.absolute_url }}">Read More <i class="fa fa-long-arrow-right"></i></a>                        \n\n                       \n                    {% else %}\n                        <h2 class="post-listing-simple"><a href="{{content.absolute_url}}">{{ content.name }}</a></h2>\n                    {% endif %}\n                </div>\n            {% endfor %}\n        </div>\n\n        <div class="blog-pagination">\n            {% if last_page_num %}\n                <a class="previous-posts-link" href="{{ blog_page_link(last_page_num) }}"><i class="fa fa-angle-double-left"></i> Prev</a>\n            {% endif %}\n                <a class="all-posts-link" href="{{ group.absolute_url }}/all">All posts</a>\n            {% if next_page_num %}\n                <a class="next-posts-link" href="{{ blog_page_link(next_page_num) }}">Next <i class="fa fa-angle-double-right"></i></a>\n            {% endif %}\n        </div>\n    </div>\n</div>', blog_post_source='<div class="blog-section">\n    <div class="blog-post-wrapper cell-wrapper">\n        <div class="section post-header clearfix">\n            <h2>\n                <a href="{{ content.absolute_url }}" id="hubspot-name" class="link hubspot-editable" data-hubspot-form-id="name" data-hubspot-name="Blog Title">{{ content.name }}</a> \n            </h2>\n            <p id="hubspot-author_data" class="hubspot-editable" data-hubspot-form-id="author_data" data-hubspot-name="Blog Author" >\n                    <i class="fa fa-calendar"></i> {{ content.publish_date_localized }} / by\n                    {% if content.blog_post_author %}\n                        <a class="author-link" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a>\n                        {# {% if content.blog_post_author.avatar %} <div class="hs-author-avatar"> <img width="35 px" src="{{ content.blog_post_author.avatar }}"> </div> {% endif %} #}\n                        \n                    {% endif %}\n            </p>\n            <div class="social-sharing-wrapper">\n                {% blog_social_sharing "blog_social_sharing" overrideable=False, label=\'Blog Social Sharing\' %}\n            </div>\n        </div>\n        \n        <div class="section post-body">\n            {{ content.post_body }}\n        </div>\n        {% if content.topic_list %}\n             <p id="hubspot-topic_data" > Topics:\n                {% for topic in content.topic_list %}\n                    <a class="topic-link" href="{{ group.absolute_url }}/topic/{{ topic.slug }}">{{ topic.name }}</a>{% if not loop.last %},{% endif %}\n                {% endfor %}\n             </p>\n        {% endif %}\n\n        <div class="about-author-sec row-fluid">\n            <div class="span2">\n                <img width="100" height="100" alt="{{ content.blog_post_author.display_name }}" src="{{ content.blog_post_author.avatar }}"> \n            </div>\n            <div class="span10">\n                <h4>Written by <a class="author-link" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a></h4>         \n                <p>{{ content.blog_post_author.bio }}</p>\n                {% if content.blog_post_author.has_social_profiles %}\n                    <div class="hs-author-social-section">\n                       <!-- <span class="hs-author-social-label">Find me on:</span> -->\n                        <div class="hs-author-social-links">\n                            {% if content.blog_post_author.facebook %}\n                                <a href="{{ content.blog_post_author.facebook }}" target="_blank" class="hs-author-social-link accentColor1"><i class="fa fa-facebook-square"></i></a>\n                            {% endif %}\n                            {% if content.blog_post_author.linkedin %}\n                                <a href="{{ content.blog_post_author.linkedin }}" target="_blank" class="hs-author-social-link accentColor1"><i class="fa fa-linkedin-square"></i></a>\n                            {% endif %}\n                            {% if content.blog_post_author.twitter %}\n                                <a href="{{ content.blog_post_author.twitter }}" target="_blank" class="hs-author-social-link accentColor1"><i class="fa fa-twitter-square"></i></a>\n                            {% endif %}\n                            {% if content.blog_post_author.google_plus %}\n                                <a href="{{ content.blog_post_author.google_plus }}?rel=author" target="_blank" class="hs-author-social-link accentColor1"><i class="fa fa-google-plus-square"></i></a>\n                            {% endif %}\n                        </div>\n                    </div>\n                {% endif %} \n            </div>           \n        </div>\n        \n    </div>\n</div>', module_id=1367092, overrideable=False, per_widget_wrapper_html='', template_to_edit='post', widget_name='Blog Content', wrapping_html='', label='Blog Content' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_151811854453966" module_id=1366601, overrideable=False, per_widget_wrapper_html='', widget_name='Blog Comments', wrapping_html='', label='Blog Comments' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-cell blog-sidebar" style="" data-widget-type="cell" data-x="8" data-w="4">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_151811855394269" module_id=1861177, overrideable=False, per_widget_wrapper_html='', select_blog=6098904051, title='Subscribe to Email Updates', widget_name='Blog Email Subscription', wrapping_html='', label='Blog Email Subscription' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_1518020136566122" module_id=3562971, overrideable=True, per_widget_wrapper_html='', widget_name='Vast - Tabber', wrapping_html='', blog=6098904051, label='Vast - Tabber' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_151811858887575" list_title='Posts by Topic', module_id=1366743, overrideable=False, per_widget_wrapper_html='', widget_name='Post Filter', wrapping_html='', select_blog=6098904051, label='Post Filter' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_151811861689980" list_title='Recent Posts', module_id=1367088, overrideable=False, per_widget_wrapper_html='', widget_name='Post Listing', wrapping_html='', select_blog=6098904051, label='Post Listing' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include 'generated_global_groups/6099133437.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+    {{ standard_footer_includes }}
+    
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+</body>
+</html>

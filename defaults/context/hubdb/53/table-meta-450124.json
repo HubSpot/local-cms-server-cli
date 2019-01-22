@@ -1,0 +1,49 @@
+{
+  "id": 450124,
+  "name": "Sales Close Rate Comparison Tool - Industries",
+  "portalId": 53,
+  "createdAt": 1485881629935,
+  "publishedAt": 1529679954807,
+  "updatedAt": 1527780710300,
+  "columns": [
+    {
+      "name": "industry",
+      "label": "Industry Name",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "rate",
+      "label": "Industry Average Close Rate",
+      "id": 3,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Sales Close Rate Comparison Tool - Industries",
+  "updated": 1527780710300,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 30,
+  "createdBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "updatedBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 3
+}

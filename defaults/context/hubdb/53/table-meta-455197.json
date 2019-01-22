@@ -1,0 +1,88 @@
+{
+  "id": 455197,
+  "name": "Services Secondary Nav [GLOBAL]",
+  "portalId": 53,
+  "createdAt": 1484000700150,
+  "publishedAt": 1537908726612,
+  "updatedAt": 1539382449629,
+  "columns": [
+    {
+      "name": "Name",
+      "id": 1,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "language",
+      "label": "language",
+      "id": 2,
+      "deleted": false,
+      "type": "TEXT",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "row_id",
+      "label": "row_id",
+      "id": 3,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "parent_id",
+      "label": "parent_id",
+      "id": 4,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "url",
+      "label": "url",
+      "id": 5,
+      "deleted": false,
+      "type": "URL",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "visible",
+      "label": "visible",
+      "id": 6,
+      "deleted": false,
+      "type": "BOOLEAN",
+      "foreignIdsByName": {}
+    },
+    {
+      "name": "order",
+      "label": "order",
+      "id": 8,
+      "deleted": false,
+      "type": "NUMBER",
+      "foreignIdsByName": {}
+    }
+  ],
+  "label": "Services Secondary Nav [GLOBAL]",
+  "updated": 1539382449629,
+  "cosObjectType": "HUBDB_TABLE",
+  "deleted": false,
+  "cdnPurgeEmbargoTime": null,
+  "rowCount": 184,
+  "createdBy": {
+    "id": 2611913,
+    "email": "eshaw@hubspot.com",
+    "firstName": "Liz",
+    "lastName": "Shaw"
+  },
+  "updatedBy": {
+    "id": 543353,
+    "email": "pwilver@hubspot.com",
+    "firstName": "Patrick",
+    "lastName": "Wilver"
+  },
+  "useForPages": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "allowPublicApiAccess": true,
+  "columnCount": 8
+}

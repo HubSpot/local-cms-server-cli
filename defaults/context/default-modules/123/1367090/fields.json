@@ -1,0 +1,60 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "",
+    "hierarchical": false,
+    "id": "5265a2e4-5e45-7f66-59ba-af65367c38e1",
+    "label": "Header",
+    "locked": false,
+    "max_depth": 0,
+    "name": "header",
+    "placeholder": "Header Text",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "default": "If this is not your email address, please ignore this page since the email associated with this page was most likely forwarded to you.",
+    "hierarchical": false,
+    "id": "2315a4fd-524e-3c04-7df5-8942a2bfc60f",
+    "label": "Subheader",
+    "locked": false,
+    "max_depth": 0,
+    "name": "subheader_text",
+    "required": false,
+    "sortable": false,
+    "type": "richtext"
+  },
+  {
+    "allow_new_line": false,
+    "default": "You have successfully unsubscribed from all email communications.",
+    "hierarchical": false,
+    "id": "32754710-9bae-8683-cb5f-61bd07dfb31e",
+    "label": "Message on unsubscribe",
+    "locked": false,
+    "max_depth": 0,
+    "name": "unsubscribe_all_success",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "allow_new_line": false,
+    "default": "You have successfully updated your email preferences.",
+    "hierarchical": false,
+    "id": "7487aa59-db64-6d78-f356-3b34862dc6cf",
+    "label": "Message on subscription update",
+    "locked": false,
+    "max_depth": 0,
+    "name": "subscription_update_success",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "type": "text",
+    "validation_regex": ""
+  }
+]
