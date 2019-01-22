@@ -1,0 +1,46 @@
+<div>
+  <h1>Local HubDB Example</h1>
+  <p>See the full HubDB HubL documentation <a href="https://designers.hubspot.com/docs/tools/hubdb">here</a></p>
+  <div>
+    <h3>hubdb_table</h3>
+    <p><u>Gets information on a table including its name, columns, last updated, etc...</u></p>
+    {% set table_info = hubdb_table(1029037) %}
+    <p>Showing information for table {{table_info.id}} ({{table_info.name}})</p>
+    <p>The table was created at {{table_info.created_at}} and has {{table_info.row_count}} rows</p>
+  </div>
+
+  <div>
+    <h3>hubdb_table_row</h3>
+    <p><u>Gets a single row</u></p>
+    {% set single_row = hubdb_table_row(1029037, 6655243623) %}
+    <p>Showing information for row {{single_row.hs_id}}</p>
+    <p>This row was created at {{single_row.hs_created_at}} and is named {{single_row.name}}</p>
+  </div>
+
+  <div>
+    <h3>hubdb_table_column</h3>
+    <p><u>Gets information on a column in a table such as its label, type, and options.</u></p>
+    {% set column_info = hubdb_table_column(1029037, "multiselect_column") %}
+    <p>Column ID {{column_info.id}} is named {{column_info.name}} with label {{column_info.label}} and type {{column_info.type}}</p>
+    <p>It has the options {{column_info.options}}</p>
+    <p>You can get an option by name, like so: {{column_info.getOptionByName("Option 1")}}</p>
+  </div>
+
+  <div>
+    <h3>hubdb_table_rows</h3>
+    <p><u>List multiple rows of a table</u></p>
+
+    <h4>Rows, reverse sorted by numerical column limited to two results:</h4>
+    {% for row in hubdb_table_rows(1029037, "&orderBy=-number_column&limit=2") %}
+    <p>the value for {{row.hs_id}} is {{row.number_column}}</p>
+    {% endfor %}
+    <h4>Rows, filtered on a complex column type</h4>
+    {% for row in hubdb_table_rows(1029037, "&multiselect_column__in=3,4") %}
+    <p>Selected row {{row.hs_id}} with multiselect value: {{row.multiselect_column}}</p>
+    {% endfor %}
+    <h4>Row IDs, ordered randomly</h4>
+    {% for row in hubdb_table_rows(1029037, "&orderBy=random()") %}
+    <p>{{row.hs_id}}</p>
+    {% endfor %}
+  </div>
+</div>

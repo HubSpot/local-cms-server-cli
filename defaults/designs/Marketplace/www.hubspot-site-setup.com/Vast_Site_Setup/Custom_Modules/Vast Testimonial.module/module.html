@@ -1,0 +1,14 @@
+<div class="quote-box">
+    <blockquote class="quote">{{ module.quote }}
+    </blockquote><!--//quote-->
+    <p class="details">
+        <span class="name">{{ module.firstlast_name }}</span>
+        <span class="title">{{ module.company }}</span>
+    </p>
+    <span class="accentColor1 .fa"><i class="fa fa-quote-right"></i></span>
+    </div>
+    <div class="testimonial-headshot text-center">
+    {% if module.person_headshot.src %}
+        <img src="{{ module.person_headshot.src }}" width="{{ module.person_headshot.width }}" height="{{ module.person_headshot.height }}" alt="{{ module.person_headshot.alt }}">
+    {% endif %}
+</div>

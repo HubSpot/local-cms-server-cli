@@ -1,0 +1,33 @@
+.team-member-headshot img {
+    border-radius: 50%;
+    max-width: 150px; 
+    max-height: 150px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.team-member-social a{
+    font-size: 30px;
+}
+.three-column .team-member-social a {
+    display: block;
+}
+.three-column .team-member-social i {
+    padding: 0;
+}
+.team-member-social i{
+    padding-right: 5px;
+}
+.team-member-social a:last-child i{
+    padding-right: 0px;
+}
+.team-member-name{
+    margin: 0px;
+    font-weight: 100;
+}
+.team-member-title{
+    margin: 0px;
+    font-weight: 100;
+}

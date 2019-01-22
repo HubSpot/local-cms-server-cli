@@ -1,0 +1,21 @@
+<div class="tabber-wrap blog-tabber">
+  
+    <ul class="clearfix tabber-tabs">
+      <li class="active"><a>Recent</a></li>
+      <li><a>Popular</a></li>
+      <li><a>Categories</a></li>
+    </ul>
+     
+    <div class="tabber-content">
+        <div class="tab-pane active">
+           {% rss_listing "recent_posts" rss_url='', show_date=True, feed_source={rss_url='', is_external=False, select_blog="{{ module.blog }}"}, click_through_text='Read more', publish_date_text='posted at', include_featured_image=True, overrideable=False, publish_date_format='', show_detail=False, show_author=False, number_of_items='5', is_external=False, publish_date_format='MMM d, yyyy', title='', label='RSS Listing', limit_to_chars='200', attribution_text='by' %}
+        </div>
+        <div class="tab-pane" id="tab-2">
+            {% post_listing "popular_posts" label="Popular Posts", list_title="", listing_type="popular", max_links=10, select_blog="{{ module.blog }}" %}
+        </div>
+        <div class="tab-pane" id="tab-3">
+            {% post_filter "post_categories" label="Post Categories", expand_link_text="see all", filter_type="topic", list_title="Lists by Topic", max_links=10, order_by="post_count", select_blog="{{ module.blog }}" %}
+        </div>
+    </div>
+
+</div>

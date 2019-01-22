@@ -1,0 +1,57 @@
+[ {
+  "id" : "46ef6d42-ecbe-e471-4a63-1a4130ae4148",
+  "name" : "firstlast_name",
+  "label" : "First/Last Name",
+  "help_text" : "",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "Rachel Decker"
+}, {
+  "id" : "fdb8479a-9c0b-e46f-313b-771182d3e13e",
+  "name" : "company",
+  "label" : "Company",
+  "help_text" : "",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "HubSpot, inc."
+}, {
+  "id" : "8c576c34-48c8-e73c-a116-767f41b9d9b9",
+  "name" : "person_headshot",
+  "label" : "Person Headshot",
+  "help_text" : "",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "resizable" : true,
+  "type" : "image",
+  "default" : {
+    "src" : "https://static.hsappstatic.net/content_shared_assets/static-1.3981/img/testimonial_headshot.jpg",
+    "alt" : "testimonial_headshot.jpg",
+    "width" : "400",
+    "height" : "400"
+  }
+}, {
+  "id" : "ef15e54f-9d37-5694-ef90-9fd56f371490",
+  "name" : "quote",
+  "label" : "Quote",
+  "help_text" : "Add a quote to solidify why a prospect should choose your company.",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "type" : "richtext",
+  "default" : "Never underestimate the power of a great testimonial. A few words of praise from a happy customer can work wonders. A big, friendly smile never hurts, either."
+} ]

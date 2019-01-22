@@ -1,0 +1,25 @@
+<div class="padding20tb clearfix">
+    <div class="row">
+        <div class="span3 team-member-headshot text-center">
+            {% if module.team_member_head_shot.src %}
+            <img src="{{ module.team_member_head_shot.src }}" width="{{ module.team_member_head_shot.width }}" height="{{ module.team_member_head_shot.height }}" alt="{{ module.team_member_head_shot.alt }}">
+            {% endif %}
+            <p class="team-member-social text-center">
+                {% if module.facebook_link %}
+                <a href="{{ module.facebook_link }}"><i class="fa fa-facebook-square"></i></a>
+                {% endif %} 
+                {% if module.linkedin_link %}
+                <a href="{{ module.linkedin_link }}"><i class="fa fa-linkedin-square"></i></a>
+                {% endif %}
+                {% if module.twitter_link %}
+                <a href="{{ module.twitter_link }}"><i class="fa fa-twitter-square"></i></a>
+                {% endif %}
+            </p>
+        </div>
+        <div class="span9">
+            <h3 class="team-member-name">{{ module.team_member_name }}</h3>
+            <h5 class="team-member-title">{{ module.team_member_title }}</h5>
+            <p class="team-member-bio">{{ module.team_member_bio }}</p>
+        </div>
+    </div>
+</div>

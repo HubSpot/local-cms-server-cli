@@ -1,0 +1,15 @@
+[ {
+  "id" : "efad4ac2-e9e1-fcc6-f11e-f0eb3e5084e7",
+  "name" : "company_email",
+  "label" : "Company Email",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "placeholder" : "Company Email",
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "yourname@company.com"
+} ]
