@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint ."
   },
-  "directories": {
-    "bin": "./bin"
+  "bin": {
+    "hs": "./bin/cli.js"
   },
   "author": "",
   "license": "MIT",
