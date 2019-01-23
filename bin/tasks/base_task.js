@@ -8,7 +8,7 @@ const yaml = require('js-yaml');
 class BaseTask {
   constructor(name, requiredArgs) {
     this.project_root = process.env.project_root || process.cwd();
-    const conf = yaml.safeLoad(fs.readFileSync(this.project_root + '/gulp.yaml', 'utf8'));
+    const conf = yaml.safeLoad(fs.readFileSync(this.project_root + '/cli-config.yaml', 'utf8'));
     const actualArgs = conf[name];
     this.assertHasRequiredArgs(actualArgs, requiredArgs);
     this.args = actualArgs;
