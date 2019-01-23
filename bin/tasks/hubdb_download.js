@@ -18,7 +18,7 @@ const DEFAULT_BATCH_SIZE = 1;
 class HubDbTask extends BaseTask {
 
   constructor(taskName) {
-    const requiredArgs = ['hapikey'];
+    const requiredArgs = ['hapikey', 'pathToContextDir'];
     super(taskName, requiredArgs);
   }
 
@@ -30,11 +30,13 @@ class HubDbTask extends BaseTask {
 
     const portalId = activeTables[0].portalId;
 
-    logger.info('Removing ./hubdb/%d/*, if it exists', portalId);
-    shell.rm('-r', this.project_root + '/hubdb/' + portalId);
-    shell.mkdir('-p', this.project_root + '/hubdb/' + portalId);
-    logger.info('Writing table metadata to ./hubdb/%d/*', portalId);
-    this.writeTablesMetaData(portalId, activeTables);
+    const baseHubDbPath = this.project_root + "/" + args.pathToContextDir + '/hubdb/' + portalId;
+
+    logger.info('Removing %s/*, if it exists', baseHubDbPath);
+    shell.rm('-r', baseHubDbPath);
+    shell.mkdir('-p', baseHubDbPath);
+    logger.info('Writing table metadata to %s/*', baseHubDbPath);
+    this.writeTablesMetaData(baseHubDbPath, activeTables);
 
     logger.info('Fetching rows for all tables');
     const allRows = await this.getAllRows(portalId, activeTables);
@@ -43,7 +45,7 @@ class HubDbTask extends BaseTask {
     logger.info('Populating database');
     const dbOptions = {
       client: 'sqlite3',
-      fileName: this.project_root + '/hubdb/' + portalId + '/hubdb.db',
+      fileName: baseHubDbPath + '/hubdb.db',
       useNullAsDefault: true,
       batchSize: args.batchSize || DEFAULT_BATCH_SIZE
     };
@@ -188,9 +190,9 @@ class HubDbTask extends BaseTask {
     return Promise.all(getRowPromises).then(responses => responses.map(JSON.parse));
   }
 
-  writeTablesMetaData(portalId, tables) {
+  writeTablesMetaData(path, tables) {
     tables.forEach((table) => {
-      const writeToFile = this.project_root + '/hubDb/' + portalId + '/table-meta-' + table.id + '.json';
+      const writeToFile = path + '/table-meta-' + table.id + '.json';
       fs.writeFileSync(writeToFile, JSON.stringify(table, null, 2));
     });
   }
