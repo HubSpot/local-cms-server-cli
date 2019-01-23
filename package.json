@@ -8,7 +8,7 @@
     "eslint": "eslint ."
   },
   "bin": {
-    "hs": "./bin/cli.js"
+    "hs-cms-server": "./bin/cli.js"
   },
   "files": [
     "bin"

@@ -28,6 +28,7 @@ download-designs:
 
 download-hubdb:
   hapikey: *hk
+  pathToContextDir: *contextPath
   # optional args
   batchSize: 1
 
