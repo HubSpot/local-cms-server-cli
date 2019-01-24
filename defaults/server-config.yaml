@@ -6,6 +6,8 @@
 #|_|  |_|\__,_|_.__/|______| |_____/ \___|_|    \_/ \___|_|   
 #
 
+portalId: 123
+
 # base directory to load context settings from, defaults to current dir
 contextBaseDir: context
 
