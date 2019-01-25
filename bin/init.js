@@ -7,7 +7,7 @@ const shell = require('shelljs');
 const DOWNLOAD_URL_BASE = packageJson.repository + "/trunk/defaults/";
 
 function downloadFromGit(path) {
-  shell.exec("svn export " + DOWNLOAD_URL_BASE + path);
+  shell.exec("svn export --trust-server-cert --non-interactive " + DOWNLOAD_URL_BASE + path);
 }
 
 function initConfigs() {
