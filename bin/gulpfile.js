@@ -7,6 +7,7 @@ const HubDbTask = require('./tasks/hubdb_download').HubDbTask;
 const LayoutTask = require('./tasks/layout_download').LayoutTask;
 const ResourceMappingTask = require('./tasks/resource_mapping_download').ResourceMappingTask;
 
+const ALL_TASKS = 'download-all';
 const BLOG_TASK_NAME = 'download-blogs';
 const CONTENT_TASK_NAME = 'download-content';
 const DEFAULT_MODULES_TASK_NAME = 'download-default-modules';
@@ -50,3 +51,13 @@ gulp.task(LAYOUT_TASK_NAME, async() => {
 gulp.task(RESOURCE_MAPPING_TASK_NAME, async() => {
   await new ResourceMappingTask(RESOURCE_MAPPING_TASK_NAME).run();
 });
+
+gulp.task(ALL_TASKS, gulp.series(
+  BLOG_TASK_NAME,
+  CONTENT_TASK_NAME,
+  DEFAULT_MODULES_TASK_NAME,
+  HUBDB_TASK_NAME,
+  LAYOUT_TASK_NAME,
+  RESOURCE_MAPPING_TASK_NAME,
+  DOWNLOAD_DESIGNS_TASK_NAME,
+));
