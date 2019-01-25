@@ -4,6 +4,7 @@ const _ = require('underscore');
 const hubtasks = require('./hubtasks');
 const init = require('./init');
 const program = require('commander');
+const server = require('./main.js');
 
 program
   .command('run-tasks [tasks...]')
@@ -21,6 +22,12 @@ program
   .action(cmd => {
     const options = _.pick(cmd, 'config', 'designs', 'context', 'all');
     init.run(options);
+  });
+
+program
+  .command('start')
+  .action(() => {
+    server.run();
   });
 
 program.parse(process.argv);
