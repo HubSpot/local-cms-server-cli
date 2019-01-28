@@ -2,8 +2,8 @@
 Command line tools for running and using the Local CMS Server
 
 # Dependencies
-- docker
-- yarn / npm
+- docker: https://docs.docker.com/install/
+- yarn / npm: https://yarnpkg.com/lang/en/docs/install/
 
 # TL;DR - How do I get the server up and running with examples to look at?
 ```
@@ -65,7 +65,7 @@ The `--tasks` flag lists the valid tasks you can run, which are:
 You shouldn't need to worry about the other properties in that file
 
 ## cli-config.yaml
-This config is used for the `run-tasks` command described above. Here you can specify your `hapikey` (for connecting to HubSpot APIs) and your `contextDirPath` for where you want these local entities to be stored. This should match the `contextBaseDir` in `server-config.yaml`
+This config is used for the `run-tasks` command described above. Here you can specify your `hapikey` (for connecting to HubSpot APIs) and your `contextDirPath` for where you want these local entities to be stored. This should match the `contextBaseDir` in `server-config.yaml`. Your hapikey can be found here: https://app.hubspot.com/l/integrations-settings/api-key
 
 - `download-designs` asks for your FTP username/password, portalId, and the local output dir.
 - `limit` is a property for most tasks. The hubspot APIs default limit the response to 100 objects. You can change this number by specifying the `limit` for the entity you are downloading.
