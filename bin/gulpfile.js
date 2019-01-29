@@ -5,6 +5,7 @@ const DesignsFtpTask = require('./tasks/download_ftp_designs').DesignsFtpTask;
 const gulp = require('gulp');
 const HubDbTask = require('./tasks/hubdb_download').HubDbTask;
 const LayoutTask = require('./tasks/layout_download').LayoutTask;
+const NavMenuTask = require('./tasks/nav_menu_download').NavMenuTask;
 const ResourceMappingTask = require('./tasks/resource_mapping_download').ResourceMappingTask;
 
 const ALL_TASKS = 'download-all';
@@ -14,6 +15,7 @@ const DEFAULT_MODULES_TASK_NAME = 'download-default-modules';
 const DOWNLOAD_DESIGNS_TASK_NAME = 'download-designs';
 const HUBDB_TASK_NAME = 'download-hubdb';
 const LAYOUT_TASK_NAME = 'download-layouts';
+const NAV_MENU_TASK_NAME = 'download-menus';
 const RESOURCE_MAPPING_TASK_NAME = 'download-resource-mappings';
 
 // Task for fetching blog listing pages
@@ -44,6 +46,10 @@ gulp.task(HUBDB_TASK_NAME, async () => {
 // Task for fetching layout objects, for rendering drag and drop pages.
 gulp.task(LAYOUT_TASK_NAME, async() => {
   await new LayoutTask(LAYOUT_TASK_NAME).run();
+});
+
+gulp.task(NAV_MENU_TASK_NAME, async() => {
+  await new NavMenuTask(NAV_MENU_TASK_NAME).run();
 });
 
 // Task for downloading mappings from extension resource IDs to their path in the design manager.
