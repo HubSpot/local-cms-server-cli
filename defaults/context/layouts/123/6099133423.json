@@ -2,12 +2,17 @@
   "attached_amp_stylesheet": 0,
   "attached_js": [],
   "attached_stylesheets": [],
-  "author": "marketplaceteam@hubspot.com",
-  "author_at": 1535029280346,
   "body": {
     "enable_domain_stylesheets": false,
     "include_default_custom_css": false,
-    "folder": "Vast/Global_Groups",
+    "attached_amp_stylesheet": 0,
+    "attached_js": [],
+    "attached_stylesheets": [],
+    "body_class": "",
+    "body_css": "",
+    "body_css_id": "",
+    "body_editable": false,
+    "builtin": false,
     "content_tags": [
       {
         "name": "OTHER_INDUSTRY",
@@ -18,23 +23,12 @@
         "source": "MARKETPLACE"
       }
     ],
-    "purchased": false,
-    "attached_js": [],
-    "custom_head": "",
-    "cloned_from": "4958677932",
-    "body_css_id": "",
     "custom_footer": "",
-    "body_class": "",
-    "body_css": "",
-    "builtin": false,
-    "generator": null,
+    "custom_head": "",
+    "folder": "Vast/Global_Groups",
     "generated_template_id": 6099133427,
     "marketplace_good_id": 259972,
-    "attached_stylesheets": [],
-    "last_edit_session_id": null,
-    "last_edit_update_id": null,
-    "has_user_changes": true,
-    "is_read_only": false
+    "has_user_changes": true
   },
   "body_class": "",
   "body_css": "",
@@ -178,6 +172,7 @@
                   "css_id_str": "",
                   "css_style": "",
                   "custom_widget_id": 6098194144,
+                  "id": 6579799425,
                   "module_id": 1346990,
                   "overrideable": false,
                   "per_widget_wrapper_html": "",
@@ -254,7 +249,5 @@
   "path": "generated_global_groups/6099133423.html",
   "portal_id": 123,
   "purchased": false,
-  "template_type": 18,
-  "updated": 1535029280346,
-  "updated_by": "marketplaceteam@hubspot.com"
+  "template_type": 18
 }
