@@ -38,6 +38,12 @@ download-layouts:
   #optional args
   limit: null
 
+download-menus:
+  hapikey: *hk
+  pathToContextDir: *contextPath
+  # optional args
+  limit: null
+
 download-resource-mappings:
   hapikey: *hk
   pathToContextDir: *contextPath
