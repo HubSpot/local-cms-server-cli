@@ -54,6 +54,7 @@ The `--tasks` flag lists the valid tasks you can run, which are:
 - `download-designs` - Uses FTP to download your designs directory
 - `download-hubdb` - Downloads your hubdb tables/rows
 - `download-layouts` - Downloads drag and drop layout objects, to locally render pages built in the DnD editor
+- `download-menus` - Downloads navigation menus
 - `download-resource-mappings` - Downloads a mapping file of resource ID -> file location in the design manager. This is needed for HubL functions that reference resources by their ID.
 
 # Configs
