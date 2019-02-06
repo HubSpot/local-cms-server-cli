@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const _ = require('underscore');
-const packageJson = require('../package.json');
 const shell = require('shelljs');
 
 const projectRoot = process.cwd();
