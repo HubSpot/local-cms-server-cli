@@ -11,7 +11,8 @@
     "hs-cms-server": "./bin/cli.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "default"
   ],
   "author": "",
   "license": "MIT",

@@ -1,31 +1,31 @@
 #!/usr/bin/env node
 
 const _ = require('underscore');
-const packageJson = require('../package.json');
 const shell = require('shelljs');
 
-const DOWNLOAD_URL_BASE = packageJson.repository + "/trunk/defaults/";
+const projectRoot = process.cwd();
+const scriptRoot = __dirname;
 
-function downloadFromGit(path) {
-  shell.exec("svn export --trust-server-cert --non-interactive " + DOWNLOAD_URL_BASE + path);
+function copyFromPackage(fileName) {
+  shell.cp("-R", `${scriptRoot}/../defaults/${fileName}`, projectRoot);
 }
 
 function initConfigs() {
   console.log("Initializing config files");
-  downloadFromGit("cli-config.yaml");
-  downloadFromGit("server-config.yaml");
+  copyFromPackage("cli-config.yaml");
+  copyFromPackage("server-config.yaml");
   console.log("Done initializing config files");
 }
 
 function initDesigns() {
   console.log('Initializing designs directory');
-  downloadFromGit("designs");
+  copyFromPackage("designs");
   console.log('Done initializing designs directory');
 }
 
 function initContext() {
   console.log('Initializing context directory');
-  downloadFromGit("context");
+  copyFromPackage("context");
   console.log('Done initializing context directory');
 }
 
