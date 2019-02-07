@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const opn = require('opn');
+const retry = require('requestretry');
 const shell = require('shelljs');
 const yaml = require('js-yaml');
 
 const CONFIG_FILE = 'server-config.yaml';
 const cwd = process.cwd();
+const URL = "http://localhost:8080";
 
 function run() {
   if (!fs.existsSync(`${process.cwd()}/${CONFIG_FILE}`)) {
@@ -26,7 +29,23 @@ function run() {
   `;
 
   console.log("Running: " + cmd);
-  shell.exec(cmd);
+  shell.exec(cmd, { async: true } );
+  openBrowser();
+}
+
+function openBrowser() {
+  retry({
+    url: URL,
+    json: true,
+    maxAttempts: 100,
+    retryDelay: 1000
+  })
+  .then(() => {
+    opn(URL);
+  })
+  .catch(() => {
+    console.log(`Unable to open browser. Try manually navigating to ${URL}`);
+  });
 }
 
 module.exports = {
