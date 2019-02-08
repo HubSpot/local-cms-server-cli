@@ -7,11 +7,12 @@ const yaml = require('js-yaml');
 
 class BaseTask {
   constructor(name, requiredArgs) {
+    this.taskName = name;
     this.project_root = process.env.project_root || process.cwd();
     const conf = yaml.safeLoad(fs.readFileSync(this.project_root + '/cli-config.yaml', 'utf8'));
-    const actualArgs = conf[name];
-    this.assertHasRequiredArgs(actualArgs, requiredArgs);
-    this.args = actualArgs;
+    const taskArgs = conf[name];
+    this.assertHasRequiredArgs(conf, taskArgs, requiredArgs);
+    this.args = { ...conf, ...taskArgs };
   }
 
   async getObjects(baseUrl, path, additionalParams) {
@@ -40,10 +41,12 @@ class BaseTask {
     })
   }
 
-  assertHasRequiredArgs(actualArgs, requiredArgs) {
+  assertHasRequiredArgs(globalArgs, taskArgs, requiredArgs) {
     const missingArgs = [];
     requiredArgs.forEach((requiredArg) => {
-      if (!(requiredArg in actualArgs && actualArgs[requiredArg] !== null)) {
+      const globalArgExists = requiredArg in globalArgs && globalArgs[requiredArg] !== null;
+      const taskArgExists = requiredArg in taskArgs && taskArgs[requiredArg] !== null;
+      if (!(globalArgExists || taskArgExists)) {
         missingArgs.push(requiredArg);
       }
     });

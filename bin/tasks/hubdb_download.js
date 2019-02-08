@@ -15,11 +15,16 @@ const shell = require('shelljs');
 // 'too many SQL variables' error.
 const DEFAULT_BATCH_SIZE = 1;
 
-class HubDbTask extends BaseTask {
+const taskName = 'download-hubdb';
 
-  constructor(taskName) {
+class HubDbTask extends BaseTask {
+  constructor() {
     const requiredArgs = ['hapikey', 'pathToContextDir'];
     super(taskName, requiredArgs);
+  }
+
+  static getTaskName() {
+    return taskName;
   }
 
   async run() {

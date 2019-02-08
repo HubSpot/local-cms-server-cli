@@ -1,51 +1,31 @@
-# common args used by multiple gulp tasks
-hapikey: &hk null
-contextDirPath: &contextPath context
+# global args
+hapikey: null
+pathToContextDir: context
+username: null
+password: null
+portalId: null
 
+# task-specific args
 download-blogs:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  # optional args
   limit: null
 
 download-content:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  # optional args
   limit: null
 
 download-default-modules:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  #optional args
   limit: null
 
 download-designs:
-  username: null
-  password: null
-  portalId: null
   outDir: designs
 
 download-hubdb:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  # optional args
   batchSize: 1
 
 download-layouts:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  #optional args
   limit: null
 
 download-menus:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  # optional args
   limit: null
 
 download-resource-mappings:
-  hapikey: *hk
-  pathToContextDir: *contextPath
-  # optional args
   limit: null

@@ -2,10 +2,16 @@ const BaseTask = require('./base_task').BaseTask;
 const CONSTANTS = require('./constants');
 const logger = require('gulplog');
 
+const taskName = 'download-menus';
+
 class NavMenuTask extends BaseTask {
-  constructor(taskName) {
+  constructor() {
     const requiredArgs = ['hapikey', 'pathToContextDir'];
     super(taskName, requiredArgs);
+  }
+
+  static getTaskName() {
+    return taskName;
   }
 
   async run() {

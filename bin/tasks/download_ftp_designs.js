@@ -2,12 +2,18 @@ const BaseTask = require('./base_task').BaseTask;
 const CONSTANTS = require('./constants');
 const Ftp = require('easy-ftp');
 const logger = require('gulplog');
-const Promise = require('promise')
+const Promise = require('promise');
+
+const taskName = 'download-designs';
 
 class DesignsFtpTask extends BaseTask {
-  constructor(taskName) {
+  constructor() {
     const requiredArgs = ['password', 'username', 'portalId', 'outDir'];
     super(taskName, requiredArgs);
+  }
+
+  static getTaskName() {
+    return taskName;
   }
 
   async run() {

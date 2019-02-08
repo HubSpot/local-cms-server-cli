@@ -5,10 +5,16 @@ const fs = require('fs');
 const logger = require('gulplog');
 const shell = require('shelljs');
 
+const taskName = 'download-resource-mappings';
+
 class ResourceMappingTask extends BaseTask {
-  constructor(taskName) {
+  constructor() {
     const requiredArgs = ['hapikey', 'pathToContextDir'];
     super(taskName, requiredArgs);
+  }
+
+  static getTaskName() {
+    return taskName;
   }
 
   async run() {

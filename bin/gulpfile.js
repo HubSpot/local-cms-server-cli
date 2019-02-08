@@ -8,63 +8,53 @@ const LayoutTask = require('./tasks/layout_download').LayoutTask;
 const NavMenuTask = require('./tasks/nav_menu_download').NavMenuTask;
 const ResourceMappingTask = require('./tasks/resource_mapping_download').ResourceMappingTask;
 
-const ALL_TASKS = 'download-all';
-const BLOG_TASK_NAME = 'download-blogs';
-const CONTENT_TASK_NAME = 'download-content';
-const DEFAULT_MODULES_TASK_NAME = 'download-default-modules';
-const DOWNLOAD_DESIGNS_TASK_NAME = 'download-designs';
-const HUBDB_TASK_NAME = 'download-hubdb';
-const LAYOUT_TASK_NAME = 'download-layouts';
-const NAV_MENU_TASK_NAME = 'download-menus';
-const RESOURCE_MAPPING_TASK_NAME = 'download-resource-mappings';
-
 // Task for fetching blog listing pages
-gulp.task(BLOG_TASK_NAME, async() => {
-  await new BlogTask(BLOG_TASK_NAME).run();
+gulp.task(BlogTask.getTaskName(), async() => {
+  await new BlogTask().run();
 });
 
 // Task for fetching content objects, to render HubSpot pages.
-gulp.task(CONTENT_TASK_NAME, async() => {
-  await new ContentTask(CONTENT_TASK_NAME).run();
+gulp.task(ContentTask.getTaskName(), async() => {
+  await new ContentTask().run();
 });
 
 // Task for fetching a portals default V2 modules.
-gulp.task(DEFAULT_MODULES_TASK_NAME, async() => {
-  await new DefaultModulesTask(DEFAULT_MODULES_TASK_NAME).run();
+gulp.task(DefaultModulesTask.getTaskName(), async() => {
+  await new DefaultModulesTask().run();
 });
 
 // Task for syncing the designs directory from HubSpot FTP
-gulp.task(DOWNLOAD_DESIGNS_TASK_NAME, async() => {
-  await new DesignsFtpTask(DOWNLOAD_DESIGNS_TASK_NAME).run();
+gulp.task(DesignsFtpTask.getTaskName(), async() => {
+  await new DesignsFtpTask().run();
 });
 
 // Task for fetching HubDB data and storing it locally, to be read by the local HubL server.
-gulp.task(HUBDB_TASK_NAME, async () => {
-  await new HubDbTask(HUBDB_TASK_NAME).run();
+gulp.task(HubDbTask.getTaskName(), async () => {
+  await new HubDbTask().run();
 });
 
 // Task for fetching layout objects, for rendering drag and drop pages.
-gulp.task(LAYOUT_TASK_NAME, async() => {
-  await new LayoutTask(LAYOUT_TASK_NAME).run();
+gulp.task(LayoutTask.getTaskName(), async() => {
+  await new LayoutTask().run();
 });
 
-gulp.task(NAV_MENU_TASK_NAME, async() => {
-  await new NavMenuTask(NAV_MENU_TASK_NAME).run();
+gulp.task(NavMenuTask.getTaskName(), async() => {
+  await new NavMenuTask().run();
 });
 
 // Task for downloading mappings from extension resource IDs to their path in the design manager.
 // This is used to allow the lookup of local extension resources.
-gulp.task(RESOURCE_MAPPING_TASK_NAME, async() => {
-  await new ResourceMappingTask(RESOURCE_MAPPING_TASK_NAME).run();
+gulp.task(ResourceMappingTask.getTaskName(), async() => {
+  await new ResourceMappingTask().run();
 });
 
-gulp.task(ALL_TASKS, gulp.series(
-  BLOG_TASK_NAME,
-  CONTENT_TASK_NAME,
-  DEFAULT_MODULES_TASK_NAME,
-  HUBDB_TASK_NAME,
-  LAYOUT_TASK_NAME,
-  NAV_MENU_TASK_NAME,
-  RESOURCE_MAPPING_TASK_NAME,
-  DOWNLOAD_DESIGNS_TASK_NAME,
+gulp.task('download-all', gulp.series(
+  BlogTask.getTaskName(),
+  ContentTask.getTaskName(),
+  DefaultModulesTask.getTaskName(),
+  HubDbTask.getTaskName(),
+  LayoutTask.getTaskName(),
+  NavMenuTask.getTaskName(),
+  ResourceMappingTask.getTaskName(),
+  DesignsFtpTask.getTaskName()
 ));
