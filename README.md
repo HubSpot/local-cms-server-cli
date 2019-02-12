@@ -8,7 +8,7 @@ Command line tools for running and using the Local CMS Server
 # TL;DR - How do I get the server up and running with examples to look at?
 ```
 yarn add @hubspot/local-cms-server-cli
-yarn hs-cms-server init
+yarn hs-cms-server init # accept the defaults for all prompts
 yarn hs-cms-server start
 ```
 NOTE: if this is your first starting the server, it may take a minute to pull down the
@@ -19,8 +19,8 @@ printed to the console, navigate to that URL in your browser
 ```
 yarn add @hubspot/local-cms-server-cli
 yarn hs-cms-server init --config --context
-# (For now) manually update cli-config.yaml and server-config.yaml with appropriate values
-# configs explained later on in this README
+# respond to the CLI prompts (hapikey, FTP creds, portalId)
+yarn hs-cms-server run-tasks download-all
 yarn hs-cms-server start
 ```
 
