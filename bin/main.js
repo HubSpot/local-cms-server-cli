@@ -2,7 +2,6 @@
 
 const browserSync = require('browser-sync');
 const fs = require('fs');
-const opn = require('opn');
 const retry = require('requestretry');
 const shell = require('shelljs');
 const yaml = require('js-yaml');
