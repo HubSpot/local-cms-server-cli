@@ -80,16 +80,16 @@ function run(args) {
     };
   }
 
-  if (args.config) {
-    initConfigs();
-  }
-
   if (args.designs) {
     initDesigns();
   }
 
   if (args.context) {
     initContext();
+  }
+
+  if (args.config) {
+    initConfigs();
   }
 }
 

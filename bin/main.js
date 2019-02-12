@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
+const browserSync = require('browser-sync');
 const fs = require('fs');
-const opn = require('opn');
 const retry = require('requestretry');
 const shell = require('shelljs');
 const yaml = require('js-yaml');
@@ -41,7 +41,13 @@ function openBrowser() {
     retryDelay: 1000
   })
   .then(() => {
-    opn(URL);
+    browserSync.init({
+      proxy: URL,
+      files: [
+        './designs/**',
+        './context/**'
+      ]
+    });
   })
   .catch(() => {
     console.log(`Unable to open browser. Try manually navigating to ${URL}`);

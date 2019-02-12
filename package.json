@@ -18,6 +18,7 @@
   "license": "MIT",
   "repository": "https://github.com/HubSpot/local-cms-server-cli",
   "dependencies": {
+    "browser-sync": "^2.26.3",
     "commander": "^2.19.0",
     "easy-ftp": "^0.3.44",
     "eslint": "^5.9.0",
@@ -29,7 +30,6 @@
     "js-yaml": "^3.12.1",
     "knex": "^0.16.3",
     "minimist": "^1.2.0",
-    "opn": "^5.4.0",
     "promise": "^8.0.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
