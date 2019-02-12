@@ -25,6 +25,7 @@
     "eslint-plugin-node": "^8.0.0",
     "gulp": "^4.0.0",
     "gulplog": "^1.0.0",
+    "inquirer": "^6.2.2",
     "js-yaml": "^3.12.1",
     "knex": "^0.16.3",
     "minimist": "^1.2.0",
