@@ -29,3 +29,8 @@ download-menus:
 
 download-resource-mappings:
   limit: null
+
+ftp-upload:
+  designsPath: designs
+  files:
+    - null

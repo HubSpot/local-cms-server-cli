@@ -5,6 +5,7 @@ const hubtasks = require('./hubtasks');
 const init = require('./init');
 const program = require('commander');
 const server = require('./main.js');
+const FtpUploadTask = require('./ftp_upload').FtpUploadTask;
 
 program
   .command('run-tasks [tasks...]')
@@ -28,6 +29,12 @@ program
   .command('start')
   .action(() => {
     server.run();
+  });
+
+program
+  .command('upload')
+  .action(async () => {
+    await new FtpUploadTask().run();
   });
 
 program.parse(process.argv);
