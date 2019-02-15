@@ -16,19 +16,38 @@ class BaseTask {
   }
 
   async getObjects(baseUrl, path, additionalParams) {
+    const limit = additionalParams.limit;
     const paramsHash = additionalParams || {};
     const query = _.map(paramsHash, (val, key) => key + '=' + val).join('&');
     const url = baseUrl + path + '?' + query;
-    return request
-      .get(url)
-      .then(response => JSON.parse(response))
-      .then(parsedResponse => {
-        if (parsedResponse.total > parsedResponse.limit) {
-          logger.warn("Fetched %s objects out of %s", parsedResponse.limit, parsedResponse.total);
-          logger.warn("Consider increasing the limit parameter if you want to use all of these objects.");
-        }
-        return parsedResponse.objects;
-      });
+    return this.getObjectsPaginated(url, limit);
+  }
+
+  async getObjectsPaginated(url, limit) {
+    if (limit === null) {
+      logger.info(`No limit set, fetching all objects from ${url}`);
+    } else {
+      logger.info(`Fetching ${limit} objects from ${url}`);
+      return request.get(url).then(response => JSON.parse(response).objects);
+    }
+
+    let objects = [];
+    let count = 0;
+    let totalObjects = null;
+    let offset = 0;
+    while((totalObjects === null) || (count < totalObjects)) {
+      const response = await request.get(`${url}&offset=${offset}`).then(response => JSON.parse(response));
+      if (totalObjects === null) {
+        totalObjects = response.total;
+      }
+
+      logger.info(`Fetched ${response.objects.length} objects`);
+      count += response.objects.length;
+      offset += response.objects.length;
+      objects = objects.concat(response.objects);
+    }
+
+    return Promise.resolve(objects);
   }
 
   writeObjects(objects, objectName, contextPath, portalId) {
