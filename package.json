@@ -1,6 +1,6 @@
 {
   "name": "@hubspot/local-cms-server-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "CLI tools to be paired with @hubspot/local-cms-server",
   "main": "gulpfile.js",
   "scripts": {
