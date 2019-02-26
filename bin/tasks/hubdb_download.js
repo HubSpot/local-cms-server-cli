@@ -1,6 +1,6 @@
 const _ = require('underscore');
 const BaseTask = require('./base_task').BaseTask;
-const CONSTANTS = require('./constants');
+const { getApiUrl, HUBDB_API } = require('../utils/api');
 const fs = require('fs');
 const knex = require('knex');
 const logger = require('gulplog');
@@ -30,7 +30,10 @@ class HubDbTask extends BaseTask {
   async run() {
     const args = this.args;
     logger.info('Fetching all table meta data');
-    const tables = await this.getObjects(CONSTANTS.BASE_HUBDB_API_URL, 'tables', { hapikey: args.hapikey });
+    const tables = await this.getObjects(
+      getApiUrl(`${HUBDB_API}/tables`, { env: args.env }),
+      { hapikey: args.hapikey }
+);
     const activeTables = tables.filter(this.tableIsActive);
 
     const portalId = activeTables[0].portalId;
@@ -181,7 +184,8 @@ class HubDbTask extends BaseTask {
   }
 
   getHubDbTableRows(portalId, tableId) {
-    const url = CONSTANTS.BASE_HUBDB_API_URL + 'tables/' + tableId + '/rows?portalId=' + portalId;
+    const { env } = this.args;
+    const url = getApiUrl(`${HUBDB_API}/tables/${tableId}/rows?portalId=${portalId}`, { env });
     return request.get(url);
   }
 

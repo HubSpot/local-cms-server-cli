@@ -1,5 +1,5 @@
 const BaseTask = require('./base_task').BaseTask;
-const CONSTANTS = require('./constants');
+const { getFtpHost } = require('../utils/ftp');
 const Ftp = require('easy-ftp');
 const logger = require('gulplog');
 const Promise = require('promise');
@@ -20,7 +20,7 @@ class DesignsFtpTask extends BaseTask {
     const args = this.args;
 
     const config = {
-      host: CONSTANTS.FTP_HOST,
+      host: getFtpHost({ env: args.env }),
       username: args.username,
       password: args.password,
       secure: true,
