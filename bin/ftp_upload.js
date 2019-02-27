@@ -25,12 +25,10 @@ class FtpUploadTask extends BaseTask {
       return;
     }
     const ftpPrefix = `portals/${args.portalId}/content/designs`;
-    let uploads = _.map(files, file => {
-      return {
-        local: `${designsPath}/${file}`,
-        remote: `${ftpPrefix}/${file}`
-      };
-    });
+    const uploads = _.map(files, file => ({
+      local: `${designsPath}/${file}`,
+      remote: `${ftpPrefix}/${file}`
+    }));
     const confirmed = await this.confirmUpload(uploads);
     if (!confirmed) return;
 

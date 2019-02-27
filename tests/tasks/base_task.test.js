@@ -1,5 +1,4 @@
 const BaseTask = require('../../bin/tasks/base_task').BaseTask;
-const Promise = require('promise');
 const request = require('request-promise');
 const testBase = require('./test_base');
 
