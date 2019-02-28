@@ -15,11 +15,11 @@ class BaseTask {
     this.args = { ...conf, ...taskArgs };
   }
 
-  async getObjects(baseUrl, path, additionalParams) {
+  async getObjects(baseUrl, additionalParams) {
     const limit = additionalParams.limit;
     const paramsHash = additionalParams || {};
     const query = _.map(paramsHash, (val, key) => key + '=' + val).join('&');
-    const url = baseUrl + path + '?' + query;
+    const url = baseUrl + '?' + query;
     return this.getObjectsPaginated(url, limit);
   }
 

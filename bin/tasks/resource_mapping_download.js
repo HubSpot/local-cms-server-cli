@@ -1,6 +1,6 @@
 const _ = require('underscore');
 const BaseTask = require('./base_task').BaseTask;
-const CONSTANTS = require('./constants');
+const { getApiUrl, DESIGN_MANAGER_API } = require('../utils/api');
 const fs = require('fs');
 const logger = require('gulplog');
 const shell = require('shelljs');
@@ -25,7 +25,10 @@ class ResourceMappingTask extends BaseTask {
       limit: args.limit
     };
     logger.info('Fetching resource mappings');
-    const templates = await this.getObjects(CONSTANTS.BASE_DESIGN_MANAGER_API_URL, 'templates', requestArgs);
+    const templates = await this.getObjects(
+      getApiUrl(`${DESIGN_MANAGER_API}/templates`, { env: args.env }),
+      requestArgs
+);
     const portalId = templates[0].portal_id;
     const mappings = this.getIdToPathMap(templates);
     const outDir = this.project_root + "/" + args.pathToContextDir + "/resource-mappings/" + portalId;

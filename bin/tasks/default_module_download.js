@@ -1,6 +1,6 @@
 const _ = require('underscore');
 const BaseTask = require('./base_task').BaseTask;
-const CONSTANTS = require('./constants');
+const { getApiUrl, DESIGN_MANAGER_API } = require('../utils/api');
 const fs = require('fs');
 const logger = require('gulplog');
 const shell = require('shelljs');
@@ -26,7 +26,10 @@ class DefaultModulesTask extends BaseTask {
     };
     const path = 'custom-widgets/default';
     logger.info("Fetching default modules");
-    const defaultModules = await this.getObjects(CONSTANTS.BASE_DESIGN_MANAGER_API_URL, path, requestArgs);
+    const defaultModules = await this.getObjects(
+      getApiUrl(`${DESIGN_MANAGER_API}/${path}`, { env: args.env }),
+      requestArgs
+    );
     const portalId = defaultModules[0].portal_id;
     this.writeModules(defaultModules, args.pathToContextDir, portalId);
   }

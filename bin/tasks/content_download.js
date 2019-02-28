@@ -1,5 +1,5 @@
 const BaseTask = require('./base_task').BaseTask;
-const CONSTANTS = require('./constants');
+const { getApiUrl, CONTENT_API } = require('../utils/api');
 const logger = require('gulplog');
 
 const taskName = 'download-content';
@@ -22,7 +22,10 @@ class ContentTask extends BaseTask {
       limit: args.limit
     };
     logger.info('Fetching content');
-    const contentObjects = await this.getObjects(CONSTANTS.BASE_CONTENT_API_URL, 'contents', requestArgs)
+    const contentObjects = await this.getObjects(
+      getApiUrl(`${CONTENT_API}/contents`, { env: args.env }),
+      requestArgs
+)
     const portalId = contentObjects[0].portal_id;
     this.writeObjects(contentObjects, 'content', args.pathToContextDir, portalId);
   }
