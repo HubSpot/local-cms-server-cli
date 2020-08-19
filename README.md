@@ -1,3 +1,5 @@
+<h2><strong>⚠ Notice: This project is not being actively maintained and supported.</strong></h2><p> It may not work as expected and may not reflect what you would see in the live HubSpot CMS. HubSpot is committed to providing a quality developer experience where developers can build and test without worry of breaking production websites. The best experience can be found when following our <a href="https://developers.hubspot.com/docs/cms/guides/creating-an-efficient-development-workflow">"creating an efficient development workflow" guide</a>. That page will be updated over time as we continue to improve this workflow.</p>
+
 # local-cms-server-cli
 Command line tools for running and using the Local CMS Server
 
